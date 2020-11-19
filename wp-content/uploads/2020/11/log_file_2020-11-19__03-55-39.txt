@@ -1,0 +1,106 @@
+
+---Downloaded files---
+The import files for: Serenity Lite Demo Content were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://wordpressopenclassroom:8000
+Data file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-content-import-file_2020-11-19__03-55-39.xml
+Widget file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-widgets-import-file_2020-11-19__03-55-39.json
+Customizer file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-customizer-import-file_2020-11-19__03-55-39.dat
+
+------
+Completed AJAX call number: 1
+
+
+------
+Completed AJAX call number: 2
+
+
+---Importing content---
+[WARNING] Failed to import "Newsletter": Invalid post type mc4wp-form
+[WARNING] Could not find the author for comment #3
+[WARNING] Could not find the author for comment #4
+[WARNING] Could not find the author for comment #5
+[WARNING] Could not find the author for comment #6
+[WARNING] Could not find the author for comment #7
+[WARNING] Could not find the author for comment #8
+[WARNING] Could not find the author for comment #9
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Sidebar : 
+
+Rechercher - No Title - Widget already exists
+Articles récents - No Title - Widget already exists
+Commentaires récents - No Title - Widget already exists
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+
+One-Page Hero Section : 
+
+Texte - No Title - Imported
+
+One-Page Brands Section : 
+
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+Image - No Title - Imported
+
+One-Page Contact Form Section : 
+
+WPForms - Get in touch - Imported
+
+One-Page Contact Info Section : 
+
+Texte - How to reach us - Imported
+
+One-Page Features Section : 
+
+Feature Widget - Launch Your Business - Imported
+Feature Widget - Easy Customization - Imported
+Feature Widget - Loved by Many - Imported
+
+One-Page Gallery Section : 
+
+Galerie - No Title - Imported
+
+One-Page Newsletter Section : 
+
+mc4wp_form_widget - Newsletter - Site does not support widget
+
+One-Page Services Section : 
+
+Service Widget - Digital Marketing - Imported
+Service Widget - Business Consulting - Imported
+Service Widget - Market Research - Imported
+
+One-Page Team Section : 
+
+Team Member Widget - Hans Desjarlais - Imported
+Team Member Widget - Janelle Brandon - Imported
+Team Member Widget - Eric Kelly - Imported
+
+One-Page Testimonials Section : 
+
+Testimonial Widget - Hans Desjarlais - Imported
+Testimonial Widget - Janelle Sandoval - Imported
+Testimonial Widget - Michael Anderson - Imported
+Testimonial Widget - Ashley Fields - Imported
+Testimonial Widget - Eric Johnson - Imported
+Testimonial Widget - Kathryn Knowles - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---theme-demo-import/after_import---
+
