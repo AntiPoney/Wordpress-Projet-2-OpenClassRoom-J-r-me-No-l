@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
 "POT-Creation-Date: 2020-10-13 16:33+0700\n"
-"PO-Revision-Date: 2020-11-19 07:17+0000\n"
+"PO-Revision-Date: 2020-11-19 10:17+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -285,12 +285,12 @@ msgstr ""
 #: public/templates/property/edit-property/location.php:38
 #: public/templates/property/submit-property/location.php:37
 msgid "Country"
-msgstr ""
+msgstr "pays"
 
 #: admin/class-ere-admin-location.php:30
 #: public/templates/property/search-fields/property_country.php:15
 msgid "Countries"
-msgstr ""
+msgstr "Pays"
 
 #: admin/class-ere-admin-location.php:31
 msgid "Please Choose Country"
@@ -364,7 +364,7 @@ msgstr ""
 #: admin/class-ere-admin-location.php:292
 #: admin/class-ere-admin-location.php:333
 msgid "City"
-msgstr ""
+msgstr "Ville"
 
 #: admin/class-ere-admin-package.php:34 admin/class-ere-admin-property.php:24
 #: admin/class-ere-admin.php:331 admin/class-ere-admin.php:2524
@@ -400,7 +400,7 @@ msgstr ""
 #: admin/class-ere-package-admin.php:56 admin/class-ere-package-admin.php:64
 #: public/templates/package/package.php:90
 msgid "Free"
-msgstr ""
+msgstr "gratuit"
 
 #: admin/class-ere-admin-package.php:72 admin/class-ere-admin-property.php:69
 #: admin/class-ere-package-admin.php:72 admin/class-ere-property-admin.php:67
@@ -682,7 +682,7 @@ msgstr ""
 #: admin/class-ere-admin-setup.php:27 admin/class-ere-admin-setup.php:28
 #: admin/class-ere-setup-admin.php:27 admin/class-ere-setup-admin.php:28
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenue"
 
 #: admin/class-ere-admin-setup.php:35 admin/class-ere-admin-setup.php:36
 #: admin/class-ere-admin.php:1566 admin/class-ere-admin.php:1567
@@ -1273,7 +1273,7 @@ msgstr ""
 #: includes/shortcodes/class-ere-vcmap.php:1089
 #: includes/shortcodes/class-ere-vcmap.php:1123 public/class-ere-public.php:130
 msgid "Yes"
-msgstr ""
+msgstr "oui"
 
 #: admin/class-ere-admin.php:374 admin/class-ere-admin.php:490
 #: admin/class-ere-admin.php:542 admin/class-ere-admin.php:990
@@ -1415,7 +1415,7 @@ msgstr ""
 #: public/templates/property/submit-property/details.php:71
 #: public/templates/single-property/features.php:189
 msgid "Garages"
-msgstr ""
+msgstr "Garages"
 
 #: admin/class-ere-admin.php:444
 msgid "Example Value: 1"
@@ -1426,7 +1426,7 @@ msgstr ""
 #: public/templates/property/submit-property/details.php:81
 #, php-format
 msgid "Garages Size (%s)"
-msgstr ""
+msgstr "taille des garages (%s)"
 
 #: admin/class-ere-admin.php:464 admin/class-ere-admin.php:2536
 #: admin/class-ere-admin.php:2581 admin/class-ere-admin.php:3964
@@ -1436,7 +1436,7 @@ msgstr ""
 #: public/templates/property/submit-property/details.php:91
 #: public/templates/single-property/features.php:160
 msgid "Year Built"
-msgstr ""
+msgstr "Année de construction"
 
 #: admin/class-ere-admin.php:471
 msgid "Property ID will help to search property directly (default=postId)"
@@ -1459,7 +1459,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:511
 msgid "Full Address"
-msgstr ""
+msgstr "Adresse complète"
 
 #: admin/class-ere-admin.php:516
 msgid "Zip"
@@ -1518,7 +1518,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:588 public/class-ere-public.php:206
 msgid "Floor Size"
-msgstr ""
+msgstr "taille de l'étage"
 
 #: admin/class-ere-admin.php:596
 #: public/templates/property/edit-property/floors.php:92
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1024
 msgid "Day"
-msgstr ""
+msgstr "Jour"
 
 #: admin/class-ere-admin.php:1025
 msgid "Week"
@@ -1784,7 +1784,7 @@ msgstr ""
 #: public/templates/widgets/mortgage-calculator/mortgage-calculator.php:27
 #: public/templates/widgets/mortgage-calculator/mortgage-calculator.php:48
 msgid "Year"
-msgstr ""
+msgstr "Année"
 
 #: admin/class-ere-admin.php:1034
 msgid "Number Of \"Time Unit\""
@@ -1863,7 +1863,7 @@ msgstr ""
 #: public/templates/property/edit-property/location.php:77
 #: public/templates/property/submit-property/location.php:71
 msgid "City / Town"
-msgstr ""
+msgstr "Ville / Village"
 
 #: admin/class-ere-admin.php:1192 admin/class-ere-admin.php:1193
 #: admin/class-ere-admin.php:2546 admin/class-ere-admin.php:2697
@@ -1936,7 +1936,7 @@ msgstr ""
 #: admin/class-ere-admin.php:5949 admin/class-ere-admin.php:5994
 #: admin/class-ere-admin.php:6038
 msgid "Content"
-msgstr ""
+msgstr "Contenue"
 
 #: admin/class-ere-admin.php:1407 admin/class-ere-admin.php:2582
 #: admin/class-ere-admin.php:2693 admin/class-ere-admin.php:4167
@@ -2002,7 +2002,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1732
 msgid "Choose Measurement units for Property Size, Garage Size"
-msgstr ""
+msgstr "Choissisez l'unité de mesure pour les biens, garages, étages"
 
 #: admin/class-ere-admin.php:1734 admin/class-ere-admin.php:1753
 msgid "Square Feet (SqFt)"
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1751
 msgid "Choose Measurement units for Land Area"
-msgstr ""
+msgstr "Choissisez l'unité de mesure pour les terrains"
 
 #: admin/class-ere-admin.php:1763
 msgid "Custom Measurement Units for Land Area"
@@ -2246,7 +2246,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2134
 msgid "Currency Sign"
-msgstr ""
+msgstr "Signe de la dévise "
 
 #: admin/class-ere-admin.php:2140
 msgid "Currency Sign Position"
@@ -2270,7 +2270,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2157
 msgid "Decimal Separator"
-msgstr ""
+msgstr "séparateur décimale"
 
 #: admin/class-ere-admin.php:2158
 msgid "This sets the decimal separator of displayed prices."
@@ -2628,7 +2628,7 @@ msgstr ""
 #: public/templates/property/property-print.php:410
 #: public/templates/single-property/features.php:195
 msgid "Garage Size"
-msgstr ""
+msgstr "Taille du garage"
 
 #: admin/class-ere-admin.php:2537
 msgid "Fie Attachments"
@@ -2907,7 +2907,7 @@ msgstr "liste des salles de bains"
 
 #: admin/class-ere-admin.php:2966
 msgid "Garage List"
-msgstr ""
+msgstr "Liste de garage"
 
 #: admin/class-ere-admin.php:2978
 msgid "Advanced Search Page Options"
@@ -2927,7 +2927,7 @@ msgstr ""
 #: admin/class-ere-admin.php:3250 admin/class-ere-admin.php:3307
 #: admin/class-ere-admin.php:3347 admin/class-ere-admin.php:4153
 msgid "Disabled"
-msgstr ""
+msgstr "Désactivé"
 
 #: admin/class-ere-admin.php:2993 admin/class-ere-admin.php:4190
 msgid "Property Price Field Layout"
@@ -3071,7 +3071,7 @@ msgstr ""
 #: includes/shortcodes/class-ere-vcmap.php:608
 #: includes/shortcodes/class-ere-vcmap.php:1522
 msgid "Columns"
-msgstr ""
+msgstr "colonnes"
 
 #: admin/class-ere-admin.php:3069 admin/class-ere-admin.php:3100
 #: admin/class-ere-admin.php:3113 admin/class-ere-admin.php:3127
@@ -3142,7 +3142,7 @@ msgstr ""
 #: includes/shortcodes/class-ere-vcmap.php:363
 #: includes/shortcodes/class-ere-vcmap.php:620
 msgid "Columns Gap"
-msgstr ""
+msgstr "espace entre les colonnes"
 
 #: admin/class-ere-admin.php:3081
 msgid "Select columns gap between properties for page search"
@@ -3629,7 +3629,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:3692
 msgid "Church"
-msgstr ""
+msgstr "Eglise"
 
 #: admin/class-ere-admin.php:3693
 msgid "City Center"
@@ -3930,7 +3930,7 @@ msgstr ""
 #: public/templates/property/compare-listing.php:8
 #: public/templates/single-property/header.php:139
 msgid "Compare"
-msgstr ""
+msgstr "Comparé "
 
 #: admin/class-ere-admin.php:3939
 msgid "Enable Compare Properties"
@@ -4052,12 +4052,12 @@ msgstr ""
 
 #: admin/class-ere-admin.php:4103
 msgid "Contact Agent"
-msgstr ""
+msgstr "Contacte de l'agent(e)"
 
 #: admin/class-ere-admin.php:4104
 #: public/templates/taxonomy/agency-detail.php:200
 msgid "Contact Agency"
-msgstr ""
+msgstr "Contacte de l'agence"
 
 #: admin/class-ere-admin.php:4112
 msgid "Site Key"
@@ -4292,7 +4292,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:5034
 msgid "Agents of Agency"
-msgstr ""
+msgstr "Agents de l'agence"
 
 #: admin/class-ere-admin.php:5039
 msgid "Show Agents of Agency"
@@ -6009,7 +6009,7 @@ msgstr ""
 #: includes/shortcodes/class-ere-vcmap.php:1095
 #: includes/shortcodes/class-ere-vcmap.php:1455
 msgid "Color Scheme"
-msgstr ""
+msgstr "Palette du thème"
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:419
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:514
@@ -6109,7 +6109,7 @@ msgstr ""
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:632
 #: includes/shortcodes/class-ere-vcmap.php:692
 msgid "Cities Filter"
-msgstr ""
+msgstr "Filtre des villes"
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:633
 #: includes/shortcodes/class-ere-vcmap.php:693
@@ -6263,7 +6263,7 @@ msgstr ""
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:809
 #: includes/shortcodes/class-ere-vcmap.php:1308
 msgid "Column"
-msgstr ""
+msgstr "colonne "
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:868
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:995
@@ -6426,7 +6426,7 @@ msgstr ""
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1389
 #: includes/shortcodes/class-ere-vcmap.php:1778
 msgid "Current Page"
-msgstr ""
+msgstr "Page actuel"
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1400
 #: includes/shortcodes/class-ere-vcmap.php:1790
@@ -6464,7 +6464,7 @@ msgstr ""
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1448
 msgid "Choose a shortcode"
-msgstr ""
+msgstr "choisir un code de raccourcie"
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1480
 msgid "Insert Shortcode"
@@ -6735,7 +6735,7 @@ msgstr ""
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:101
 msgid "Columns:"
-msgstr ""
+msgstr "colonnes:"
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:110
 msgid "Show Count Item?"
@@ -6747,15 +6747,15 @@ msgstr ""
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:122
 msgid "Color Scheme:"
-msgstr ""
+msgstr "Palette du thème:"
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:124
 msgid "Color Light"
-msgstr ""
+msgstr "Thème clair"
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:125
 msgid "Color Dark"
-msgstr ""
+msgstr "Thème sombre"
 
 #: includes/widgets/class-ere-widget-login-menu.php:15
 msgid "Show Login and Logout menu."
@@ -6898,7 +6898,7 @@ msgstr ""
 #: public/templates/property/submit-property/floors.php:121
 #: public/templates/property/submit-property/media.php:77
 msgid "Choose image"
-msgstr ""
+msgstr "Choisir une image"
 
 #: public/partials/account/class-ere-login-register.php:26
 #: public/partials/account/class-ere-login-register.php:86
@@ -7223,11 +7223,11 @@ msgstr ""
 
 #: public/partials/package/class-ere-package.php:25
 msgid "day"
-msgstr ""
+msgstr "jour"
 
 #: public/partials/package/class-ere-package.php:27
 msgid "days"
-msgstr ""
+msgstr "jours"
 
 #: public/partials/package/class-ere-package.php:29
 msgid "week"
@@ -7247,11 +7247,11 @@ msgstr ""
 
 #: public/partials/package/class-ere-package.php:37
 msgid "year"
-msgstr ""
+msgstr "année"
 
 #: public/partials/package/class-ere-package.php:39
 msgid "years"
-msgstr ""
+msgstr "années"
 
 #: public/partials/package/class-ere-package.php:90
 msgid "Hi there,"
@@ -7605,14 +7605,14 @@ msgstr ""
 #: public/templates/property/advanced-search.php:548
 #: public/templates/shortcodes/agency/agency.php:130
 msgid "Date (Old to New)"
-msgstr ""
+msgstr "Date (anciens à nouveaux)"
 
 #: public/templates/archive-agent/action.php:43
 #: public/templates/archive-property/action.php:74
 #: public/templates/property/advanced-search.php:553
 #: public/templates/shortcodes/agency/agency.php:135
 msgid "Date (New to Old)"
-msgstr ""
+msgstr "Date (nouveaux à anciens)"
 
 #: public/templates/archive-agent/action.php:49
 #: public/templates/archive-property/action.php:80
@@ -7712,7 +7712,7 @@ msgstr ""
 #: public/templates/payment/payment-completed.php:55
 #: public/templates/payment/payment-completed.php:68
 msgid "Go to Dashboard"
-msgstr ""
+msgstr "Aller au panneau de controle"
 
 #: public/templates/global/access-denied.php:55
 msgid "Go to Home Page"
@@ -7831,7 +7831,7 @@ msgstr ""
 #: public/templates/invoice/invoice-print.php:143
 #: public/templates/single-invoice/invoice.php:108
 msgid "Full name: "
-msgstr ""
+msgstr "Prénom & Nom:"
 
 #: public/templates/invoice/invoice-print.php:149
 #: public/templates/single-invoice/invoice.php:114
@@ -7841,7 +7841,7 @@ msgstr ""
 #: public/templates/invoice/invoice-print.php:155
 #: public/templates/single-invoice/invoice.php:120
 msgid "From:"
-msgstr ""
+msgstr "De:"
 
 #: public/templates/invoice/invoice-print.php:158
 #: public/templates/single-invoice/invoice.php:123
@@ -8096,7 +8096,7 @@ msgstr ""
 #: public/templates/property/advanced-search.php:255
 #, php-format
 msgid "City / Town: <strong>%s</strong>; "
-msgstr ""
+msgstr "Ville / Village: <strong>%s</strong>; "
 
 #: public/templates/property/advanced-search.php:267
 #, php-format
@@ -8111,7 +8111,7 @@ msgstr "Chambres: <strong>%s</strong>; "
 #: public/templates/property/advanced-search.php:290
 #, php-format
 msgid "Garage: <strong>%s</strong>; "
-msgstr ""
+msgstr "Garage: <strong>%s</strong>; "
 
 #: public/templates/property/advanced-search.php:307
 #, php-format
@@ -8161,7 +8161,7 @@ msgstr ""
 #: public/templates/property/advanced-search.php:417
 #, php-format
 msgid "Country: <strong>%s</strong>; "
-msgstr ""
+msgstr "Pays: <strong>%s</strong>; "
 
 #: public/templates/property/advanced-search.php:427
 #, php-format
@@ -8189,7 +8189,7 @@ msgstr ""
 
 #: public/templates/property/compare.php:274
 msgid "Garages Size"
-msgstr ""
+msgstr "taille des garages"
 
 #: public/templates/property/compare.php:365
 msgid "No item compare"
@@ -8374,7 +8374,7 @@ msgstr ""
 
 #: public/templates/property/my-properties.php:19
 msgid "Date Posted"
-msgstr ""
+msgstr "Date du poste"
 
 #: public/templates/property/my-properties.php:21
 msgid "Post Status"
@@ -8464,11 +8464,11 @@ msgstr ""
 #: public/templates/property/my-properties.php:271
 #: public/templates/property/my-properties.php:290
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: public/templates/property/my-properties.php:258
 msgid "Edit property"
-msgstr ""
+msgstr "Modifier la propriété"
 
 #: public/templates/property/my-properties.php:262
 #: public/templates/property/my-properties.php:269
@@ -8502,7 +8502,7 @@ msgstr ""
 #: public/templates/property/my-properties.php:271
 #: public/templates/property/my-properties.php:290
 msgid "Edit Property"
-msgstr ""
+msgstr "Modifier la Propriété"
 
 #: public/templates/property/my-properties.php:279
 msgid "Reactivate Listing"
@@ -8531,11 +8531,11 @@ msgstr ""
 #: public/templates/property/my-properties.php:296
 #: public/templates/property/my-save-search.php:47
 msgid "Delete"
-msgstr ""
+msgstr "supprimer"
 
 #: public/templates/property/my-properties.php:296
 msgid "Delete Property"
-msgstr ""
+msgstr "supprimer la propriété"
 
 #: public/templates/property/my-properties.php:296
 msgid "Are you sure you want to delete this property?"
@@ -8598,7 +8598,7 @@ msgstr "Adresse:"
 #: public/templates/property/property-print.php:281
 #: public/templates/single-property/location.php:58
 msgid "Country:"
-msgstr ""
+msgstr "Pays:"
 
 #: public/templates/property/property-print.php:287
 #: public/templates/single-property/location.php:64
@@ -8719,7 +8719,7 @@ msgstr ""
 
 #: public/templates/property/property-submit.php:97
 msgid "Floors"
-msgstr ""
+msgstr "Étages"
 
 #: public/templates/property/property-submit.php:133
 msgid "Show All Fields"
@@ -8786,7 +8786,7 @@ msgstr ""
 
 #: public/templates/property/search-fields/property_city.php:15
 msgid "Cities"
-msgstr ""
+msgstr "Villes"
 
 #: public/templates/property/search-fields/property_country.php:28
 msgid "All Countries"
@@ -8896,7 +8896,7 @@ msgstr "Agence:"
 
 #: public/templates/single-agent/agent-info.php:199
 msgid "Company:"
-msgstr ""
+msgstr "Entreprise:"
 
 #: public/templates/single-agent/agent-info.php:205
 msgid "Licenses:"
@@ -8914,7 +8914,7 @@ msgstr ""
 #: public/templates/single-property/contact-agent.php:261
 #: public/templates/taxonomy/agency-detail.php:207
 msgid "Full Name"
-msgstr ""
+msgstr "Prénom & Nom"
 
 #: public/templates/single-agent/agent-info.php:235
 #: public/templates/single-property/contact-agent.php:263
@@ -9029,7 +9029,7 @@ msgstr ""
 
 #: public/templates/single-property/attachments.php:31
 msgid "Download"
-msgstr ""
+msgstr "téléchargez"
 
 #: public/templates/single-property/contact-agent-not-login.php:6
 msgid ""
@@ -9066,7 +9066,7 @@ msgstr ""
 
 #: public/templates/single-property/location.php:70
 msgid "City / Town:"
-msgstr ""
+msgstr "Ville / Village:"
 
 #: public/templates/single-property/location.php:91
 msgid "Open on Google Maps"
