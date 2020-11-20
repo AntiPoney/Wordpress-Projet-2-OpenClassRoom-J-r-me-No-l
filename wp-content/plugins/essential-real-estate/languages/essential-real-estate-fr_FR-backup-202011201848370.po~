@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
 "POT-Creation-Date: 2020-10-13 16:33+0700\n"
-"PO-Revision-Date: 2020-11-19 10:16+0000\n"
+"PO-Revision-Date: 2020-11-20 18:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib/smart-framework\n"
 "Report-Msgid-Bugs-To: \n"
-"X-Loco-Version: 2.4.4; wp-5.5.3"
+"X-Loco-Version: 2.4.5; wp-5.5.3"
 
 #: admin/class-ere-admin-agent.php:20 admin/class-ere-agent-admin.php:19
 msgid "Avatar"
@@ -67,7 +67,7 @@ msgstr "Approuver"
 #: admin/class-ere-agent-admin.php:259 admin/class-ere-property-admin.php:350
 #, php-format
 msgid "All %s"
-msgstr ""
+msgstr "Tout %s"
 
 #: admin/class-ere-admin-invoice.php:19 admin/class-ere-admin.php:205
 #: admin/class-ere-invoice-admin.php:19
@@ -1105,7 +1105,7 @@ msgstr[1] ""
 #: public/templates/taxonomy/agency-detail.php:107
 #: public/templates/taxonomy/agency-detail.php:253
 msgid "Properties"
-msgstr ""
+msgstr "Propriétés"
 
 #: admin/class-ere-admin.php:158 admin/class-ere-admin.php:2348
 #: admin/class-ere-admin.php:3863
@@ -1116,13 +1116,13 @@ msgstr ""
 #: public/templates/shortcodes/property-type/property-type.php:71
 msgid "Property"
 msgid_plural "Properties"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Propriété"
+msgstr[1] "Propriétés"
 
 #: admin/class-ere-admin.php:169 public/templates/archive-agent/heading.php:10
 #: public/templates/taxonomy/agency-detail.php:111
 msgid "Agents"
-msgstr ""
+msgstr "Agents"
 
 #: admin/class-ere-admin.php:170 admin/class-ere-admin.php:719
 #: admin/class-ere-admin.php:3892
@@ -1612,7 +1612,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:736
 msgid "Agent:"
-msgstr ""
+msgstr "Agent:"
 
 #: admin/class-ere-admin.php:747
 #: public/templates/property/edit-property/contact.php:38
@@ -2258,7 +2258,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2144
 msgid "After (450,000$)"
-msgstr ""
+msgstr "Après (450,000€)"
 
 #: admin/class-ere-admin.php:2150
 msgid "Thousand Separator"
@@ -3553,7 +3553,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:3673
 msgid "Airport"
-msgstr ""
+msgstr "Aéroport"
 
 #: admin/class-ere-admin.php:3674
 msgid "Amusement Park"
@@ -4234,7 +4234,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:4542
 msgid "Properties of Agent"
-msgstr ""
+msgstr "Propriétés de l'agent"
 
 #: admin/class-ere-admin.php:4547
 msgid "Show Properties of Agent"
@@ -4284,7 +4284,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:4871
 msgid "Properties of Agency"
-msgstr ""
+msgstr "Propriétés de l'agence"
 
 #: admin/class-ere-admin.php:4876
 msgid "Show Properties of Agency"
@@ -6412,7 +6412,7 @@ msgstr ""
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1386
 #: includes/shortcodes/class-ere-vcmap.php:1775
 msgid "After Login Redirect Page."
-msgstr ""
+msgstr "page de redirection après la connexion."
 
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1388
 #: includes/shortcodes/class-ere-vcmap.php:1777
@@ -6795,7 +6795,7 @@ msgstr ""
 
 #: includes/widgets/class-ere-widget-recent-properties.php:22
 msgid "Recent Properties"
-msgstr ""
+msgstr "Propriétés récentes"
 
 #: includes/widgets/class-ere-widget-search-form.php:16
 msgid "Display the search form."
@@ -7127,7 +7127,7 @@ msgstr ""
 
 #: public/partials/account/class-ere-profile.php:574
 msgid "Agent Id"
-msgstr ""
+msgstr "Id Agent"
 
 #: public/partials/account/class-ere-profile.php:600
 msgid "Package Info"
@@ -7404,12 +7404,12 @@ msgstr "tout les États"
 #: public/templates/property/search-fields/property_city.php:19
 #: public/templates/property/search-fields/property_city.php:24
 msgid "All Cities"
-msgstr ""
+msgstr "toutes les villes"
 
 #: public/partials/property/class-ere-property.php:991
 #: public/templates/property/search-fields/property_neighborhood.php:18
 msgid "All Neighborhoods"
-msgstr ""
+msgstr "Tout les voisinages"
 
 #: public/partials/property/class-ere-save-search.php:37
 msgid "Permission error!"
@@ -7478,7 +7478,7 @@ msgstr ""
 
 #: public/templates/account/my-profile.php:96
 msgid "Agent Account"
-msgstr ""
+msgstr "Compte Agent"
 
 #: public/templates/account/my-profile.php:102
 msgid "Become an Agent"
@@ -7630,7 +7630,7 @@ msgstr ""
 #: public/templates/shortcodes/property-gallery/property-gallery.php:269
 #: public/templates/shortcodes/property-gallery/property-gallery.php:284
 msgid "All"
-msgstr ""
+msgstr "Tout"
 
 #: public/templates/archive-property/action.php:44
 #: public/templates/property/advanced-search.php:523
@@ -7922,8 +7922,8 @@ msgstr ""
 #, php-format
 msgid "%s property"
 msgid_plural "%s properties"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s propriété"
+msgstr[1] "%s propriétés"
 
 #: public/templates/loop/property.php:229
 #: public/templates/shortcodes/property/property.php:529
@@ -8395,7 +8395,7 @@ msgstr ""
 #: public/templates/property/my-properties.php:126
 #, php-format
 msgid "All (%s)"
-msgstr ""
+msgstr "Tout (%s)"
 
 #: public/templates/property/my-properties.php:130
 #, php-format
@@ -8464,11 +8464,11 @@ msgstr ""
 #: public/templates/property/my-properties.php:271
 #: public/templates/property/my-properties.php:290
 msgid "Edit"
-msgstr ""
+msgstr "Modifier"
 
 #: public/templates/property/my-properties.php:258
 msgid "Edit property"
-msgstr ""
+msgstr "Modifier la propriété"
 
 #: public/templates/property/my-properties.php:262
 #: public/templates/property/my-properties.php:269
@@ -8502,7 +8502,7 @@ msgstr ""
 #: public/templates/property/my-properties.php:271
 #: public/templates/property/my-properties.php:290
 msgid "Edit Property"
-msgstr ""
+msgstr "Modifier la Propriété"
 
 #: public/templates/property/my-properties.php:279
 msgid "Reactivate Listing"
@@ -8790,7 +8790,7 @@ msgstr "Villes"
 
 #: public/templates/property/search-fields/property_country.php:28
 msgid "All Countries"
-msgstr ""
+msgstr "Tout les pays"
 
 #: public/templates/property/search-fields/property_feature.php:29
 msgid "0"
@@ -8806,7 +8806,7 @@ msgstr ""
 
 #: public/templates/property/search-fields/property_label.php:20
 msgid "All Labels"
-msgstr ""
+msgstr "Tout les labels"
 
 #: public/templates/property/search-fields/property_land.php:51
 msgid "Min Land Area Size"
@@ -9199,5 +9199,5 @@ msgstr ""
 #, php-format
 msgid "<span class=\"total-properties\">%s</span> property"
 msgid_plural "<span class=\"total-properties\">%s</span> properties"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"total-properties\">%s</span> propriété"
+msgstr[1] "<span class=\"total-properties\">%s</span> propriétés"
