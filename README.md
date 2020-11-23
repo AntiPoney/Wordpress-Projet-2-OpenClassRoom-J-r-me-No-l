@@ -27,6 +27,7 @@ ce projet est un projet scolaire repondant a des critères fixé par OpenClassRo
     ```
        File Name : Jrm-Nl-Projet-2-OpenClassRooms-Chalets-Caviar-SQL
     ```
-3. Credentials : "Admin" password : "e!eq#CynTlJCYR!PL%"
+3. Credentials : "Admin" 
+   password : "e!eq#CynTlJCYR!PL%"
 
 
