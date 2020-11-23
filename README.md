@@ -10,15 +10,14 @@
     <img src="ReadMe_Resources/projet_logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Projet 2 </h3>
+  <h3 align="center">Projet 2 - Jérôme Noël - Chalets & Caviar</h3>
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## A propos du projet
 
 ce projet est un projet scolaire repondant a des critères fixé par OpenClassRooms en vue de la formation développeur PHP & Symfony
+
 Étudiant : Jérôme Noël
 
 ### Installation
