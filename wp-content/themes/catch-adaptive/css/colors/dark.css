@@ -1,0 +1,185 @@
+/*
+    A dark color scheme for Catch Adaptive
+*/
+
+body {
+    background-color: #202020;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.site-title a,
+.site-description,
+.entry-title,
+.entry-title a,
+a:hover,
+a:focus,
+a:active,
+.catchadaptive-nav-menu a,
+.sidebar-header .widget_nav_menu a,
+.site .widget_catchadaptive_social_icons .genericon,
+.site .mobile-menu-anchor a.genericon-menu,
+.site .mobile-menu-anchor a.genericon-menu:hover,
+#nav-below .wp-pagenavi span.pages,
+#promotion-message .right a:hover,
+#colophon a:hover,
+.infinite-loader {
+    color: #bebebe;
+}
+
+a,
+#featured-content .entry-title a:hover,
+.entry-title a:hover,
+#breadcrumb-list a,
+#breadcrumb-list a span,
+#nav-below .wp-pagenavi a,
+#nav-below .wp-pagenavi span,
+.page-links span,
+.catchadaptive-nav-menu li a:hover,
+.catchadaptive-nav-menu li a:focus,
+.sidebar-header .widget_nav_menu li a:hover,
+.sidebar-header .widget_nav_menu li a:focus,
+.catchadaptive-nav-menu li:hover > a,
+.sidebar-header .widget_nav_menu li:hover > a,
+.catchadaptive-nav-menu .current-menu-item > a,
+.catchadaptive-nav-menu .current-menu-ancestor > a,
+.catchadaptive-nav-menu .current_page_item > a,
+.catchadaptive-nav-menu .current_page_ancestor > a,
+.sidebar-header .widget_nav_menu .current-menu-item > a,
+.sidebar-header .widget_nav_menu .current-menu-ancestor > a,
+.catchadaptive-nav-menu .sub-menu li a:hover,
+.catchadaptive-nav-menu .sub-menu li a:focus,
+.catchadaptive-nav-menu .children li a:hover,
+.catchadaptive-nav-menu .children li a:focus,
+.sidebar-header .widget_nav_menu .sub-menu li a:hover,
+.sidebar-header .widget_nav_menu .sub-menu li a:focus,
+.site .widget_catchadaptive_social_icons .genericon-wordpress:hover,
+#colophon a, #colophon a:active {
+    color: #a92f41;
+}
+
+.sidebar-header .menu .sub-menu a,
+.sidebar-header .menu .sub-menu a,
+.site .widget_catchadaptive_social_icons .genericon,
+mark,
+ins,
+pre,
+.entry-content code,
+#breadcrumb-list .wrapper,
+#nav-below .wp-pagenavi a,
+#nav-below .wp-pagenavi span,
+.rtl blockquote {
+    background-color: #191919;
+}
+
+.sidebar-header .widget_nav_menu .sub-menu,
+.catchadaptive-nav-menu .sub-menu a,
+.catchadaptive-nav-menu .children a,
+.sidebar-header .widget_nav_menu .sub-menu a,
+.catchadaptive-nav-menu .sub-menu .sub-menu,
+.catchadaptive-nav-menu .children .children,
+.sidebar-header .widget_nav_menu .sub-menu .sub-menu,
+#featured-grid-content .wrapper,
+#content .wrapper,
+#featured-content.border-top,
+#feature-heading,
+.page-header .page-title,
+.archive-post-wrap,
+.page-header .page-title {
+    border-color: #191919;
+}
+
+.nav-secondary a,
+.nav-footer a {
+    color: #ccc;
+}
+.nav-secondary li:hover > a,
+.nav-secondary li a:hover,
+.nav-secondary li a:focus,
+.nav-secondary .current-menu-item > a,
+.nav-secondary .current-menu-ancestor > a,
+.nav-secondary .sub-menu li a:hover,
+.nav-secondary .sub-menu li a:focus,
+.nav-footer ul.menu li.current-menu-item a,
+.nav-footer ul.menu li a:hover {
+    color: #fff;
+}
+
+.nav-secondary,
+.nav-secondary .menu .sub-menu a,
+.nav-secondary .menu .children a,
+.nav-secondary .menu .sub-menu .sub-menu,
+.nav-secondary .menu .children .children,
+#nav-below .wp-pagenavi span.current,
+#nav-below .wp-pagenavi a:hover,
+#nav-below #wp_page_numbers ul li a:hover {
+    background-color: #111;
+}
+
+.nav-secondary .menu .sub-menu a,
+.nav-secondary .menu .children a,
+.nav-secondary .menu .sub-menu .sub-menu,
+.nav-secondary .menu .children .children,
+#colophon {
+    border-color: #181818;
+}
+
+.site .widget_catchadaptive_social_icons .genericon {
+    border-color: #111;
+}
+
+#promotion-message .right a {
+    background-color: #a92f41;
+    color: #fff;
+}
+
+#promotion-message .right a:hover {
+    background-color: #942938;
+    color: #fff;
+}
+
+#feature-slider {
+    background-color: #000;
+}
+
+#content #infinite-handle span button {
+    background-color: #ddd;
+    color: #000;
+}
+
+#content #infinite-handle span button:hover,
+#content #infinite-handle span button:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+#supplementary .widget-title {
+    background-color: #202020;
+}
+
+#supplementary,
+#site-generator {
+    background-color: #000;
+}
+
+#site-generator,
+#site-generator a {
+    color: #ddd;
+}
+
+#site-generator a:hover {
+    color: #fff;
+}
+
+#scrollup {
+    background-color: #ddd;
+    color: #000;
+}
+
+#scrollup:hover {
+    background-color: #fff;
+    color: #000;
+}

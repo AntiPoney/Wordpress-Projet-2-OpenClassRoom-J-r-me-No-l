@@ -1,0 +1,1284 @@
+# Copyright (C) 2016 Catch Themes
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Catch Adaptive\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2020-08-19 22:18-0400\n"
+"PO-Revision-Date: 2020-08-19 22:18-0400\n"
+"Last-Translator: \n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;"
+"_nx:1,2,4c;esc_html__;esc_attr_x:1,2c;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Upsss! Strona nie została znaleziona."
+
+#: ../404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Nie znaleziono strony o podanej nazwie. Spróbuj jednek z poniższych linków "
+"albo użyj wuszykiwarki."
+
+#: ../comments.php:30
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: ../comments.php:50 ../comments.php:75
+msgid "Comment navigation"
+msgstr "Nawigacja komentarzy"
+
+#: ../comments.php:51 ../comments.php:76
+msgid "&larr; Older Comments"
+msgstr "Poprzednie komentarze"
+
+#: ../comments.php:52 ../comments.php:77
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze"
+
+#: ../comments.php:87
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr "Niczego nie znaleziono!"
+
+#: ../content-none.php:21 ../no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Gotowy do publikacji pierwszego wpisu?<a href=\"%1$s\">Zacznij tutaj</a>."
+
+#: ../content-none.php:25 ../no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Przykro mi, niczego nie znaleziono. Wpisz swoje zapytanie inaczej."
+
+#: ../content-none.php:30 ../no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Nie możemy znaleźć tego czego szukasz. "
+
+#: ../content-page.php:28 ../content-single.php:31 ../content.php:46
+msgid "Pages:"
+msgstr "Strony:"
+
+#: ../content-page.php:35 ../inc/catchadaptive-core.php:538
+#: ../inc/catchadaptive-core.php:557 ../inc/catchadaptive-core.php:683
+msgid "Edit"
+msgstr "Edytuj"
+
+#: ../inc/catchadaptive-breadcrumb.php:56
+#: ../inc/catchadaptive-json-ld-schema.php:25
+msgid "Home"
+msgstr "Strona główna"
+
+#: ../inc/catchadaptive-breadcrumb.php:57
+#, php-format
+msgid "%1$s Archive for %2$s"
+msgstr "%1$s Archiwizuj %2$s"
+
+#: ../inc/catchadaptive-breadcrumb.php:58
+#, php-format
+msgid "%1$sSearch results for: %2$s"
+msgstr "%1$sPrzeszukaj wynik według: %2$s"
+
+#: ../inc/catchadaptive-breadcrumb.php:59
+#, php-format
+msgid "%1$sPosts tagged %2$s"
+msgstr "%1$sOtagowany %2$s"
+
+#: ../inc/catchadaptive-breadcrumb.php:60
+#, php-format
+msgid "%1$sView all posts by %2$s"
+msgstr "%1$sWszystkie wpisy %2$s"
+
+#: ../inc/catchadaptive-breadcrumb.php:61
+#: ../inc/catchadaptive-json-ld-schema.php:30
+msgid "Error 404"
+msgstr "Błąd 404"
+
+#: ../inc/catchadaptive-breadcrumb.php:201
+#, php-format
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: ../inc/catchadaptive-core.php:89 ../inc/catchadaptive-menus.php:55
+msgid "Primary Menu"
+msgstr "Menu"
+
+#: ../inc/catchadaptive-core.php:506
+msgid "Post navigation"
+msgstr "Nawigacja wpisów"
+
+#: ../inc/catchadaptive-core.php:515
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Poprzednie wpisy"
+
+#: ../inc/catchadaptive-core.php:516
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../inc/catchadaptive-core.php:538
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/catchadaptive-core.php:548
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/catchadaptive-core.php:554
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/catchadaptive-core.php:561
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz zostanie opublikowany po moderacji"
+
+#: ../inc/catchadaptive-core.php:664
+msgid "<span class=\"screen-reader-text\">Posted on</span>"
+msgstr "<span class=\"screen-reader-text\">Opublikowano</span>"
+
+#: ../inc/catchadaptive-core.php:671
+msgctxt "Used before post author name."
+msgid "<span class=\"screen-reader-text\">Author</span>"
+msgstr "<span class=\"screen-reader-text\">Autor</span>"
+
+#: ../inc/catchadaptive-core.php:679
+msgid "Leave a comment"
+msgstr "Skomentuj"
+
+#: ../inc/catchadaptive-core.php:679
+msgid "1 Comment"
+msgstr "1 Komentarz"
+
+#: ../inc/catchadaptive-core.php:679
+msgid "% Comments"
+msgstr "% Komentarzy"
+
+#: ../inc/catchadaptive-core.php:700 ../inc/catchadaptive-core.php:708
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: ../inc/catchadaptive-core.php:703
+msgctxt "Used before category names."
+msgid "<span class=\"screen-reader-text\">Categories</span>"
+msgstr "<span class=\"screen-reader-text\">Kategorie</span>"
+
+#: ../inc/catchadaptive-core.php:711
+msgctxt "Used before tag names."
+msgid "<span class=\"screen-reader-text\">Tags</span>"
+msgstr "<span class=\"screen-reader-text\">Tagi</span>"
+
+#: ../inc/catchadaptive-core.php:1362
+msgid "Scroll Up"
+msgstr "Do góry"
+
+#: ../inc/catchadaptive-core.php:1380
+#: ../inc/catchadaptive-featured-slider.php:106
+#: ../inc/catchadaptive-featured-slider.php:140
+msgid "Posted on"
+msgstr "Opublikowano"
+
+#: ../inc/catchadaptive-core.php:1381
+msgid "By"
+msgstr "Przez"
+
+#: ../inc/catchadaptive-core.php:1475
+msgid "Next &rarr;"
+msgstr "Nastepny wpis"
+
+#: ../inc/catchadaptive-core.php:1476
+msgid "Next post:"
+msgstr "Następny wpis"
+
+#: ../inc/catchadaptive-core.php:1478
+msgid "&larr; Previous"
+msgstr "Poprzedni wpis"
+
+#: ../inc/catchadaptive-core.php:1479
+msgid "Previous post:"
+msgstr "Poprzedni wpis"
+
+#: ../inc/catchadaptive-default-options.php:58
+msgid "Read More ..."
+msgstr "Czytaj dalej..."
+
+#: ../inc/catchadaptive-default-options.php:68
+msgid "Catch Adaptive is a Premium Responsive WordPress Theme"
+msgstr "Catch Adaptive jest responsywnym motywem Premium dla WordPress "
+
+#: ../inc/catchadaptive-default-options.php:70
+msgid "Buy Now"
+msgstr "Kup teraz"
+
+#: ../inc/catchadaptive-default-options.php:75
+msgid "Search..."
+msgstr "Szukaj"
+
+#: ../inc/catchadaptive-default-options.php:119
+msgid "True"
+msgstr "Wartość prawdziwa"
+
+#: ../inc/catchadaptive-default-options.php:120
+msgid "Wait"
+msgstr "Czekaj"
+
+#: ../inc/catchadaptive-default-options.php:121
+msgid "False"
+msgstr "Fałszywa wartość"
+
+#: ../inc/catchadaptive-default-options.php:135
+msgid "Light"
+msgstr "Jasny"
+
+#: ../inc/catchadaptive-default-options.php:136
+msgid "Dark"
+msgstr "Ciemny"
+
+#: ../inc/catchadaptive-default-options.php:150
+#: ../inc/catchadaptive-default-options.php:690
+msgid "Primary Sidebar, Content"
+msgstr "Pasek Boczny Zawartość"
+
+#: ../inc/catchadaptive-default-options.php:151
+#: ../inc/catchadaptive-default-options.php:695
+msgid "Content, Primary Sidebar"
+msgstr "Zawartość Pasek Boczny"
+
+#: ../inc/catchadaptive-default-options.php:152
+#: ../inc/catchadaptive-default-options.php:700
+msgid "No Sidebar ( Content Width )"
+msgstr "Bez sidebaru, pełna szerokość"
+
+#: ../inc/catchadaptive-default-options.php:165
+msgid "Columns Layout (Image Top)"
+msgstr "Wygląd kolumn (obraz na górze)"
+
+#: ../inc/catchadaptive-default-options.php:166
+msgid "Show Excerpt (Image Left)"
+msgstr "Pokaż fragment (obraz po lewej)"
+
+#: ../inc/catchadaptive-default-options.php:167
+msgid "Show Full Content (No Featured Image)"
+msgstr "Pokaż całą zawartość"
+
+#: ../inc/catchadaptive-default-options.php:180
+#: ../inc/catchadaptive-default-options.php:216
+msgid "Homepage / Frontpage"
+msgstr "Strona główna"
+
+#: ../inc/catchadaptive-default-options.php:181
+msgid "Excluding Homepage"
+msgstr "wyłączając Strona główna"
+
+#: ../inc/catchadaptive-default-options.php:182
+msgid "Excluding Homepage, Page/Post Featured Image"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:183
+#: ../inc/catchadaptive-default-options.php:217
+msgid "Entire Site"
+msgstr "Cała strona"
+
+#: ../inc/catchadaptive-default-options.php:184
+msgid "Entire Site, Page/Post Featured Image"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:185
+msgid "Pages and Posts"
+msgstr "Strony"
+
+#: ../inc/catchadaptive-default-options.php:186
+#: ../inc/catchadaptive-default-options.php:218
+#: ../inc/catchadaptive-default-options.php:311
+msgid "Disabled"
+msgstr "Nieaktywny"
+
+#: ../inc/catchadaptive-default-options.php:200
+msgid "Full Image"
+msgstr "Pokaż obraz"
+
+#: ../inc/catchadaptive-default-options.php:201
+msgid "Large Image"
+msgstr "Powiększ"
+
+#: ../inc/catchadaptive-default-options.php:202
+msgid "Slider Image"
+msgstr "Obraz slajdu"
+
+#: ../inc/catchadaptive-default-options.php:232
+#: ../inc/catchadaptive-default-options.php:278
+msgid "Demo"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:233
+#: ../inc/catchadaptive-default-options.php:279
+#, fuzzy
+#| msgid "Pages:"
+msgid "Page"
+msgstr "Strony:"
+
+#: ../inc/catchadaptive-default-options.php:247
+msgid "3 columns"
+msgstr "3 kolumny"
+
+#: ../inc/catchadaptive-default-options.php:248
+msgid "4 columns"
+msgstr "4 kolumny"
+
+#: ../inc/catchadaptive-default-options.php:262
+msgid "Show Excerpt"
+msgstr "Pokaż fragment"
+
+#: ../inc/catchadaptive-default-options.php:263
+msgid "Show Full Content"
+msgstr "Pokaż pełną zawartość"
+
+#: ../inc/catchadaptive-default-options.php:264
+msgid "Hide Content"
+msgstr "Ukryj zawartość"
+
+#: ../inc/catchadaptive-default-options.php:292
+msgid "Default(Older Posts/Newer Posts)"
+msgstr "Domyślnie(Starsze wpisy/Nowsze wpisy)"
+
+#: ../inc/catchadaptive-default-options.php:293
+msgid "Numeric"
+msgstr "Numeryczny"
+
+#: ../inc/catchadaptive-default-options.php:294
+msgid "Infinite Scroll (Click)"
+msgstr "Nieograniczone przewijanie (kliknięcie)"
+
+#: ../inc/catchadaptive-default-options.php:295
+msgid "Infinite Scroll (Scroll)"
+msgstr "Nieograniczone przewijanie(przewijanie)"
+
+#: ../inc/catchadaptive-default-options.php:309
+msgid "Featured"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:310
+#: ../inc/catchadaptive-default-options.php:785
+msgid "Full Size"
+msgstr "Pełen rozmiar"
+
+#: ../inc/catchadaptive-default-options.php:539
+msgid "Facebook"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:543
+msgid "Twitter"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:547
+msgid "Googleplus"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:551
+#: ../inc/catchadaptive-social-icons.php:37
+msgid "Email"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:555
+msgid "Feed"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:559
+msgid "WordPress"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:563
+msgid "GitHub"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:567
+msgid "LinkedIn"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:571
+msgid "Pinterest"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:575
+msgid "Flickr"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:579
+msgid "Vimeo"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:583
+msgid "YouTube"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:587
+msgid "Tumblr"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:591
+msgid "Instagram"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:595
+msgid "PollDaddy"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:599
+msgid "CodePen"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:603
+msgid "Path"
+msgstr "Path"
+
+#: ../inc/catchadaptive-default-options.php:607
+msgid "Dribbble"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:611
+msgid "Skype"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:615
+msgid "Digg"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:619
+msgid "Reddit"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:623
+msgid "Stumbleupon"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:627
+msgid "Pocket"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:631
+msgid "DropBox"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:635
+msgid "Spotify"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:639
+msgid "Foursquare"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:643
+msgid "Twitch"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:647
+msgid "Website"
+msgstr "Strona"
+
+#: ../inc/catchadaptive-default-options.php:651
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../inc/catchadaptive-default-options.php:655
+msgid "Handset"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:659
+msgid "Cart"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:663
+msgid "Cloud"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:667
+msgid "Link"
+msgstr "Link"
+
+#: ../inc/catchadaptive-default-options.php:685
+#: ../inc/catchadaptive-default-options.php:716
+#: ../inc/catchadaptive-default-options.php:775
+msgid "Default"
+msgstr "Standardowe"
+
+#: ../inc/catchadaptive-default-options.php:721
+msgid "Enable"
+msgstr "Aktywuj"
+
+#: ../inc/catchadaptive-default-options.php:726
+msgid "Disable"
+msgstr "Dezaktywuj"
+
+#: ../inc/catchadaptive-default-options.php:743
+msgid "Default Sidebar"
+msgstr "Domyślny pasek boczny"
+
+#: ../inc/catchadaptive-default-options.php:748
+msgid "Optional Sidebar One"
+msgstr "Dodatkowy pasek boczny 1"
+
+#: ../inc/catchadaptive-default-options.php:753
+msgid "Optional Sidebar Two"
+msgstr "Dodatkowy pasek boczny 2"
+
+#: ../inc/catchadaptive-default-options.php:758
+msgid "Optional Sidebar three"
+msgstr "Dodatkowy pasek boczny 3"
+
+#: ../inc/catchadaptive-default-options.php:780
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:790
+msgid "Disable Image"
+msgstr "Wyłącz obrazek"
+
+#: ../inc/catchadaptive-default-options.php:804
+#, fuzzy, php-format
+#| msgctxt "1: Year, 2: Site Title with home URL"
+#| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s All Rights Reserved. %3$s"
+msgstr "Copyright &copy; %1$s %2$s. Wszystkie prawa zastrzeżone."
+
+#: ../inc/catchadaptive-default-options.php:804
+msgid "Y"
+msgstr ""
+
+#: ../inc/catchadaptive-default-options.php:806
+msgid "by"
+msgstr "przez"
+
+#: ../inc/catchadaptive-featured-content.php:50
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:20
+msgid "Featured Content"
+msgstr "Wyróżniona zawartość"
+
+#: ../inc/catchadaptive-featured-content.php:51
+msgid ""
+"Here you can showcase the x number of Featured Content. You can edit this "
+"Headline, Subheadline and Feaured Content from \"Appearance -> Customize -> "
+"Featured Content Options\"."
+msgstr ""
+
+#: ../inc/catchadaptive-featured-content.php:158
+#: ../inc/catchadaptive-featured-content.php:163
+msgid "Central Park"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-content.php:171
+#: ../inc/catchadaptive-featured-content.php:176
+msgid "Antique Clock"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-content.php:184
+#: ../inc/catchadaptive-featured-content.php:189
+msgid "Vespa Scooter"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-content.php:199
+#: ../inc/catchadaptive-featured-content.php:204
+msgid "Dhulikhel"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-content.php:280
+#: ../inc/catchadaptive-featured-content.php:297
+#: ../inc/catchadaptive-featured-slider.php:211
+#: ../inc/catchadaptive-featured-slider.php:227
+#: ../inc/catchadaptive-featured-slider.php:237
+msgid "Permalink to:"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-slider.php:94
+#: ../inc/catchadaptive-featured-slider.php:95
+#: ../inc/catchadaptive-featured-slider.php:101
+#: ../inc/catchadaptive-featured-slider.php:136
+msgid "Slider Image 1"
+msgstr "Obraz slajdu 1"
+
+#: ../inc/catchadaptive-featured-slider.php:114
+#: ../inc/catchadaptive-featured-slider.php:148
+msgctxt "attribution"
+msgid "By"
+msgstr ""
+
+#: ../inc/catchadaptive-featured-slider.php:116
+#: ../inc/catchadaptive-featured-slider.php:150
+msgid "View all posts by"
+msgstr "Zobacz wszystkie posty według:"
+
+#: ../inc/catchadaptive-featured-slider.php:122
+msgid "Slider Image 1 Content"
+msgstr "Zawartość obrazu 1 sjaldu "
+
+#: ../inc/catchadaptive-featured-slider.php:129
+#: ../inc/catchadaptive-featured-slider.php:130
+#: ../inc/catchadaptive-featured-slider.php:136
+msgid "Slider Image 2"
+msgstr "Obraz slajdu 2"
+
+#: ../inc/catchadaptive-featured-slider.php:156
+msgid "Slider Image 2 Content"
+msgstr "Zawartość obrazu 2 slajdu"
+
+#: ../inc/catchadaptive-json-ld-schema.php:26
+#, fuzzy
+#| msgid "%1$s Archive for %2$s"
+msgid "Archive for "
+msgstr "%1$s Archiwizuj %2$s"
+
+#: ../inc/catchadaptive-json-ld-schema.php:27
+#, fuzzy
+#| msgid "%1$sSearch results for: %2$s"
+msgid "Search results for: "
+msgstr "%1$sPrzeszukaj wynik według: %2$s"
+
+#: ../inc/catchadaptive-json-ld-schema.php:28
+#, fuzzy
+#| msgid "%1$sPosts tagged %2$s"
+msgid "Posts tagged "
+msgstr "%1$sOtagowany %2$s"
+
+#: ../inc/catchadaptive-json-ld-schema.php:29
+#, fuzzy
+#| msgid "View all posts by"
+msgid "View all posts by "
+msgstr "Zobacz wszystkie posty według:"
+
+#: ../inc/catchadaptive-menus.php:28
+msgid "Skip to content"
+msgstr "Wyświetl zawartość"
+
+#: ../inc/catchadaptive-menus.php:40
+msgid "Menu"
+msgstr "Menu"
+
+#: ../inc/catchadaptive-menus.php:70
+msgid "Search"
+msgstr "Szukaj"
+
+#: ../inc/catchadaptive-metabox.php:84
+#, fuzzy
+#| msgid "Layout Options"
+msgid "Layout Option"
+msgstr "Opcje wyglądu"
+
+#: ../inc/catchadaptive-metabox.php:101
+msgid "Select Sidebar"
+msgstr "Wybierz pasek"
+
+#: ../inc/catchadaptive-metabox.php:118
+#, fuzzy
+#| msgid "Header Featured Image Options"
+msgid "Content Featured Image Options"
+msgstr "Opcje obrazu nagłówka"
+
+#: ../inc/catchadaptive-metabox.php:135
+msgid "Header Featured Image Options"
+msgstr "Opcje obrazu nagłówka"
+
+#: ../inc/catchadaptive-metabox.php:198
+msgid "Catch Adaptive Options"
+msgstr "Opcje"
+
+#: ../inc/catchadaptive-widgets.php:25
+msgid "Primary Sidebar"
+msgstr "Pasek boczny"
+
+#: ../inc/catchadaptive-widgets.php:31
+msgid ""
+"This is the primary sidebar if you are using two column site layout option."
+msgstr ""
+
+#: ../inc/catchadaptive-widgets.php:38
+#, php-format
+msgid "Footer Area %d"
+msgstr "Stopka %d"
+
+#: ../inc/catchadaptive-widgets.php:44
+#, php-format
+msgid "Footer %d widget area."
+msgstr ""
+
+#: ../inc/catchadaptive-widgets.php:64
+msgid "CT: Social Icons"
+msgstr "Ikony mediów społecznościowych"
+
+#: ../inc/catchadaptive-widgets.php:65
+msgid "Use this widget to add Social Icons as a widget. "
+msgstr "Użyj tego widżetu aby dodać media społecznościowe jako widżet"
+
+#: ../inc/catchadaptive-widgets.php:106
+msgid "Title (optional):"
+msgstr "Tytuł (niewymagane)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:29
+#, fuzzy
+#| msgid "Select Categories"
+msgid "All Categories"
+msgstr "Wybierz kategorie"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:36
+msgid ""
+"Hold down the Ctrl (windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:59
+msgid "Theme Instructions"
+msgstr "Instrukcje motywu"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:63
+msgid "Support"
+msgstr "Wsparcie"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:67
+msgid "Changelog"
+msgstr "Zapis zmian"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:71
+msgid "Donate Now"
+msgstr "Wspomóż nas"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-custom-controls.php:75
+msgid "Review"
+msgstr "Oceń"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:18
+msgid "Options for Featured Content"
+msgstr "Opcje wyróżnionej zawartości"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:27
+msgid "Featured Content Options"
+msgstr "Opcje wyróżnionej zawartości"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:38
+msgid "Enable Featured Content on"
+msgstr "Załącz wyróżnioną zawartość"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:54
+msgid "Select Featured Content Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:69
+msgid "Check to Move above Footer"
+msgstr "Zaznacz aby przenieść ponad stopkę"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:84
+msgid "Check to Enable Slider"
+msgstr "Zaznacz aby włączyć sjaldy"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:100
+msgid "Select Content Type"
+msgstr "Wybierz typ zawartości"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:115
+msgid "Leave field empty if you want to remove Headline"
+msgstr "Zostaw puste jeżeli chcesz usunąć nagłówek"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:116
+msgid "Headline for Featured Content"
+msgstr "Nagłówek dla treści wyróżnionej"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:132
+msgid "Leave field empty if you want to remove Sub-headline"
+msgstr "Zostaw puste jeżeli chcesz usunąć pod-nagłówek"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:133
+msgid "Sub-headline for Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:149
+msgid ""
+"Save and refresh the page if No. of Featured Content is changed (Max no of "
+"Featured Content is 20)"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:156
+msgid "No of Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:171
+msgid "Check to Enable Title"
+msgstr "Zaznacz aby aktywować tytuł"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:187
+msgid "Display Content"
+msgstr "Wyświetl zawartość"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:204
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:154
+msgid "Featured Page"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:216
+msgid "Featured Content Background Settings"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-content-options.php:226
+msgid "Select/Add Background Image"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:19
+msgid "Options for Featured Slider"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:21
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:33
+msgid "Featured Slider"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:27
+msgid "Featured Slider Options"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:45
+msgid "Enable Slider on"
+msgstr "Włącz slajdy"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:60
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:79
+msgid "seconds(s)"
+msgstr "sekundy"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:64
+msgid "Transition Delay"
+msgstr "Opóźnienie transakcji"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:83
+msgid "Transition Length"
+msgstr "Długość transakcji"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:99
+msgid "Image Loader"
+msgstr "Wczytaj obraz"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:115
+msgid "Select Slider Type"
+msgstr "Wybierz typ suwaka"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:130
+msgid ""
+"Save and refresh the page if No. of Slides is changed (Max no of slides is "
+"20)"
+msgstr ""
+"Zapisz i odśwież stronę, jęzeli liczba sjaldów została zmieniona (maksymalna "
+"liczba slajdów: 20)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-featured-slider-options.php:137
+msgid "No of Slides"
+msgstr "Numer slajdów"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-header-options.php:25
+msgid "Enable Featured Header Image on "
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-header-options.php:39
+msgid "Page/Post Featured Image Size"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-social-icon-options.php:19
+msgid "Note: Enter the url for correponding social networking website"
+msgstr "Wprowadź adres do profilu społecznościowego"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-social-icon-options.php:21
+#: ../inc/customizer-includes/catchadaptive-customizer-social-icon-options.php:27
+msgid "Social Links"
+msgstr "Portale społecznościowe"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-social-icon-options.php:40
+msgid ""
+"Skype link can be of formats:<br>callto://+{number}<br> skype:{username}?"
+"{action}. More Information in readme file"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:19
+msgid "Basic theme Options"
+msgstr "Podstawowe opcje motywu"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:22
+msgid "Theme Options"
+msgstr "Opcje motywu"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:27
+msgid ""
+"Breadcrumbs are a great way of letting your visitors find out where they are "
+"on your site with just a glance. You can enable/disable them on homepage and "
+"entire site."
+msgstr ""
+"Okruszki chleba (Breadcrumb) służą do pokazywania twoim czytelnikom gdzie "
+"aktualnie znajdują się na twojej stronie. Możesz je aktywować i dezaktywować "
+"zarówno na stronie głownej jak i na całej stronie."
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:29
+msgid "Breadcrumb Options"
+msgstr "Okruszki - opcje"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:40
+msgid "Check to enable Breadcrumb"
+msgstr "Zaznacz aby aktywować okruszki chleba (Breadcrumb)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:53
+msgid "Check to enable Breadcrumb on Homepage"
+msgstr "Zaznacz aby aktywować okruszki chleba (Breadcrumb) na stronie głównej"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:69
+msgid "Separator between Breadcrumbs"
+msgstr "Separator między okruszkami chleba (Breadcrumb)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:84
+msgid "Custom/Inline CSS"
+msgstr "Niestandardowe CSS"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:87
+msgid "Custom CSS Options"
+msgstr "Niestandardowe opcje CSS"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:97
+msgid "Enter Custom CSS"
+msgstr "Wprowadź CSS"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:110
+msgid "Excerpt Options"
+msgstr "Opcje fragmentu"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:120
+msgid "Excerpt length. Default is 40 words"
+msgstr "Długość fragmentu. Domyślnie 40 słów"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:127
+msgid "Excerpt Length (words)"
+msgstr "Długość fragmentu (słowa)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:141
+msgid "Read More Text"
+msgstr "Czytaj dalej"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:150
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page"
+msgstr ""
+"Tylko wpisy należące do wybranych tutaj kategorii będą wyświetlone na "
+"stronie głównej"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:153
+msgid "Homepage / Frontpage Options"
+msgstr "Opcje strony głównej"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:163
+msgid "Select Categories"
+msgstr "Wybierz kategorie"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:177
+msgid "Layout Options"
+msgstr "Opcje wyglądu"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:188
+msgid "Default Layout"
+msgstr "Standardowy wygląd"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:202
+msgid "Archive Content Layout"
+msgstr "Aktywuj personalizację zawartości"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:215
+msgid "Single Page/Post Image Layout "
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:226
+#, php-format
+msgid ""
+"Numeric Option requires <a target=\"_blank\" href=\"%1$s\">WP-PageNavi "
+"Plugin</a>.<br/>Infinite Scroll Options requires <a target=\"_blank\" href="
+"\"%2$s\">JetPack Plugin</a> with Infinite Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:233
+#, php-format
+msgid ""
+"Infinite Scroll Options requires <a target=\"_blank\" href=\"%s\">JetPack "
+"Plugin</a> with Infinite Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:244
+#, php-format
+msgid ""
+"Numeric Option requires <a target=\"_blank\" href=\"%s\">WP-PageNavi Plugin</"
+"a>."
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:255
+msgid "Pagination Options"
+msgstr "Opcje numerowania"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:266
+msgid "Pagination type"
+msgstr "Typ numerowania"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:275
+msgid "To disable the fields, simply leave them empty."
+msgstr "Dezaktywuj pola, pozostaw je puste"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:278
+msgid "Promotion Headline Options"
+msgstr "Opcje wyróżniania nagłówka"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:289
+msgid "Enable Promotion Headline on"
+msgstr "Aktywuj text promocyjny nagłówka"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:303
+msgid "Appropriate Words: 10"
+msgstr "Odpowiednia ilość słów: 10"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:304
+msgid "Promotion Headline Text"
+msgstr "Text wyróżniający nagłówka"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:318
+msgid "Appropriate Words: 15"
+msgstr "Odpowiednia ilość słów: 15"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:319
+msgid "Promotion Subheadline Text"
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:333
+msgid "Appropriate Words: 3"
+msgstr "Dozwolona ilość słów: 3"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:334
+msgid "Promotion Headline Button Text "
+msgstr ""
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:348
+msgid "Promotion Headline Link"
+msgstr "Wyróżnienie nagłówka"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:362
+msgid "Check to Open Link in New Window/Tab"
+msgstr "Zaznacz aby otworzyć link w nowym oknie/zakładce"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:374
+msgid "Scrollup Options"
+msgstr "Opcje przesuwania (scrollup options)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:384
+msgid "Check to disable Scroll Up"
+msgstr "Zaznacz aby wyłączyć przesuwanie w górę (scroll up)"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:393
+msgid "Change default placeholder text in Search."
+msgstr "Zmień domyślny obszar tekstu w wyszukiwarce"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:396
+msgid "Search Options"
+msgstr "Opcje wyszukiwania"
+
+#: ../inc/customizer-includes/catchadaptive-customizer-theme-options.php:406
+msgid "Default Display Text in Search"
+msgstr "Domyślny tekst w wyszukiwarce"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:53
+msgid "Logo"
+msgstr "Logo"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:66
+msgid "Check to disable logo"
+msgstr "Zaznacz aby wyłączyć logo"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:80
+msgid "Logo Alt Text"
+msgstr "Logo Alt Text"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:95
+msgid "Check to move Site Title and Tagline before logo"
+msgstr "Zaznacz aby przemieścić tytuł i opis strony przed logo"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:112
+msgid "Color Scheme"
+msgstr "Kolor"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:138
+msgid ""
+"Caution: Reset all settings to default. Refresh the page after save to view "
+"full effects."
+msgstr ""
+"Uwaga! Ustawienie zostaną zresetowane. Odśwież stronę i zapisz aby zobaczyć "
+"zmiany."
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:140
+msgid "Reset all settings"
+msgstr "Przywróć wszystkie ustawienia"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:151
+msgid "Check to reset all settings to default"
+msgstr "Zaznacza aby zresetować ustawienia"
+
+#: ../inc/customizer-includes/catchadaptive-customizer.php:162
+#: ../inc/customizer-includes/catchadaptive-customizer.php:173
+msgid "Important Links"
+msgstr "Ważne strony"
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:76
+msgid "Catch Adaptive Pro"
+msgstr ""
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: ../no-results.php:14
+msgid "Error 404-Page NOT Found"
+msgstr "Błąd 404 - Strona nie została znaleziona"
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr "Szukaj"
+
+#: ../searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr "Szukaj"
+
+#: ../sidebar.php:34
+msgid "Primary Sidebar Widget Area"
+msgstr "Obszar widżetów zakładki bocznej"
+
+#: ../sidebar.php:37
+msgid ""
+"This is the Primary Sidebar Widget Area if you are using a two column site "
+"layout option."
+msgstr "To jest obszar zakładki bocznej dla dwukolumnowego wyglądu strony."
+
+#: ../sidebar.php:38
+#, php-format
+msgid ""
+"By default it will load Search and Archives widgets as shown below. You can "
+"add widget to this area by visiting your <a href=\"%s\">Widgets Panel</a> "
+"which will replace default widgets."
+msgstr ""
+
+#: ../sidebar.php:51
+msgid "Archives"
+msgstr "Archiwa"
+
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgid "Scroll Horizontal"
+#~ msgstr "Pokazuj horyzontalnie"
+
+#~ msgid "Scroll Vertical"
+#~ msgstr "Pokazuj pionowo"
+
+#~ msgid "Flip Horizontal"
+#~ msgstr "Przewracaj horyzontalnie"
+
+#~ msgid "Flip Vertical"
+#~ msgstr "Przewracaj pionowo"
+
+#~ msgid "Tile Slide"
+#~ msgstr "Pasek tytułu"
+
+#~ msgid "Demo Featured Content"
+#~ msgstr "Zawartość demo"
+
+#~ msgid "Remove Icon images to disable."
+#~ msgstr "Usuń ikonę aby dezaktywować"
+
+#~ msgid "Icon Options"
+#~ msgstr "Opcje ikon"
+
+#~ msgid "Select/Add Favicon"
+#~ msgstr "Wybierz/dodaj ikonę strony"
+
+#~ msgid ""
+#~ "Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
+#~ "Height 144px height, which will support High Resolution Devices like iPad "
+#~ "Retina."
+#~ msgstr ""
+#~ "Ikona strony dla urządzeń Apple. Zalecan rozmiar - szerokość 144, "
+#~ "wysokość 144 pixele. Wspiera urządzenia o wysokiej rozdzielczości np. "
+#~ "Ipad Retina"
+
+#~ msgid "Select/Add Web Clip Icon"
+#~ msgstr "Wybierz/dodaj ikonę strony"
+
+#~ msgid "Select/Add Logo Icon"
+#~ msgstr "Wybierz/dodaj logo"
+
+#, fuzzy
+#~ msgid "Catch Adaptive"
+#~ msgstr "Opcje"
+
+#~ msgid "Author: %s"
+#~ msgstr "Autor: %s"
+
+#~ msgid "Galleries"
+#~ msgstr "Galeria"
+
+#~ msgid "Images"
+#~ msgstr "Zdjęcia"
+
+#~ msgid "Videos"
+#~ msgstr "Wideo"
+
+#~ msgid "Quotes"
+#~ msgstr "Cytaty"
+
+#~ msgid "Links"
+#~ msgstr "Linki"
+
+#~ msgid "Statuses"
+#~ msgstr "Statusy"
+
+#~ msgid "Audios"
+#~ msgstr "Nagrania"
+
+#~ msgid "Chats"
+#~ msgstr "Czty"
+
+#~ msgid "Upgrade To Pro &raquo;"
+#~ msgstr "Włącz wersję PRO"

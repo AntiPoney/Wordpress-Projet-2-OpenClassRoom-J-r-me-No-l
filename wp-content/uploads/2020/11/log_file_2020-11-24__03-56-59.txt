@@ -1,0 +1,92 @@
+
+---Downloaded files---
+The import files for: Serenity Lite Demo Content were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://wordpressopenclassroom:8000
+Data file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-content-import-file_2020-11-24__03-56-59.xml
+Widget file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-widgets-import-file_2020-11-24__03-56-59.json
+Customizer file = C:\wamp64\www\Wordpress Projet 2 jrn/wp-content/uploads/2020/11/demo-customizer-import-file_2020-11-24__03-56-59.dat
+
+---Importing content---
+[WARNING] Failed to import "Newsletter": Invalid post type mc4wp-form
+[WARNING] Could not find the menu object for "" (post #420)
+
+Max execution time after content import = 300
+
+---Importing widgets---
+Sidebar : 
+
+Rechercher - No Title - Imported
+Articles récents - No Title - Imported
+Commentaires récents - No Title - Imported
+Archives - No Title - Imported
+Catégories - No Title - Imported
+Méta - No Title - Imported
+
+One-Page Hero Section : 
+
+Texte - No Title - Imported
+
+brands-widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+Image - No Title - Imported to Inactive
+
+One-Page Contact Form Section : 
+
+WPForms - Get in touch - Imported
+
+One-Page Contact Info Section : 
+
+Texte - How to reach us - Imported
+
+feature-widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Feature Widget - Launch Your Business - Imported to Inactive
+Feature Widget - Easy Customization - Imported to Inactive
+Feature Widget - Loved by Many - Imported to Inactive
+
+One-Page Gallery Section : 
+
+Galerie - No Title - Imported
+
+newsletter-form-widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+mc4wp_form_widget - Newsletter - Site does not support widget
+
+service-widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Service Widget - Digital Marketing - Imported to Inactive
+Service Widget - Business Consulting - Imported to Inactive
+Service Widget - Market Research - Imported to Inactive
+
+One-Page Team Section : 
+
+Team Member Widget - Hans Desjarlais - Imported
+Team Member Widget - Janelle Brandon - Imported
+Team Member Widget - Eric Kelly - Imported
+
+testimonial-widgets : Sidebar does not exist in theme (moving widget to Inactive)
+
+Testimonial Widget - Hans Desjarlais - Imported to Inactive
+Testimonial Widget - Janelle Sandoval - Imported to Inactive
+Testimonial Widget - Michael Anderson - Imported to Inactive
+Testimonial Widget - Ashley Fields - Imported to Inactive
+Testimonial Widget - Eric Johnson - Imported to Inactive
+Testimonial Widget - Kathryn Knowles - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---theme-demo-import/after_import---
+
