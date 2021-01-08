@@ -215,6 +215,5 @@ wp_enqueue_script('google-map');
             }
         };
         $(document).ready(G5PlusGoogleMap.init);
-    })
-    (jQuery);
+    })(jQuery);
 </script>

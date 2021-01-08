@@ -386,7 +386,7 @@ if (!class_exists('Essential_Real_Estate')) {
             $this->loader->add_action('wp_ajax_ere_property_submit_review_ajax', $property, 'submit_review_ajax');
             $this->loader->add_action('wp_ajax_nopriv_ere_property_submit_review_ajax', $property, 'submit_review_ajax');
 
-            $this->loader->add_filter( 'ere_property_rating_meta',$property, 'rating_meta_filter', 4, 9 );
+            $this->loader->add_action( 'ere_property_rating_meta',$property, 'rating_meta_filter', 4, 9 );
             $this->loader->add_action('deleted_comment', $property, 'delete_review',10,1);
             $this->loader->add_action('transition_comment_status', $property, 'approve_review', 10, 3);
             //favorites
@@ -472,7 +472,7 @@ if (!class_exists('Essential_Real_Estate')) {
             $this->loader->add_action('wp_ajax_ere_agent_submit_review_ajax', $agent, 'submit_review_ajax');
             $this->loader->add_action('wp_ajax_nopriv_ere_agent_submit_review_ajax', $agent, 'submit_review_ajax');
 
-            $this->loader->add_filter( 'ere_agent_rating_meta',$agent, 'rating_meta_filter', 4, 9 );
+	        $this->loader->add_action('ere_agent_rating_meta',$agent,'rating_meta_filter',4,9);
             $this->loader->add_action('deleted_comment', $agent, 'delete_review',10,1);
             $this->loader->add_action('transition_comment_status', $agent, 'approve_review', 10, 3);
 

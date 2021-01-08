@@ -13,7 +13,7 @@
                     },
                     user_email:{
                         required: true,
-                        pattern: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,4}$/
+                        pattern: /^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-z0-9]{2,10}$/
                     },
                     user_password: {
                         required: true

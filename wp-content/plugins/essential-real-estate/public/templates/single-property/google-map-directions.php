@@ -13,6 +13,12 @@ if (!empty($location)) {
 } else {
     return;
 }
+
+if (empty($lat) || empty($lng)) {
+	return;
+}
+
+
 $map_icons_path_marker = ERE_PLUGIN_URL . 'public/assets/images/map-marker-icon.png';
 $default_marker = ere_get_option('marker_icon', '');
 if ($default_marker != '') {

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
-"POT-Creation-Date: 2020-10-13 16:33+0700\n"
+"POT-Creation-Date: 2020-11-30 08:30+0700\n"
 "PO-Revision-Date: 2017-02-18 15:35+0700\n"
 "Last-Translator: \n"
 "Language-Team: G5Theme <g5plus@outlook.com>\n"
@@ -48,7 +48,7 @@ msgid "Mobile"
 msgstr ""
 
 #: admin/class-ere-admin-agent.php:24 admin/class-ere-admin.php:1201
-#: admin/class-ere-admin.php:1202 admin/class-ere-admin.php:4418
+#: admin/class-ere-admin.php:1202 admin/class-ere-admin.php:4417
 #: admin/class-ere-agent-admin.php:23
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1191
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1335
@@ -76,7 +76,7 @@ msgstr ""
 #: admin/class-ere-admin-invoice.php:20 admin/class-ere-admin-property.php:23
 #: admin/class-ere-admin-trans-log.php:24 admin/class-ere-admin.php:2521
 #: admin/class-ere-admin.php:2570 admin/class-ere-admin.php:2690
-#: admin/class-ere-admin.php:3954 admin/class-ere-admin.php:4163
+#: admin/class-ere-admin.php:3953 admin/class-ere-admin.php:4162
 #: admin/class-ere-invoice-admin.php:20 admin/class-ere-property-admin.php:22
 #: admin/class-ere-trans-log-admin.php:24
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:371
@@ -248,7 +248,7 @@ msgstr ""
 #: admin/class-ere-admin-location.php:188 admin/class-ere-admin-location.php:262
 #: admin/class-ere-admin-setup-metaboxes.php:593 admin/class-ere-admin.php:1332
 #: admin/class-ere-admin.php:1696 admin/class-ere-admin.php:2543
-#: admin/class-ere-admin.php:2694 admin/class-ere-admin.php:4168
+#: admin/class-ere-admin.php:2694 admin/class-ere-admin.php:4167
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:839
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:966
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1088
@@ -274,7 +274,7 @@ msgstr ""
 #: admin/class-ere-admin-location.php:151 admin/class-ere-admin-location.php:199
 #: admin/class-ere-admin-location.php:273 admin/class-ere-admin.php:1172
 #: admin/class-ere-admin.php:1173 admin/class-ere-admin.php:2544
-#: admin/class-ere-admin.php:2695 admin/class-ere-admin.php:4169
+#: admin/class-ere-admin.php:2695 admin/class-ere-admin.php:4168
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:374
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:444
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:487
@@ -337,7 +337,7 @@ msgstr ""
 #: admin/class-ere-admin-package.php:34 admin/class-ere-admin-property.php:24
 #: admin/class-ere-admin.php:331 admin/class-ere-admin.php:2524
 #: admin/class-ere-admin.php:2572 admin/class-ere-admin.php:2700
-#: admin/class-ere-admin.php:3956 admin/class-ere-admin.php:4174
+#: admin/class-ere-admin.php:3955 admin/class-ere-admin.php:4173
 #: admin/class-ere-package-admin.php:34 admin/class-ere-property-admin.php:23
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:863
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:990
@@ -403,7 +403,7 @@ msgstr ""
 
 #: admin/class-ere-admin-property.php:22 admin/class-ere-admin.php:2520
 #: admin/class-ere-admin.php:2569 admin/class-ere-admin.php:2691
-#: admin/class-ere-admin.php:3953 admin/class-ere-admin.php:4164
+#: admin/class-ere-admin.php:3952 admin/class-ere-admin.php:4163
 #: admin/class-ere-property-admin.php:21
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:370
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:440
@@ -444,8 +444,8 @@ msgstr ""
 msgid "Expire"
 msgstr ""
 
-#: admin/class-ere-admin-property.php:99 admin/class-ere-admin.php:3871
-#: admin/class-ere-admin.php:3900 admin/class-ere-property-admin.php:93
+#: admin/class-ere-admin-property.php:99 admin/class-ere-admin.php:3870
+#: admin/class-ere-admin.php:3899 admin/class-ere-property-admin.php:93
 #: public/templates/property/my-properties.php:298
 msgid "Hide"
 msgstr ""
@@ -457,7 +457,7 @@ msgstr ""
 
 #: admin/class-ere-admin-property.php:365 admin/class-ere-admin.php:470
 #: admin/class-ere-admin.php:2517 admin/class-ere-admin.php:2705
-#: admin/class-ere-admin.php:4179 admin/class-ere-property-admin.php:363
+#: admin/class-ere-admin.php:4178 admin/class-ere-property-admin.php:363
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:778
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:899
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1026
@@ -476,7 +476,7 @@ msgstr ""
 #: public/templates/property/submit-property/details.php:99
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:219
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:190
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:174
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:175
 #: public/templates/single-property/features.php:100
 #: public/templates/single-property/header.php:87
 msgid "Property ID"
@@ -969,7 +969,7 @@ msgstr ""
 
 #: admin/class-ere-admin-user-package.php:19 admin/class-ere-admin.php:2568
 #: admin/class-ere-admin.php:2692 admin/class-ere-admin.php:3385
-#: admin/class-ere-admin.php:3403 admin/class-ere-admin.php:4166
+#: admin/class-ere-admin.php:3403 admin/class-ere-admin.php:4165
 #: admin/class-ere-user-package-admin.php:19
 #: admin/templates/additional-details-field.php:36
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:320
@@ -1066,7 +1066,7 @@ msgid "Properties"
 msgstr ""
 
 #: admin/class-ere-admin.php:158 admin/class-ere-admin.php:2348
-#: admin/class-ere-admin.php:3863
+#: admin/class-ere-admin.php:3862
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:197
 #: includes/shortcodes/class-ere-vcmap.php:19
 #: public/templates/shortcodes/property-search-map/property-search-map.php:398
@@ -1083,7 +1083,7 @@ msgid "Agents"
 msgstr ""
 
 #: admin/class-ere-admin.php:170 admin/class-ere-admin.php:719
-#: admin/class-ere-admin.php:3892
+#: admin/class-ere-admin.php:3891
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1189
 #: includes/shortcodes/class-ere-vcmap.php:1495
 #: public/templates/property/property-print.php:597
@@ -1205,28 +1205,28 @@ msgstr ""
 #: admin/class-ere-admin.php:2383 admin/class-ere-admin.php:2414
 #: admin/class-ere-admin.php:2499 admin/class-ere-admin.php:2747
 #: admin/class-ere-admin.php:3203 admin/class-ere-admin.php:3471
-#: admin/class-ere-admin.php:3499 admin/class-ere-admin.php:3554
-#: admin/class-ere-admin.php:3564 admin/class-ere-admin.php:3609
-#: admin/class-ere-admin.php:3793 admin/class-ere-admin.php:3829
-#: admin/class-ere-admin.php:3882 admin/class-ere-admin.php:3911
-#: admin/class-ere-admin.php:3942 admin/class-ere-admin.php:4006
-#: admin/class-ere-admin.php:4036 admin/class-ere-admin.php:4355
-#: admin/class-ere-admin.php:4365 admin/class-ere-admin.php:4375
-#: admin/class-ere-admin.php:4385 admin/class-ere-admin.php:4550
-#: admin/class-ere-admin.php:4601 admin/class-ere-admin.php:4706
-#: admin/class-ere-admin.php:4745 admin/class-ere-admin.php:4879
-#: admin/class-ere-admin.php:4900 admin/class-ere-admin.php:5042
-#: admin/class-ere-admin.php:5064 admin/class-ere-admin.php:5219
-#: admin/class-ere-admin.php:5258 admin/class-ere-admin.php:5302
-#: admin/class-ere-admin.php:5339 admin/class-ere-admin.php:5384
-#: admin/class-ere-admin.php:5429 admin/class-ere-admin.php:5471
-#: admin/class-ere-admin.php:5517 admin/class-ere-admin.php:5563
-#: admin/class-ere-admin.php:5599 admin/class-ere-admin.php:5643
-#: admin/class-ere-admin.php:5681 admin/class-ere-admin.php:5727
-#: admin/class-ere-admin.php:5765 admin/class-ere-admin.php:5811
-#: admin/class-ere-admin.php:5848 admin/class-ere-admin.php:5893
-#: admin/class-ere-admin.php:5930 admin/class-ere-admin.php:5975
-#: admin/class-ere-admin.php:6019 includes/shortcodes/class-ere-vcmap.php:945
+#: admin/class-ere-admin.php:3499 admin/class-ere-admin.php:3553
+#: admin/class-ere-admin.php:3563 admin/class-ere-admin.php:3608
+#: admin/class-ere-admin.php:3792 admin/class-ere-admin.php:3828
+#: admin/class-ere-admin.php:3881 admin/class-ere-admin.php:3910
+#: admin/class-ere-admin.php:3941 admin/class-ere-admin.php:4005
+#: admin/class-ere-admin.php:4035 admin/class-ere-admin.php:4354
+#: admin/class-ere-admin.php:4364 admin/class-ere-admin.php:4374
+#: admin/class-ere-admin.php:4384 admin/class-ere-admin.php:4549
+#: admin/class-ere-admin.php:4600 admin/class-ere-admin.php:4705
+#: admin/class-ere-admin.php:4744 admin/class-ere-admin.php:4878
+#: admin/class-ere-admin.php:4899 admin/class-ere-admin.php:5041
+#: admin/class-ere-admin.php:5063 admin/class-ere-admin.php:5218
+#: admin/class-ere-admin.php:5257 admin/class-ere-admin.php:5301
+#: admin/class-ere-admin.php:5338 admin/class-ere-admin.php:5383
+#: admin/class-ere-admin.php:5428 admin/class-ere-admin.php:5470
+#: admin/class-ere-admin.php:5516 admin/class-ere-admin.php:5562
+#: admin/class-ere-admin.php:5598 admin/class-ere-admin.php:5642
+#: admin/class-ere-admin.php:5680 admin/class-ere-admin.php:5726
+#: admin/class-ere-admin.php:5764 admin/class-ere-admin.php:5810
+#: admin/class-ere-admin.php:5847 admin/class-ere-admin.php:5892
+#: admin/class-ere-admin.php:5929 admin/class-ere-admin.php:5974
+#: admin/class-ere-admin.php:6018 includes/shortcodes/class-ere-vcmap.php:945
 #: includes/shortcodes/class-ere-vcmap.php:1089
 #: includes/shortcodes/class-ere-vcmap.php:1123 public/class-ere-public.php:130
 msgid "Yes"
@@ -1244,26 +1244,26 @@ msgstr ""
 #: admin/class-ere-admin.php:2384 admin/class-ere-admin.php:2415
 #: admin/class-ere-admin.php:2500 admin/class-ere-admin.php:2748
 #: admin/class-ere-admin.php:3204 admin/class-ere-admin.php:3472
-#: admin/class-ere-admin.php:3500 admin/class-ere-admin.php:3555
-#: admin/class-ere-admin.php:3565 admin/class-ere-admin.php:3610
-#: admin/class-ere-admin.php:3794 admin/class-ere-admin.php:3830
-#: admin/class-ere-admin.php:3883 admin/class-ere-admin.php:3912
-#: admin/class-ere-admin.php:3943 admin/class-ere-admin.php:4007
-#: admin/class-ere-admin.php:4037 admin/class-ere-admin.php:4356
-#: admin/class-ere-admin.php:4366 admin/class-ere-admin.php:4376
-#: admin/class-ere-admin.php:4386 admin/class-ere-admin.php:4551
-#: admin/class-ere-admin.php:4707 admin/class-ere-admin.php:4880
-#: admin/class-ere-admin.php:5043 admin/class-ere-admin.php:5220
-#: admin/class-ere-admin.php:5259 admin/class-ere-admin.php:5303
-#: admin/class-ere-admin.php:5340 admin/class-ere-admin.php:5385
-#: admin/class-ere-admin.php:5430 admin/class-ere-admin.php:5472
-#: admin/class-ere-admin.php:5518 admin/class-ere-admin.php:5564
-#: admin/class-ere-admin.php:5600 admin/class-ere-admin.php:5644
-#: admin/class-ere-admin.php:5682 admin/class-ere-admin.php:5728
-#: admin/class-ere-admin.php:5766 admin/class-ere-admin.php:5812
-#: admin/class-ere-admin.php:5849 admin/class-ere-admin.php:5894
-#: admin/class-ere-admin.php:5931 admin/class-ere-admin.php:5976
-#: admin/class-ere-admin.php:6020 public/class-ere-public.php:131
+#: admin/class-ere-admin.php:3500 admin/class-ere-admin.php:3554
+#: admin/class-ere-admin.php:3564 admin/class-ere-admin.php:3609
+#: admin/class-ere-admin.php:3793 admin/class-ere-admin.php:3829
+#: admin/class-ere-admin.php:3882 admin/class-ere-admin.php:3911
+#: admin/class-ere-admin.php:3942 admin/class-ere-admin.php:4006
+#: admin/class-ere-admin.php:4036 admin/class-ere-admin.php:4355
+#: admin/class-ere-admin.php:4365 admin/class-ere-admin.php:4375
+#: admin/class-ere-admin.php:4385 admin/class-ere-admin.php:4550
+#: admin/class-ere-admin.php:4706 admin/class-ere-admin.php:4879
+#: admin/class-ere-admin.php:5042 admin/class-ere-admin.php:5219
+#: admin/class-ere-admin.php:5258 admin/class-ere-admin.php:5302
+#: admin/class-ere-admin.php:5339 admin/class-ere-admin.php:5384
+#: admin/class-ere-admin.php:5429 admin/class-ere-admin.php:5471
+#: admin/class-ere-admin.php:5517 admin/class-ere-admin.php:5563
+#: admin/class-ere-admin.php:5599 admin/class-ere-admin.php:5643
+#: admin/class-ere-admin.php:5681 admin/class-ere-admin.php:5727
+#: admin/class-ere-admin.php:5765 admin/class-ere-admin.php:5811
+#: admin/class-ere-admin.php:5848 admin/class-ere-admin.php:5893
+#: admin/class-ere-admin.php:5930 admin/class-ere-admin.php:5975
+#: admin/class-ere-admin.php:6019 public/class-ere-public.php:131
 msgid "No"
 msgstr ""
 
@@ -1286,7 +1286,7 @@ msgid "Example Value: 2000"
 msgstr ""
 
 #: admin/class-ere-admin.php:412 admin/class-ere-admin.php:2531
-#: admin/class-ere-admin.php:2575 admin/class-ere-admin.php:3957
+#: admin/class-ere-admin.php:2575 admin/class-ere-admin.php:3956
 #: public/templates/property/compare.php:247
 #: public/templates/property/edit-property/details.php:54
 #: public/templates/property/property-print.php:357
@@ -1301,8 +1301,8 @@ msgstr ""
 
 #: admin/class-ere-admin.php:420 admin/class-ere-admin.php:610
 #: admin/class-ere-admin.php:2532 admin/class-ere-admin.php:2576
-#: admin/class-ere-admin.php:2698 admin/class-ere-admin.php:3958
-#: admin/class-ere-admin.php:4172
+#: admin/class-ere-admin.php:2698 admin/class-ere-admin.php:3957
+#: admin/class-ere-admin.php:4171
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:855
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:982
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1104
@@ -1319,7 +1319,7 @@ msgstr ""
 #: public/templates/property/submit-property/floors.php:89
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:250
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:216
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:206
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:207
 #: public/templates/shortcodes/property-slider/property-slider.php:301
 #: public/templates/shortcodes/property-slider/property-slider.php:443
 #: public/templates/single-property/features.php:148
@@ -1334,8 +1334,8 @@ msgstr ""
 
 #: admin/class-ere-admin.php:428 admin/class-ere-admin.php:618
 #: admin/class-ere-admin.php:2533 admin/class-ere-admin.php:2577
-#: admin/class-ere-admin.php:2699 admin/class-ere-admin.php:3959
-#: admin/class-ere-admin.php:4173
+#: admin/class-ere-admin.php:2699 admin/class-ere-admin.php:3958
+#: admin/class-ere-admin.php:4172
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:859
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:986
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1108
@@ -1352,7 +1352,7 @@ msgstr ""
 #: public/templates/property/submit-property/floors.php:100
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:265
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:229
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:221
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:222
 #: public/templates/shortcodes/property-slider/property-slider.php:312
 #: public/templates/shortcodes/property-slider/property-slider.php:454
 #: public/templates/single-property/features.php:154
@@ -1366,7 +1366,7 @@ msgid "Example Value: 2"
 msgstr ""
 
 #: admin/class-ere-admin.php:443 admin/class-ere-admin.php:2580
-#: admin/class-ere-admin.php:3962 public/templates/property/compare.php:267
+#: admin/class-ere-admin.php:3961 public/templates/property/compare.php:267
 #: public/templates/property/edit-property/details.php:93
 #: public/templates/property/property-print.php:404
 #: public/templates/property/submit-property/details.php:71
@@ -1386,7 +1386,7 @@ msgid "Garages Size (%s)"
 msgstr ""
 
 #: admin/class-ere-admin.php:464 admin/class-ere-admin.php:2536
-#: admin/class-ere-admin.php:2581 admin/class-ere-admin.php:3964
+#: admin/class-ere-admin.php:2581 admin/class-ere-admin.php:3963
 #: public/templates/property/compare.php:280
 #: public/templates/property/edit-property/details.php:117
 #: public/templates/property/property-print.php:375
@@ -1791,7 +1791,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1182 admin/class-ere-admin.php:1183
 #: admin/class-ere-admin.php:1704 admin/class-ere-admin.php:2545
-#: admin/class-ere-admin.php:2696 admin/class-ere-admin.php:4170
+#: admin/class-ere-admin.php:2696 admin/class-ere-admin.php:4169
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:373
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:443
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:486
@@ -1817,7 +1817,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1192 admin/class-ere-admin.php:1193
 #: admin/class-ere-admin.php:2546 admin/class-ere-admin.php:2697
-#: admin/class-ere-admin.php:4171
+#: admin/class-ere-admin.php:4170
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:375
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:445
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:488
@@ -1873,22 +1873,22 @@ msgstr ""
 msgid "The number to set orderby"
 msgstr ""
 
-#: admin/class-ere-admin.php:1386 admin/class-ere-admin.php:5239
-#: admin/class-ere-admin.php:5278 admin/class-ere-admin.php:5321
-#: admin/class-ere-admin.php:5358 admin/class-ere-admin.php:5403
-#: admin/class-ere-admin.php:5448 admin/class-ere-admin.php:5490
-#: admin/class-ere-admin.php:5537 admin/class-ere-admin.php:5582
-#: admin/class-ere-admin.php:5618 admin/class-ere-admin.php:5662
-#: admin/class-ere-admin.php:5700 admin/class-ere-admin.php:5746
-#: admin/class-ere-admin.php:5784 admin/class-ere-admin.php:5830
-#: admin/class-ere-admin.php:5867 admin/class-ere-admin.php:5912
-#: admin/class-ere-admin.php:5949 admin/class-ere-admin.php:5994
-#: admin/class-ere-admin.php:6038
+#: admin/class-ere-admin.php:1386 admin/class-ere-admin.php:5238
+#: admin/class-ere-admin.php:5277 admin/class-ere-admin.php:5320
+#: admin/class-ere-admin.php:5357 admin/class-ere-admin.php:5402
+#: admin/class-ere-admin.php:5447 admin/class-ere-admin.php:5489
+#: admin/class-ere-admin.php:5536 admin/class-ere-admin.php:5581
+#: admin/class-ere-admin.php:5617 admin/class-ere-admin.php:5661
+#: admin/class-ere-admin.php:5699 admin/class-ere-admin.php:5745
+#: admin/class-ere-admin.php:5783 admin/class-ere-admin.php:5829
+#: admin/class-ere-admin.php:5866 admin/class-ere-admin.php:5911
+#: admin/class-ere-admin.php:5948 admin/class-ere-admin.php:5993
+#: admin/class-ere-admin.php:6037
 msgid "Content"
 msgstr ""
 
 #: admin/class-ere-admin.php:1407 admin/class-ere-admin.php:2582
-#: admin/class-ere-admin.php:2693 admin/class-ere-admin.php:4167
+#: admin/class-ere-admin.php:2693 admin/class-ere-admin.php:4166
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:834
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:961
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1083
@@ -2488,7 +2488,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2522 admin/class-ere-admin.php:2571
 #: admin/class-ere-admin.php:2620 admin/class-ere-admin.php:2703
-#: admin/class-ere-admin.php:3955 admin/class-ere-admin.php:4177
+#: admin/class-ere-admin.php:3954 admin/class-ere-admin.php:4176
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:376
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:446
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:489
@@ -2521,8 +2521,8 @@ msgid "Price on Call"
 msgstr ""
 
 #: admin/class-ere-admin.php:2529 admin/class-ere-admin.php:2578
-#: admin/class-ere-admin.php:2701 admin/class-ere-admin.php:3960
-#: admin/class-ere-admin.php:4175
+#: admin/class-ere-admin.php:2701 admin/class-ere-admin.php:3959
+#: admin/class-ere-admin.php:4174
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:873
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1000
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1122
@@ -2537,7 +2537,7 @@ msgstr ""
 #: public/templates/shortcodes/property-carousel/property-carousel.php:364
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:236
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:204
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:192
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:193
 #: public/templates/shortcodes/property-slider/property-slider.php:291
 #: public/templates/shortcodes/property-slider/property-slider.php:433
 #: public/templates/shortcodes/property/property.php:544
@@ -2548,8 +2548,8 @@ msgid "Size"
 msgstr ""
 
 #: admin/class-ere-admin.php:2530 admin/class-ere-admin.php:2579
-#: admin/class-ere-admin.php:2702 admin/class-ere-admin.php:3961
-#: admin/class-ere-admin.php:4176
+#: admin/class-ere-admin.php:2702 admin/class-ere-admin.php:3960
+#: admin/class-ere-admin.php:4175
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:882
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1009
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1131
@@ -2563,14 +2563,14 @@ msgid "Land Area"
 msgstr ""
 
 #: admin/class-ere-admin.php:2534 admin/class-ere-admin.php:2704
-#: admin/class-ere-admin.php:4178
+#: admin/class-ere-admin.php:4177
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:895
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1022
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1144
 msgid "Garage"
 msgstr ""
 
-#: admin/class-ere-admin.php:2535 admin/class-ere-admin.php:3963
+#: admin/class-ere-admin.php:2535 admin/class-ere-admin.php:3962
 #: public/templates/property/property-print.php:410
 #: public/templates/single-property/features.php:195
 msgid "Garage Size"
@@ -2681,14 +2681,14 @@ msgstr ""
 msgid "Drag and drop layout manager, to quickly organize your form search layout"
 msgstr ""
 
-#: admin/class-ere-admin.php:2689 admin/class-ere-admin.php:4165
+#: admin/class-ere-admin.php:2689 admin/class-ere-admin.php:4164
 #: includes/shortcodes/class-ere-vcmap.php:966
 #: includes/shortcodes/class-ere-vcmap.php:1143
 #: includes/shortcodes/class-ere-vcmap.php:1335
 msgid "Keyword"
 msgstr ""
 
-#: admin/class-ere-admin.php:2706 admin/class-ere-admin.php:4180
+#: admin/class-ere-admin.php:2706 admin/class-ere-admin.php:4179
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:903
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1030
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1152
@@ -2858,43 +2858,43 @@ msgstr ""
 msgid "Advanced Search Page Options"
 msgstr ""
 
-#: admin/class-ere-admin.php:2983 admin/class-ere-admin.php:4149
+#: admin/class-ere-admin.php:2983 admin/class-ere-admin.php:4148
 msgid "Enable Search Form"
 msgstr ""
 
 #: admin/class-ere-admin.php:2986 admin/class-ere-admin.php:3029
 #: admin/class-ere-admin.php:3249 admin/class-ere-admin.php:3306
-#: admin/class-ere-admin.php:3346 admin/class-ere-admin.php:4152
+#: admin/class-ere-admin.php:3346 admin/class-ere-admin.php:4151
 msgid "Enabled"
 msgstr ""
 
 #: admin/class-ere-admin.php:2987 admin/class-ere-admin.php:3030
 #: admin/class-ere-admin.php:3250 admin/class-ere-admin.php:3307
-#: admin/class-ere-admin.php:3347 admin/class-ere-admin.php:4153
+#: admin/class-ere-admin.php:3347 admin/class-ere-admin.php:4152
 msgid "Disabled"
 msgstr ""
 
-#: admin/class-ere-admin.php:2993 admin/class-ere-admin.php:4190
+#: admin/class-ere-admin.php:2993 admin/class-ere-admin.php:4189
 msgid "Property Price Field Layout"
 msgstr ""
 
 #: admin/class-ere-admin.php:2996 admin/class-ere-admin.php:3007
-#: admin/class-ere-admin.php:3018 admin/class-ere-admin.php:4193
-#: admin/class-ere-admin.php:4204 admin/class-ere-admin.php:4215
+#: admin/class-ere-admin.php:3018 admin/class-ere-admin.php:4192
+#: admin/class-ere-admin.php:4203 admin/class-ere-admin.php:4214
 msgid "Dropdown"
 msgstr ""
 
 #: admin/class-ere-admin.php:2997 admin/class-ere-admin.php:3008
-#: admin/class-ere-admin.php:3019 admin/class-ere-admin.php:4194
-#: admin/class-ere-admin.php:4205 admin/class-ere-admin.php:4216
+#: admin/class-ere-admin.php:3019 admin/class-ere-admin.php:4193
+#: admin/class-ere-admin.php:4204 admin/class-ere-admin.php:4215
 msgid "Slider"
 msgstr ""
 
-#: admin/class-ere-admin.php:3004 admin/class-ere-admin.php:4201
+#: admin/class-ere-admin.php:3004 admin/class-ere-admin.php:4200
 msgid "Property Size Field Layout"
 msgstr ""
 
-#: admin/class-ere-admin.php:3015 admin/class-ere-admin.php:4212
+#: admin/class-ere-admin.php:3015 admin/class-ere-admin.php:4211
 msgid "Property Land Area Field Layout"
 msgstr ""
 
@@ -2906,10 +2906,10 @@ msgstr ""
 msgid "Layout Search Result"
 msgstr ""
 
-#: admin/class-ere-admin.php:3043 admin/class-ere-admin.php:4229
-#: admin/class-ere-admin.php:4428 admin/class-ere-admin.php:4558
-#: admin/class-ere-admin.php:4714 admin/class-ere-admin.php:4887
-#: admin/class-ere-admin.php:5050
+#: admin/class-ere-admin.php:3043 admin/class-ere-admin.php:4228
+#: admin/class-ere-admin.php:4427 admin/class-ere-admin.php:4557
+#: admin/class-ere-admin.php:4713 admin/class-ere-admin.php:4886
+#: admin/class-ere-admin.php:5049
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:201
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:465
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:629
@@ -2923,10 +2923,10 @@ msgstr ""
 msgid "Layout Style"
 msgstr ""
 
-#: admin/class-ere-admin.php:3045 admin/class-ere-admin.php:4232
-#: admin/class-ere-admin.php:4431 admin/class-ere-admin.php:4561
-#: admin/class-ere-admin.php:4718 admin/class-ere-admin.php:4890
-#: admin/class-ere-admin.php:5054
+#: admin/class-ere-admin.php:3045 admin/class-ere-admin.php:4231
+#: admin/class-ere-admin.php:4430 admin/class-ere-admin.php:4560
+#: admin/class-ere-admin.php:4717 admin/class-ere-admin.php:4889
+#: admin/class-ere-admin.php:5053
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:203
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1197
 #: includes/shortcodes/class-ere-vcmap.php:30
@@ -2934,10 +2934,10 @@ msgstr ""
 msgid "Grid"
 msgstr ""
 
-#: admin/class-ere-admin.php:3046 admin/class-ere-admin.php:4233
-#: admin/class-ere-admin.php:4432 admin/class-ere-admin.php:4562
-#: admin/class-ere-admin.php:4719 admin/class-ere-admin.php:4891
-#: admin/class-ere-admin.php:5055
+#: admin/class-ere-admin.php:3046 admin/class-ere-admin.php:4232
+#: admin/class-ere-admin.php:4431 admin/class-ere-admin.php:4561
+#: admin/class-ere-admin.php:4718 admin/class-ere-admin.php:4890
+#: admin/class-ere-admin.php:5054
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:204
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1198
 #: includes/shortcodes/class-ere-vcmap.php:31
@@ -2945,10 +2945,10 @@ msgstr ""
 msgid "List"
 msgstr ""
 
-#: admin/class-ere-admin.php:3053 admin/class-ere-admin.php:4239
-#: admin/class-ere-admin.php:4438 admin/class-ere-admin.php:4569
-#: admin/class-ere-admin.php:4726 admin/class-ere-admin.php:4909
-#: admin/class-ere-admin.php:5076
+#: admin/class-ere-admin.php:3053 admin/class-ere-admin.php:4238
+#: admin/class-ere-admin.php:4437 admin/class-ere-admin.php:4568
+#: admin/class-ere-admin.php:4725 admin/class-ere-admin.php:4908
+#: admin/class-ere-admin.php:5075
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:212
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:395
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:474
@@ -2972,10 +2972,10 @@ msgstr ""
 msgid "Enter number for items amount property show in search page"
 msgstr ""
 
-#: admin/class-ere-admin.php:3059 admin/class-ere-admin.php:4245
-#: admin/class-ere-admin.php:4444 admin/class-ere-admin.php:4577
-#: admin/class-ere-admin.php:4732 admin/class-ere-admin.php:4920
-#: admin/class-ere-admin.php:5085
+#: admin/class-ere-admin.php:3059 admin/class-ere-admin.php:4244
+#: admin/class-ere-admin.php:4443 admin/class-ere-admin.php:4576
+#: admin/class-ere-admin.php:4731 admin/class-ere-admin.php:4919
+#: admin/class-ere-admin.php:5084
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:288
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:400
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:479
@@ -2999,16 +2999,16 @@ msgstr ""
 msgid "Image Size"
 msgstr ""
 
-#: admin/class-ere-admin.php:3060 admin/class-ere-admin.php:4246
+#: admin/class-ere-admin.php:3060 admin/class-ere-admin.php:4245
 msgid ""
 "Enter image size (\"thumbnail\" or \"full\"). Alternatively enter size in pixels "
 "(Example : 330x180 (Not Include Unit, Space))"
 msgstr ""
 
-#: admin/class-ere-admin.php:3067 admin/class-ere-admin.php:4252
-#: admin/class-ere-admin.php:4451 admin/class-ere-admin.php:4609
-#: admin/class-ere-admin.php:4757 admin/class-ere-admin.php:4945
-#: admin/class-ere-admin.php:5096
+#: admin/class-ere-admin.php:3067 admin/class-ere-admin.php:4251
+#: admin/class-ere-admin.php:4450 admin/class-ere-admin.php:4608
+#: admin/class-ere-admin.php:4756 admin/class-ere-admin.php:4944
+#: admin/class-ere-admin.php:5095
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:217
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:563
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1209
@@ -3020,7 +3020,27 @@ msgstr ""
 
 #: admin/class-ere-admin.php:3069 admin/class-ere-admin.php:3100
 #: admin/class-ere-admin.php:3113 admin/class-ere-admin.php:3127
-#: admin/class-ere-admin.php:3141 admin/class-ere-admin.php:4463
+#: admin/class-ere-admin.php:3141 admin/class-ere-admin.php:4462
+#: admin/class-ere-admin.php:4477 admin/class-ere-admin.php:4492
+#: admin/class-ere-admin.php:4507 admin/class-ere-admin.php:4522
+#: admin/class-ere-admin.php:4623 admin/class-ere-admin.php:4638
+#: admin/class-ere-admin.php:4653 admin/class-ere-admin.php:4668
+#: admin/class-ere-admin.php:4683 admin/class-ere-admin.php:4770
+#: admin/class-ere-admin.php:4785 admin/class-ere-admin.php:4800
+#: admin/class-ere-admin.php:4815 admin/class-ere-admin.php:4830
+#: admin/class-ere-admin.php:4959 admin/class-ere-admin.php:4974
+#: admin/class-ere-admin.php:4989 admin/class-ere-admin.php:5004
+#: admin/class-ere-admin.php:5019 admin/class-ere-admin.php:5109
+#: admin/class-ere-admin.php:5124 admin/class-ere-admin.php:5139
+#: admin/class-ere-admin.php:5154 admin/class-ere-admin.php:5169
+#: includes/insert-shortcode/class-ere-insert-shortcode.php:812
+#: includes/shortcodes/class-ere-vcmap.php:1312
+msgid "2"
+msgstr ""
+
+#: admin/class-ere-admin.php:3070 admin/class-ere-admin.php:3101
+#: admin/class-ere-admin.php:3114 admin/class-ere-admin.php:3128
+#: admin/class-ere-admin.php:3142 admin/class-ere-admin.php:4463
 #: admin/class-ere-admin.php:4478 admin/class-ere-admin.php:4493
 #: admin/class-ere-admin.php:4508 admin/class-ere-admin.php:4523
 #: admin/class-ere-admin.php:4624 admin/class-ere-admin.php:4639
@@ -3033,14 +3053,14 @@ msgstr ""
 #: admin/class-ere-admin.php:5020 admin/class-ere-admin.php:5110
 #: admin/class-ere-admin.php:5125 admin/class-ere-admin.php:5140
 #: admin/class-ere-admin.php:5155 admin/class-ere-admin.php:5170
-#: includes/insert-shortcode/class-ere-insert-shortcode.php:812
-#: includes/shortcodes/class-ere-vcmap.php:1312
-msgid "2"
+#: includes/insert-shortcode/class-ere-insert-shortcode.php:813
+#: includes/shortcodes/class-ere-vcmap.php:1313
+msgid "3"
 msgstr ""
 
-#: admin/class-ere-admin.php:3070 admin/class-ere-admin.php:3101
-#: admin/class-ere-admin.php:3114 admin/class-ere-admin.php:3128
-#: admin/class-ere-admin.php:3142 admin/class-ere-admin.php:4464
+#: admin/class-ere-admin.php:3071 admin/class-ere-admin.php:3102
+#: admin/class-ere-admin.php:3115 admin/class-ere-admin.php:3129
+#: admin/class-ere-admin.php:3143 admin/class-ere-admin.php:4464
 #: admin/class-ere-admin.php:4479 admin/class-ere-admin.php:4494
 #: admin/class-ere-admin.php:4509 admin/class-ere-admin.php:4524
 #: admin/class-ere-admin.php:4625 admin/class-ere-admin.php:4640
@@ -3053,33 +3073,13 @@ msgstr ""
 #: admin/class-ere-admin.php:5021 admin/class-ere-admin.php:5111
 #: admin/class-ere-admin.php:5126 admin/class-ere-admin.php:5141
 #: admin/class-ere-admin.php:5156 admin/class-ere-admin.php:5171
-#: includes/insert-shortcode/class-ere-insert-shortcode.php:813
-#: includes/shortcodes/class-ere-vcmap.php:1313
-msgid "3"
-msgstr ""
-
-#: admin/class-ere-admin.php:3071 admin/class-ere-admin.php:3102
-#: admin/class-ere-admin.php:3115 admin/class-ere-admin.php:3129
-#: admin/class-ere-admin.php:3143 admin/class-ere-admin.php:4465
-#: admin/class-ere-admin.php:4480 admin/class-ere-admin.php:4495
-#: admin/class-ere-admin.php:4510 admin/class-ere-admin.php:4525
-#: admin/class-ere-admin.php:4626 admin/class-ere-admin.php:4641
-#: admin/class-ere-admin.php:4656 admin/class-ere-admin.php:4671
-#: admin/class-ere-admin.php:4686 admin/class-ere-admin.php:4773
-#: admin/class-ere-admin.php:4788 admin/class-ere-admin.php:4803
-#: admin/class-ere-admin.php:4818 admin/class-ere-admin.php:4833
-#: admin/class-ere-admin.php:4962 admin/class-ere-admin.php:4977
-#: admin/class-ere-admin.php:4992 admin/class-ere-admin.php:5007
-#: admin/class-ere-admin.php:5022 admin/class-ere-admin.php:5112
-#: admin/class-ere-admin.php:5127 admin/class-ere-admin.php:5142
-#: admin/class-ere-admin.php:5157 admin/class-ere-admin.php:5172
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:814
 #: includes/shortcodes/class-ere-vcmap.php:1314
 msgid "4"
 msgstr ""
 
-#: admin/class-ere-admin.php:3080 admin/class-ere-admin.php:4266
-#: admin/class-ere-admin.php:4586 admin/class-ere-admin.php:4929
+#: admin/class-ere-admin.php:3080 admin/class-ere-admin.php:4265
+#: admin/class-ere-admin.php:4585 admin/class-ere-admin.php:4928
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:294
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:406
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:573
@@ -3109,7 +3109,7 @@ msgstr ""
 msgid "30px"
 msgstr ""
 
-#: admin/class-ere-admin.php:3097 admin/class-ere-admin.php:4281
+#: admin/class-ere-admin.php:3097 admin/class-ere-admin.php:4280
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:230
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1268
 #: includes/shortcodes/class-ere-vcmap.php:98
@@ -3117,13 +3117,13 @@ msgstr ""
 msgid "Items Desktop Small"
 msgstr ""
 
-#: admin/class-ere-admin.php:3098 admin/class-ere-admin.php:4475
-#: admin/class-ere-admin.php:4636 admin/class-ere-admin.php:4783
-#: admin/class-ere-admin.php:4972 admin/class-ere-admin.php:5122
+#: admin/class-ere-admin.php:3098 admin/class-ere-admin.php:4474
+#: admin/class-ere-admin.php:4635 admin/class-ere-admin.php:4782
+#: admin/class-ere-admin.php:4971 admin/class-ere-admin.php:5121
 msgid "Browser Width < 1199px"
 msgstr ""
 
-#: admin/class-ere-admin.php:3110 admin/class-ere-admin.php:4296
+#: admin/class-ere-admin.php:3110 admin/class-ere-admin.php:4295
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:244
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1283
 #: includes/shortcodes/class-ere-vcmap.php:115
@@ -3131,13 +3131,13 @@ msgstr ""
 msgid "Items Tablet"
 msgstr ""
 
-#: admin/class-ere-admin.php:3111 admin/class-ere-admin.php:4490
-#: admin/class-ere-admin.php:4651 admin/class-ere-admin.php:4798
-#: admin/class-ere-admin.php:4987 admin/class-ere-admin.php:5137
+#: admin/class-ere-admin.php:3111 admin/class-ere-admin.php:4489
+#: admin/class-ere-admin.php:4650 admin/class-ere-admin.php:4797
+#: admin/class-ere-admin.php:4986 admin/class-ere-admin.php:5136
 msgid "Browser Width < 992px"
 msgstr ""
 
-#: admin/class-ere-admin.php:3123 admin/class-ere-admin.php:4311
+#: admin/class-ere-admin.php:3123 admin/class-ere-admin.php:4310
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:258
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1298
 #: includes/shortcodes/class-ere-vcmap.php:132
@@ -3145,33 +3145,33 @@ msgstr ""
 msgid "Items Tablet Small"
 msgstr ""
 
-#: admin/class-ere-admin.php:3124 admin/class-ere-admin.php:4505
-#: admin/class-ere-admin.php:4666 admin/class-ere-admin.php:4813
-#: admin/class-ere-admin.php:5002 admin/class-ere-admin.php:5152
+#: admin/class-ere-admin.php:3124 admin/class-ere-admin.php:4504
+#: admin/class-ere-admin.php:4665 admin/class-ere-admin.php:4812
+#: admin/class-ere-admin.php:5001 admin/class-ere-admin.php:5151
 msgid "Browser Width < 768px"
 msgstr ""
 
 #: admin/class-ere-admin.php:3126 admin/class-ere-admin.php:3140
-#: admin/class-ere-admin.php:4462 admin/class-ere-admin.php:4477
-#: admin/class-ere-admin.php:4492 admin/class-ere-admin.php:4507
-#: admin/class-ere-admin.php:4522 admin/class-ere-admin.php:4623
-#: admin/class-ere-admin.php:4638 admin/class-ere-admin.php:4653
-#: admin/class-ere-admin.php:4668 admin/class-ere-admin.php:4683
-#: admin/class-ere-admin.php:4770 admin/class-ere-admin.php:4785
-#: admin/class-ere-admin.php:4800 admin/class-ere-admin.php:4815
-#: admin/class-ere-admin.php:4830 admin/class-ere-admin.php:4959
-#: admin/class-ere-admin.php:4974 admin/class-ere-admin.php:4989
-#: admin/class-ere-admin.php:5004 admin/class-ere-admin.php:5019
-#: admin/class-ere-admin.php:5109 admin/class-ere-admin.php:5124
-#: admin/class-ere-admin.php:5139 admin/class-ere-admin.php:5154
-#: admin/class-ere-admin.php:5169
+#: admin/class-ere-admin.php:4461 admin/class-ere-admin.php:4476
+#: admin/class-ere-admin.php:4491 admin/class-ere-admin.php:4506
+#: admin/class-ere-admin.php:4521 admin/class-ere-admin.php:4622
+#: admin/class-ere-admin.php:4637 admin/class-ere-admin.php:4652
+#: admin/class-ere-admin.php:4667 admin/class-ere-admin.php:4682
+#: admin/class-ere-admin.php:4769 admin/class-ere-admin.php:4784
+#: admin/class-ere-admin.php:4799 admin/class-ere-admin.php:4814
+#: admin/class-ere-admin.php:4829 admin/class-ere-admin.php:4958
+#: admin/class-ere-admin.php:4973 admin/class-ere-admin.php:4988
+#: admin/class-ere-admin.php:5003 admin/class-ere-admin.php:5018
+#: admin/class-ere-admin.php:5108 admin/class-ere-admin.php:5123
+#: admin/class-ere-admin.php:5138 admin/class-ere-admin.php:5153
+#: admin/class-ere-admin.php:5168
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:811
 #: includes/shortcodes/class-ere-vcmap.php:1311
 #: public/templates/property/search-fields/property_feature.php:27
 msgid "1"
 msgstr ""
 
-#: admin/class-ere-admin.php:3137 admin/class-ere-admin.php:4327
+#: admin/class-ere-admin.php:3137 admin/class-ere-admin.php:4326
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:273
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1313
 #: includes/shortcodes/class-ere-vcmap.php:150
@@ -3179,9 +3179,9 @@ msgstr ""
 msgid "Items Mobile"
 msgstr ""
 
-#: admin/class-ere-admin.php:3138 admin/class-ere-admin.php:4520
-#: admin/class-ere-admin.php:4681 admin/class-ere-admin.php:4828
-#: admin/class-ere-admin.php:5017 admin/class-ere-admin.php:5167
+#: admin/class-ere-admin.php:3138 admin/class-ere-admin.php:4519
+#: admin/class-ere-admin.php:4680 admin/class-ere-admin.php:4827
+#: admin/class-ere-admin.php:5016 admin/class-ere-admin.php:5166
 msgid "Browser Width < 480px"
 msgstr ""
 
@@ -3376,494 +3376,494 @@ msgid "Twitter"
 msgstr ""
 
 #: admin/class-ere-admin.php:3515
-msgid "Google"
-msgstr ""
-
-#: admin/class-ere-admin.php:3516
 msgid "Linkedin"
 msgstr ""
 
-#: admin/class-ere-admin.php:3517
+#: admin/class-ere-admin.php:3516
 msgid "Tumblr"
 msgstr ""
 
-#: admin/class-ere-admin.php:3518 public/partials/account/class-ere-profile.php:676
+#: admin/class-ere-admin.php:3517 public/partials/account/class-ere-profile.php:676
 msgid "Pinterest"
 msgstr ""
 
-#: admin/class-ere-admin.php:3544 public/templates/single-invoice/invoice.php:168
+#: admin/class-ere-admin.php:3518
+msgid "WhatsUp"
+msgstr ""
+
+#: admin/class-ere-admin.php:3543 public/templates/single-invoice/invoice.php:168
 #: public/templates/single-property/header.php:146
 msgid "Print"
 msgstr ""
 
-#: admin/class-ere-admin.php:3551
+#: admin/class-ere-admin.php:3550
 msgid "Enable Print Property"
 msgstr ""
 
-#: admin/class-ere-admin.php:3561
+#: admin/class-ere-admin.php:3560
 msgid "Enable Print Invoice"
 msgstr ""
 
-#: admin/class-ere-admin.php:3573
+#: admin/class-ere-admin.php:3572
 msgid "Print Logo"
 msgstr ""
 
-#: admin/class-ere-admin.php:3574
+#: admin/class-ere-admin.php:3573
 msgid "Upload logo for Print pages"
 msgstr ""
 
-#: admin/class-ere-admin.php:3579
+#: admin/class-ere-admin.php:3578
 msgid "Print Logo Size"
 msgstr ""
 
-#: admin/class-ere-admin.php:3580
+#: admin/class-ere-admin.php:3579
 msgid ""
 "Enter print logo size (\"thumbnail\" or \"full\"). Alternatively enter size in "
 "pixels (Example: 100x100, 200x100, 200x200 (Not Include Unit, Space))"
 msgstr ""
 
-#: admin/class-ere-admin.php:3598
+#: admin/class-ere-admin.php:3597
 #: public/templates/single-property/nearby-places.php:52
 msgid "Nearby Places"
 msgstr ""
 
-#: admin/class-ere-admin.php:3605
+#: admin/class-ere-admin.php:3604
 msgid "Enable Nearby Places"
 msgstr ""
 
-#: admin/class-ere-admin.php:3606
+#: admin/class-ere-admin.php:3605
 msgid "Enable Nearby Places on single property page?"
 msgstr ""
 
-#: admin/class-ere-admin.php:3616
+#: admin/class-ere-admin.php:3615
 msgid "Rank by"
 msgstr ""
 
-#: admin/class-ere-admin.php:3617 admin/class-ere-admin.php:3647
-#: admin/class-ere-admin.php:3669
+#: admin/class-ere-admin.php:3616 admin/class-ere-admin.php:3646
+#: admin/class-ere-admin.php:3668
 msgid "Select options"
 msgstr ""
 
-#: admin/class-ere-admin.php:3620
+#: admin/class-ere-admin.php:3619
 msgid "Prominence"
 msgstr ""
 
-#: admin/class-ere-admin.php:3621
+#: admin/class-ere-admin.php:3620
 msgid "Distance"
 msgstr ""
 
-#: admin/class-ere-admin.php:3627 admin/class-ere-admin.php:3628
+#: admin/class-ere-admin.php:3626 admin/class-ere-admin.php:3627
 msgid "Radius"
 msgstr ""
 
-#: admin/class-ere-admin.php:3629
+#: admin/class-ere-admin.php:3628
 msgid "Enter radius (meter)"
 msgstr ""
 
-#: admin/class-ere-admin.php:3640
+#: admin/class-ere-admin.php:3639
 msgid "Set Map Height"
 msgstr ""
 
-#: admin/class-ere-admin.php:3646
+#: admin/class-ere-admin.php:3645
 msgid "Nearby places distance in"
 msgstr ""
 
-#: admin/class-ere-admin.php:3650
+#: admin/class-ere-admin.php:3649
 msgid "Meter"
 msgstr ""
 
-#: admin/class-ere-admin.php:3651
+#: admin/class-ere-admin.php:3650
 msgid "Km"
 msgstr ""
 
-#: admin/class-ere-admin.php:3652 admin/class-ere-admin.php:3842
+#: admin/class-ere-admin.php:3651 admin/class-ere-admin.php:3841
 msgid "Mile"
 msgstr ""
 
-#: admin/class-ere-admin.php:3658
+#: admin/class-ere-admin.php:3657
 msgid "Nearby Places Field"
 msgstr ""
 
-#: admin/class-ere-admin.php:3668
+#: admin/class-ere-admin.php:3667
 msgid "Type Place"
 msgstr ""
 
-#: admin/class-ere-admin.php:3672
+#: admin/class-ere-admin.php:3671
 msgid "Accounting"
 msgstr ""
 
-#: admin/class-ere-admin.php:3673
+#: admin/class-ere-admin.php:3672
 msgid "Airport"
 msgstr ""
 
-#: admin/class-ere-admin.php:3674
+#: admin/class-ere-admin.php:3673
 msgid "Amusement Park"
 msgstr ""
 
-#: admin/class-ere-admin.php:3675
+#: admin/class-ere-admin.php:3674
 msgid "Aquarium"
 msgstr ""
 
-#: admin/class-ere-admin.php:3676
+#: admin/class-ere-admin.php:3675
 msgid "Atm"
 msgstr ""
 
-#: admin/class-ere-admin.php:3677
+#: admin/class-ere-admin.php:3676
 msgid "Bakery"
 msgstr ""
 
-#: admin/class-ere-admin.php:3678
+#: admin/class-ere-admin.php:3677
 msgid "Bank"
 msgstr ""
 
-#: admin/class-ere-admin.php:3679
+#: admin/class-ere-admin.php:3678
 msgid "Bar"
 msgstr ""
 
-#: admin/class-ere-admin.php:3680
+#: admin/class-ere-admin.php:3679
 msgid "Beauty Salon"
 msgstr ""
 
-#: admin/class-ere-admin.php:3681
+#: admin/class-ere-admin.php:3680
 msgid "Bicycle Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3682
+#: admin/class-ere-admin.php:3681
 msgid "Book Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3683
+#: admin/class-ere-admin.php:3682
 msgid "Bowling Alley"
 msgstr ""
 
-#: admin/class-ere-admin.php:3684
+#: admin/class-ere-admin.php:3683
 msgid "Bus Station"
 msgstr ""
 
-#: admin/class-ere-admin.php:3685
+#: admin/class-ere-admin.php:3684
 msgid "Cafe"
 msgstr ""
 
-#: admin/class-ere-admin.php:3686
+#: admin/class-ere-admin.php:3685
 msgid "Campground"
 msgstr ""
 
-#: admin/class-ere-admin.php:3687
+#: admin/class-ere-admin.php:3686
 msgid "Car Rental"
 msgstr ""
 
-#: admin/class-ere-admin.php:3688
+#: admin/class-ere-admin.php:3687
 msgid "Car Repair"
 msgstr ""
 
-#: admin/class-ere-admin.php:3689
+#: admin/class-ere-admin.php:3688
 msgid "Car Wash"
 msgstr ""
 
-#: admin/class-ere-admin.php:3690
+#: admin/class-ere-admin.php:3689
 msgid "Casino"
 msgstr ""
 
-#: admin/class-ere-admin.php:3691
+#: admin/class-ere-admin.php:3690
 msgid "Cemetery"
 msgstr ""
 
-#: admin/class-ere-admin.php:3692
+#: admin/class-ere-admin.php:3691
 msgid "Church"
 msgstr ""
 
-#: admin/class-ere-admin.php:3693
+#: admin/class-ere-admin.php:3692
 msgid "City Center"
 msgstr ""
 
-#: admin/class-ere-admin.php:3694
+#: admin/class-ere-admin.php:3693
 msgid "Clothing Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3695
+#: admin/class-ere-admin.php:3694
 msgid "Convenience Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3696
+#: admin/class-ere-admin.php:3695
 msgid "Courthouse"
 msgstr ""
 
-#: admin/class-ere-admin.php:3697
+#: admin/class-ere-admin.php:3696
 msgid "Dentist"
 msgstr ""
 
-#: admin/class-ere-admin.php:3698
+#: admin/class-ere-admin.php:3697
 msgid "Department Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3699
+#: admin/class-ere-admin.php:3698
 msgid "Doctor"
 msgstr ""
 
-#: admin/class-ere-admin.php:3700
+#: admin/class-ere-admin.php:3699
 msgid "Electrician"
 msgstr ""
 
-#: admin/class-ere-admin.php:3701
+#: admin/class-ere-admin.php:3700
 msgid "Electronics Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3702
+#: admin/class-ere-admin.php:3701
 msgid "Embassy"
 msgstr ""
 
-#: admin/class-ere-admin.php:3703
+#: admin/class-ere-admin.php:3702
 msgid "Establishment"
 msgstr ""
 
-#: admin/class-ere-admin.php:3704
+#: admin/class-ere-admin.php:3703
 msgid "Finance"
 msgstr ""
 
-#: admin/class-ere-admin.php:3705
+#: admin/class-ere-admin.php:3704
 msgid "Fire Station"
 msgstr ""
 
-#: admin/class-ere-admin.php:3706
+#: admin/class-ere-admin.php:3705
 msgid "Florist"
 msgstr ""
 
-#: admin/class-ere-admin.php:3707
+#: admin/class-ere-admin.php:3706
 msgid "Food"
 msgstr ""
 
-#: admin/class-ere-admin.php:3708
+#: admin/class-ere-admin.php:3707
 msgid "Gas Station"
 msgstr ""
 
-#: admin/class-ere-admin.php:3709
+#: admin/class-ere-admin.php:3708
 msgid "Grocery"
 msgstr ""
 
-#: admin/class-ere-admin.php:3710
+#: admin/class-ere-admin.php:3709
 msgid "Gym"
 msgstr ""
 
-#: admin/class-ere-admin.php:3711
+#: admin/class-ere-admin.php:3710
 msgid "Hair Care"
 msgstr ""
 
-#: admin/class-ere-admin.php:3712
+#: admin/class-ere-admin.php:3711
 msgid "Hardware Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3713
+#: admin/class-ere-admin.php:3712
 msgid "Health"
 msgstr ""
 
-#: admin/class-ere-admin.php:3714
+#: admin/class-ere-admin.php:3713
 msgid "Home Goods Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3715
+#: admin/class-ere-admin.php:3714
 msgid "Hospital"
 msgstr ""
 
-#: admin/class-ere-admin.php:3716
+#: admin/class-ere-admin.php:3715
 msgid "Jewelry Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3717
+#: admin/class-ere-admin.php:3716
 msgid "Laundry"
 msgstr ""
 
-#: admin/class-ere-admin.php:3718
+#: admin/class-ere-admin.php:3717
 msgid "Lawyer"
 msgstr ""
 
-#: admin/class-ere-admin.php:3719
+#: admin/class-ere-admin.php:3718
 msgid "Library"
 msgstr ""
 
-#: admin/class-ere-admin.php:3720
+#: admin/class-ere-admin.php:3719
 msgid "Lodging"
 msgstr ""
 
-#: admin/class-ere-admin.php:3721
+#: admin/class-ere-admin.php:3720
 msgid "Movie Theater"
 msgstr ""
 
-#: admin/class-ere-admin.php:3722
+#: admin/class-ere-admin.php:3721
 msgid "Moving Company"
 msgstr ""
 
-#: admin/class-ere-admin.php:3723
+#: admin/class-ere-admin.php:3722
 msgid "Night Club"
 msgstr ""
 
-#: admin/class-ere-admin.php:3724
+#: admin/class-ere-admin.php:3723
 msgid "Park"
 msgstr ""
 
-#: admin/class-ere-admin.php:3725
+#: admin/class-ere-admin.php:3724
 msgid "Pharmacy"
 msgstr ""
 
-#: admin/class-ere-admin.php:3726
+#: admin/class-ere-admin.php:3725
 msgid "Place Of Worship"
 msgstr ""
 
-#: admin/class-ere-admin.php:3727
+#: admin/class-ere-admin.php:3726
 msgid "Plumber"
 msgstr ""
 
-#: admin/class-ere-admin.php:3728
+#: admin/class-ere-admin.php:3727
 msgid "Police"
 msgstr ""
 
-#: admin/class-ere-admin.php:3729
+#: admin/class-ere-admin.php:3728
 msgid "Post Office"
 msgstr ""
 
-#: admin/class-ere-admin.php:3730
+#: admin/class-ere-admin.php:3729
 msgid "Restaurant"
 msgstr ""
 
-#: admin/class-ere-admin.php:3731
+#: admin/class-ere-admin.php:3730
 msgid "School"
 msgstr ""
 
-#: admin/class-ere-admin.php:3732
+#: admin/class-ere-admin.php:3731
 msgid "Shopping Mall"
 msgstr ""
 
-#: admin/class-ere-admin.php:3733
+#: admin/class-ere-admin.php:3732
 msgid "Spa"
 msgstr ""
 
-#: admin/class-ere-admin.php:3734
+#: admin/class-ere-admin.php:3733
 msgid "Stadium"
 msgstr ""
 
-#: admin/class-ere-admin.php:3735
+#: admin/class-ere-admin.php:3734
 msgid "Storage"
 msgstr ""
 
-#: admin/class-ere-admin.php:3736
+#: admin/class-ere-admin.php:3735
 msgid "Store"
 msgstr ""
 
-#: admin/class-ere-admin.php:3737
+#: admin/class-ere-admin.php:3736
 msgid "Subway Station"
 msgstr ""
 
-#: admin/class-ere-admin.php:3738
+#: admin/class-ere-admin.php:3737
 msgid "Synagogue"
 msgstr ""
 
-#: admin/class-ere-admin.php:3739
+#: admin/class-ere-admin.php:3738
 msgid "Taxi Stand"
 msgstr ""
 
-#: admin/class-ere-admin.php:3740
+#: admin/class-ere-admin.php:3739
 msgid "Train Station"
 msgstr ""
 
-#: admin/class-ere-admin.php:3741
+#: admin/class-ere-admin.php:3740
 msgid "Travel Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:3742
+#: admin/class-ere-admin.php:3741
 msgid "University"
 msgstr ""
 
-#: admin/class-ere-admin.php:3743
+#: admin/class-ere-admin.php:3742
 msgid "Veterinary Care"
 msgstr ""
 
-#: admin/class-ere-admin.php:3744
+#: admin/class-ere-admin.php:3743
 msgid "Zoo"
 msgstr ""
 
-#: admin/class-ere-admin.php:3750
+#: admin/class-ere-admin.php:3749
 msgid "Label Place"
 msgstr ""
 
-#: admin/class-ere-admin.php:3751
+#: admin/class-ere-admin.php:3750
 msgid "Enter label place"
 msgstr ""
 
-#: admin/class-ere-admin.php:3758
+#: admin/class-ere-admin.php:3757
 msgid "Image Icon Place"
 msgstr ""
 
-#: admin/class-ere-admin.php:3759
+#: admin/class-ere-admin.php:3758
 msgid "Image field default options"
 msgstr ""
 
-#: admin/class-ere-admin.php:3761
+#: admin/class-ere-admin.php:3760
 msgid "Select Nearbey places Images"
 msgstr ""
 
-#: admin/class-ere-admin.php:3782
+#: admin/class-ere-admin.php:3781
 #: public/templates/single-property/walk-score.php:26
 msgid "Walk Score"
 msgstr ""
 
-#: admin/class-ere-admin.php:3789
+#: admin/class-ere-admin.php:3788
 msgid "Enable Walk Score"
 msgstr ""
 
-#: admin/class-ere-admin.php:3790
+#: admin/class-ere-admin.php:3789
 msgid "Enable Walk Score on single property page?"
 msgstr ""
 
-#: admin/class-ere-admin.php:3802
+#: admin/class-ere-admin.php:3801
 msgid "Walk Score API Key"
 msgstr ""
 
-#: admin/class-ere-admin.php:3819
+#: admin/class-ere-admin.php:3818
 msgid "Map Directions"
 msgstr ""
 
-#: admin/class-ere-admin.php:3826
+#: admin/class-ere-admin.php:3825
 msgid "Enable Google Map Directions"
 msgstr ""
 
-#: admin/class-ere-admin.php:3837
+#: admin/class-ere-admin.php:3836
 msgid "Distance Units"
 msgstr ""
 
-#: admin/class-ere-admin.php:3840
+#: admin/class-ere-admin.php:3839
 msgid "Metre"
 msgstr ""
 
-#: admin/class-ere-admin.php:3841
+#: admin/class-ere-admin.php:3840
 msgid "Kilometre"
 msgstr ""
 
-#: admin/class-ere-admin.php:3856
+#: admin/class-ere-admin.php:3855
 msgid "Comments & Reviews"
 msgstr ""
 
-#: admin/class-ere-admin.php:3868
+#: admin/class-ere-admin.php:3867
 msgid "Enable Comments & Reviews For Property"
 msgstr ""
 
-#: admin/class-ere-admin.php:3872 admin/class-ere-admin.php:3901
+#: admin/class-ere-admin.php:3871 admin/class-ere-admin.php:3900
 msgid "Comments Only"
 msgstr ""
 
-#: admin/class-ere-admin.php:3873 admin/class-ere-admin.php:3902
+#: admin/class-ere-admin.php:3872 admin/class-ere-admin.php:3901
 #: public/templates/single-agent/review.php:28
 #: public/templates/single-property/review.php:28
 msgid "Ratings & Reviews"
 msgstr ""
 
-#: admin/class-ere-admin.php:3879 admin/class-ere-admin.php:3908
+#: admin/class-ere-admin.php:3878 admin/class-ere-admin.php:3907
 msgid "Ratings & Reviews Approved by Admin?"
 msgstr ""
 
-#: admin/class-ere-admin.php:3897
+#: admin/class-ere-admin.php:3896
 msgid "Enable Comments & Reviews For Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:3932
+#: admin/class-ere-admin.php:3931
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1432
 #: includes/shortcodes/class-ere-vcmap.php:1838
 #: public/partials/property/class-ere-compare.php:93
@@ -3873,102 +3873,102 @@ msgstr ""
 msgid "Compare"
 msgstr ""
 
-#: admin/class-ere-admin.php:3939
+#: admin/class-ere-admin.php:3938
 msgid "Enable Compare Properties"
 msgstr ""
 
-#: admin/class-ere-admin.php:3949
+#: admin/class-ere-admin.php:3948
 msgid "Hide Compare Fields"
 msgstr ""
 
-#: admin/class-ere-admin.php:3950
+#: admin/class-ere-admin.php:3949
 msgid "Choose which fields you want to hide when compare properties?"
 msgstr ""
 
-#: admin/class-ere-admin.php:3995
+#: admin/class-ere-admin.php:3994
 msgid "Google Map"
 msgstr ""
 
-#: admin/class-ere-admin.php:4002
+#: admin/class-ere-admin.php:4001
 msgid "Google Maps SSL"
 msgstr ""
 
-#: admin/class-ere-admin.php:4003
+#: admin/class-ere-admin.php:4002
 msgid "Use google maps with ssl"
 msgstr ""
 
-#: admin/class-ere-admin.php:4014
+#: admin/class-ere-admin.php:4013
 msgid "Google Maps API KEY"
 msgstr ""
 
-#: admin/class-ere-admin.php:4015
+#: admin/class-ere-admin.php:4014
 msgid ""
 "We strongly encourage you to get an APIs Console key and post the code in Theme "
 "Options. You can get it from <a target=\"_blank\" href=\"https://developers."
 "google.com/maps/documentation/javascript/tutorial#api_key\">here</a>"
 msgstr ""
 
-#: admin/class-ere-admin.php:4016
+#: admin/class-ere-admin.php:4015
 msgid "Enter your google maps api key"
 msgstr ""
 
-#: admin/class-ere-admin.php:4022
+#: admin/class-ere-admin.php:4021
 msgid "Default Map Zoom"
 msgstr ""
 
-#: admin/class-ere-admin.php:4032
+#: admin/class-ere-admin.php:4031
 msgid "Pin Cluster"
 msgstr ""
 
-#: admin/class-ere-admin.php:4033
+#: admin/class-ere-admin.php:4032
 msgid "Use pin cluster on google map"
 msgstr ""
 
-#: admin/class-ere-admin.php:4044
+#: admin/class-ere-admin.php:4043
 msgid "Style for Google Map"
 msgstr ""
 
-#: admin/class-ere-admin.php:4045
+#: admin/class-ere-admin.php:4044
 #, php-format
 msgid "Use %s https://snazzymaps.com/ %s to create styles"
 msgstr ""
 
-#: admin/class-ere-admin.php:4055
+#: admin/class-ere-admin.php:4054
 msgid "Map Marker Icon"
 msgstr ""
 
-#: admin/class-ere-admin.php:4062
+#: admin/class-ere-admin.php:4061
 msgid "Map Cluster Icon"
 msgstr ""
 
-#: admin/class-ere-admin.php:4068
+#: admin/class-ere-admin.php:4067
 msgid "Default Coordinate"
 msgstr ""
 
-#: admin/class-ere-admin.php:4069
+#: admin/class-ere-admin.php:4068
 msgid "Example: 40.735601,-74.165918"
 msgstr ""
 
-#: admin/class-ere-admin.php:4070
+#: admin/class-ere-admin.php:4069
 msgid "Enter your default coordinate when add new property"
 msgstr ""
 
-#: admin/class-ere-admin.php:4087
+#: admin/class-ere-admin.php:4086
 msgid "Google Captcha"
 msgstr ""
 
-#: admin/class-ere-admin.php:4094
+#: admin/class-ere-admin.php:4093
 msgid "Enable Google Captcha"
 msgstr ""
 
-#: admin/class-ere-admin.php:4095
+#: admin/class-ere-admin.php:4094
 #, php-format
 msgid ""
 "Enable Google Captcha to submit forms. To get reCAPTCHA site key and secret key "
 "for your website by %s signing up here %s"
 msgstr ""
 
-#: admin/class-ere-admin.php:4100
+#: admin/class-ere-admin.php:4099
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1381
 #: includes/shortcodes/class-ere-vcmap.php:1766
 #: public/templates/account/login.php:46
@@ -3976,7 +3976,7 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: admin/class-ere-admin.php:4101
+#: admin/class-ere-admin.php:4100
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1396
 #: includes/shortcodes/class-ere-vcmap.php:1784
 #: public/templates/account/register.php:65
@@ -3984,49 +3984,49 @@ msgstr ""
 msgid "Register"
 msgstr ""
 
-#: admin/class-ere-admin.php:4102
+#: admin/class-ere-admin.php:4101
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1404
 #: includes/shortcodes/class-ere-vcmap.php:1796
 msgid "Reset Password"
 msgstr ""
 
-#: admin/class-ere-admin.php:4103
+#: admin/class-ere-admin.php:4102
 msgid "Contact Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:4104 public/templates/taxonomy/agency-detail.php:200
+#: admin/class-ere-admin.php:4103 public/templates/taxonomy/agency-detail.php:200
 msgid "Contact Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:4112
+#: admin/class-ere-admin.php:4111
 msgid "Site Key"
 msgstr ""
 
-#: admin/class-ere-admin.php:4119
+#: admin/class-ere-admin.php:4118
 msgid "Secret Key"
 msgstr ""
 
-#: admin/class-ere-admin.php:4137
+#: admin/class-ere-admin.php:4136
 msgid "Property Page"
 msgstr ""
 
-#: admin/class-ere-admin.php:4144
+#: admin/class-ere-admin.php:4143
 msgid "Archive Property"
 msgstr ""
 
-#: admin/class-ere-admin.php:4160
+#: admin/class-ere-admin.php:4159
 msgid "Hide Advanced Search Fields"
 msgstr ""
 
-#: admin/class-ere-admin.php:4161
+#: admin/class-ere-admin.php:4160
 msgid "Choose which fields you want to hide on advanced search page?"
 msgstr ""
 
-#: admin/class-ere-admin.php:4223
+#: admin/class-ere-admin.php:4222
 msgid "Page Options"
 msgstr ""
 
-#: admin/class-ere-admin.php:4283
+#: admin/class-ere-admin.php:4282
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:231
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1269
 #: includes/shortcodes/class-ere-vcmap.php:100
@@ -4034,7 +4034,7 @@ msgstr ""
 msgid "Browser Width < 1199"
 msgstr ""
 
-#: admin/class-ere-admin.php:4298
+#: admin/class-ere-admin.php:4297
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:245
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1284
 #: includes/shortcodes/class-ere-vcmap.php:117
@@ -4042,7 +4042,7 @@ msgstr ""
 msgid "Browser Width < 992"
 msgstr ""
 
-#: admin/class-ere-admin.php:4313
+#: admin/class-ere-admin.php:4312
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:259
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1299
 #: includes/shortcodes/class-ere-vcmap.php:134
@@ -4050,7 +4050,7 @@ msgstr ""
 msgid "Browser Width < 768"
 msgstr ""
 
-#: admin/class-ere-admin.php:4329
+#: admin/class-ere-admin.php:4328
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:274
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1314
 #: includes/shortcodes/class-ere-vcmap.php:152
@@ -4058,57 +4058,73 @@ msgstr ""
 msgid "Browser Width < 480"
 msgstr ""
 
-#: admin/class-ere-admin.php:4347
+#: admin/class-ere-admin.php:4346
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:755
 #: includes/shortcodes/class-ere-vcmap.php:874
 msgid "Single Property"
 msgstr ""
 
-#: admin/class-ere-admin.php:4352
+#: admin/class-ere-admin.php:4351
 msgid "Hide Contact Information if user not login"
 msgstr ""
 
-#: admin/class-ere-admin.php:4362
+#: admin/class-ere-admin.php:4361
 msgid "Hide the empty features on the single property page"
 msgstr ""
 
-#: admin/class-ere-admin.php:4372
+#: admin/class-ere-admin.php:4371
 msgid "Show Create Date"
 msgstr ""
 
-#: admin/class-ere-admin.php:4382
+#: admin/class-ere-admin.php:4381
 msgid "Show Views Count"
 msgstr ""
 
-#: admin/class-ere-admin.php:4406
+#: admin/class-ere-admin.php:4405
 msgid "Agent Page"
 msgstr ""
 
-#: admin/class-ere-admin.php:4413
+#: admin/class-ere-admin.php:4412
 msgid "Archive Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:4423
+#: admin/class-ere-admin.php:4422
 msgid "Enter agency by names to narrow output"
 msgstr ""
 
-#: admin/class-ere-admin.php:4445 admin/class-ere-admin.php:4733
-#: admin/class-ere-admin.php:5086
+#: admin/class-ere-admin.php:4444 admin/class-ere-admin.php:4732
+#: admin/class-ere-admin.php:5085
 msgid ""
 "Enter image size (\"thumbnail\" or \"full\"). Alternatively enter size in pixels "
 "(Example : 270x340 (Not Include Unit, Space))"
 msgstr ""
 
-#: admin/class-ere-admin.php:4459 admin/class-ere-admin.php:4620
-#: admin/class-ere-admin.php:4767 admin/class-ere-admin.php:4956
-#: admin/class-ere-admin.php:5106
+#: admin/class-ere-admin.php:4458 admin/class-ere-admin.php:4619
+#: admin/class-ere-admin.php:4766 admin/class-ere-admin.php:4955
+#: admin/class-ere-admin.php:5105
 msgid "Column Desktop"
 msgstr ""
 
-#: admin/class-ere-admin.php:4460 admin/class-ere-admin.php:4621
-#: admin/class-ere-admin.php:4768 admin/class-ere-admin.php:4957
-#: admin/class-ere-admin.php:5107
+#: admin/class-ere-admin.php:4459 admin/class-ere-admin.php:4620
+#: admin/class-ere-admin.php:4767 admin/class-ere-admin.php:4956
+#: admin/class-ere-admin.php:5106
 msgid "Browser Width >= 1199px"
+msgstr ""
+
+#: admin/class-ere-admin.php:4465 admin/class-ere-admin.php:4480
+#: admin/class-ere-admin.php:4495 admin/class-ere-admin.php:4510
+#: admin/class-ere-admin.php:4525 admin/class-ere-admin.php:4626
+#: admin/class-ere-admin.php:4641 admin/class-ere-admin.php:4656
+#: admin/class-ere-admin.php:4671 admin/class-ere-admin.php:4686
+#: admin/class-ere-admin.php:4773 admin/class-ere-admin.php:4788
+#: admin/class-ere-admin.php:4803 admin/class-ere-admin.php:4818
+#: admin/class-ere-admin.php:4833 admin/class-ere-admin.php:4962
+#: admin/class-ere-admin.php:4977 admin/class-ere-admin.php:4992
+#: admin/class-ere-admin.php:5007 admin/class-ere-admin.php:5022
+#: admin/class-ere-admin.php:5112 admin/class-ere-admin.php:5127
+#: admin/class-ere-admin.php:5142 admin/class-ere-admin.php:5157
+#: admin/class-ere-admin.php:5172
+msgid "5"
 msgstr ""
 
 #: admin/class-ere-admin.php:4466 admin/class-ere-admin.php:4481
@@ -4124,69 +4140,53 @@ msgstr ""
 #: admin/class-ere-admin.php:5113 admin/class-ere-admin.php:5128
 #: admin/class-ere-admin.php:5143 admin/class-ere-admin.php:5158
 #: admin/class-ere-admin.php:5173
-msgid "5"
-msgstr ""
-
-#: admin/class-ere-admin.php:4467 admin/class-ere-admin.php:4482
-#: admin/class-ere-admin.php:4497 admin/class-ere-admin.php:4512
-#: admin/class-ere-admin.php:4527 admin/class-ere-admin.php:4628
-#: admin/class-ere-admin.php:4643 admin/class-ere-admin.php:4658
-#: admin/class-ere-admin.php:4673 admin/class-ere-admin.php:4688
-#: admin/class-ere-admin.php:4775 admin/class-ere-admin.php:4790
-#: admin/class-ere-admin.php:4805 admin/class-ere-admin.php:4820
-#: admin/class-ere-admin.php:4835 admin/class-ere-admin.php:4964
-#: admin/class-ere-admin.php:4979 admin/class-ere-admin.php:4994
-#: admin/class-ere-admin.php:5009 admin/class-ere-admin.php:5024
-#: admin/class-ere-admin.php:5114 admin/class-ere-admin.php:5129
-#: admin/class-ere-admin.php:5144 admin/class-ere-admin.php:5159
-#: admin/class-ere-admin.php:5174
 msgid "6"
 msgstr ""
 
-#: admin/class-ere-admin.php:4474 admin/class-ere-admin.php:4635
-#: admin/class-ere-admin.php:4782 admin/class-ere-admin.php:4971
-#: admin/class-ere-admin.php:5121
+#: admin/class-ere-admin.php:4473 admin/class-ere-admin.php:4634
+#: admin/class-ere-admin.php:4781 admin/class-ere-admin.php:4970
+#: admin/class-ere-admin.php:5120
 msgid "Column Desktop Small"
 msgstr ""
 
-#: admin/class-ere-admin.php:4489 admin/class-ere-admin.php:4650
-#: admin/class-ere-admin.php:4797 admin/class-ere-admin.php:4986
-#: admin/class-ere-admin.php:5136
+#: admin/class-ere-admin.php:4488 admin/class-ere-admin.php:4649
+#: admin/class-ere-admin.php:4796 admin/class-ere-admin.php:4985
+#: admin/class-ere-admin.php:5135
 msgid "Column Tablet"
 msgstr ""
 
-#: admin/class-ere-admin.php:4504 admin/class-ere-admin.php:4665
-#: admin/class-ere-admin.php:4812 admin/class-ere-admin.php:5001
-#: admin/class-ere-admin.php:5151
+#: admin/class-ere-admin.php:4503 admin/class-ere-admin.php:4664
+#: admin/class-ere-admin.php:4811 admin/class-ere-admin.php:5000
+#: admin/class-ere-admin.php:5150
 msgid "Column Tablet Small"
 msgstr ""
 
-#: admin/class-ere-admin.php:4519 admin/class-ere-admin.php:4680
-#: admin/class-ere-admin.php:4827 admin/class-ere-admin.php:5016
-#: admin/class-ere-admin.php:5166
+#: admin/class-ere-admin.php:4518 admin/class-ere-admin.php:4679
+#: admin/class-ere-admin.php:4826 admin/class-ere-admin.php:5015
+#: admin/class-ere-admin.php:5165
 msgid "Column Mobile"
 msgstr ""
 
-#: admin/class-ere-admin.php:4537
+#: admin/class-ere-admin.php:4536
 msgid "Single Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:4542
+#: admin/class-ere-admin.php:4541
 msgid "Properties of Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:4547
+#: admin/class-ere-admin.php:4546
 msgid "Show Properties of Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:4578 admin/class-ere-admin.php:4921
+#: admin/class-ere-admin.php:4577 admin/class-ere-admin.php:4920
 msgid ""
 "Enter image size (\"thumbnail\" or \"full\"). Alternatively enter size in pixels "
 "(Example: 280x180, 330x180, 380x180 (Not Include Unit, Space))"
 msgstr ""
 
-#: admin/class-ere-admin.php:4598 admin/class-ere-admin.php:4742
-#: admin/class-ere-admin.php:4897 admin/class-ere-admin.php:5061
+#: admin/class-ere-admin.php:4597 admin/class-ere-admin.php:4741
+#: admin/class-ere-admin.php:4896 admin/class-ere-admin.php:5060
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:311
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1229
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1344
@@ -4196,15 +4196,15 @@ msgstr ""
 msgid "Show Paging"
 msgstr ""
 
-#: admin/class-ere-admin.php:4698 public/templates/single-agent/other-agent.php:43
+#: admin/class-ere-admin.php:4697 public/templates/single-agent/other-agent.php:43
 msgid "Other Agents"
 msgstr ""
 
-#: admin/class-ere-admin.php:4703
+#: admin/class-ere-admin.php:4702
 msgid "Show Other Agents"
 msgstr ""
 
-#: admin/class-ere-admin.php:4717 admin/class-ere-admin.php:5053
+#: admin/class-ere-admin.php:4716 admin/class-ere-admin.php:5052
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:206
 #: includes/insert-shortcode/class-ere-insert-shortcode.php:1196
 #: includes/shortcodes/class-ere-vcmap.php:33
@@ -4212,78 +4212,78 @@ msgstr ""
 msgid "Carousel"
 msgstr ""
 
-#: admin/class-ere-admin.php:4859
+#: admin/class-ere-admin.php:4858
 msgid "Agency Page"
 msgstr ""
 
-#: admin/class-ere-admin.php:4866
+#: admin/class-ere-admin.php:4865
 msgid "Single Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:4871
+#: admin/class-ere-admin.php:4870
 msgid "Properties of Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:4876
+#: admin/class-ere-admin.php:4875
 msgid "Show Properties of Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:5034
+#: admin/class-ere-admin.php:5033
 msgid "Agents of Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:5039
+#: admin/class-ere-admin.php:5038
 msgid "Show Agents of Agency"
 msgstr ""
 
-#: admin/class-ere-admin.php:5197
+#: admin/class-ere-admin.php:5196
 msgid "Email Management"
 msgstr ""
 
-#: admin/class-ere-admin.php:5204
+#: admin/class-ere-admin.php:5203
 msgid "New Registered User"
 msgstr ""
 
-#: admin/class-ere-admin.php:5212 admin/class-ere-admin.php:5295
-#: admin/class-ere-admin.php:5377 admin/class-ere-admin.php:5422
-#: admin/class-ere-admin.php:5464 admin/class-ere-admin.php:5510
-#: admin/class-ere-admin.php:5556 admin/class-ere-admin.php:5636
-#: admin/class-ere-admin.php:5720 admin/class-ere-admin.php:5804
-#: admin/class-ere-admin.php:5886 admin/class-ere-admin.php:6012
+#: admin/class-ere-admin.php:5211 admin/class-ere-admin.php:5294
+#: admin/class-ere-admin.php:5376 admin/class-ere-admin.php:5421
+#: admin/class-ere-admin.php:5463 admin/class-ere-admin.php:5509
+#: admin/class-ere-admin.php:5555 admin/class-ere-admin.php:5635
+#: admin/class-ere-admin.php:5719 admin/class-ere-admin.php:5803
+#: admin/class-ere-admin.php:5885 admin/class-ere-admin.php:6011
 msgid "User Email"
 msgstr ""
 
-#: admin/class-ere-admin.php:5216 admin/class-ere-admin.php:5255
-#: admin/class-ere-admin.php:5299 admin/class-ere-admin.php:5336
-#: admin/class-ere-admin.php:5381 admin/class-ere-admin.php:5426
-#: admin/class-ere-admin.php:5468 admin/class-ere-admin.php:5514
-#: admin/class-ere-admin.php:5560 admin/class-ere-admin.php:5596
-#: admin/class-ere-admin.php:5640 admin/class-ere-admin.php:5678
-#: admin/class-ere-admin.php:5724 admin/class-ere-admin.php:5762
-#: admin/class-ere-admin.php:5808 admin/class-ere-admin.php:5845
-#: admin/class-ere-admin.php:5890 admin/class-ere-admin.php:5927
-#: admin/class-ere-admin.php:5972 admin/class-ere-admin.php:6016
+#: admin/class-ere-admin.php:5215 admin/class-ere-admin.php:5254
+#: admin/class-ere-admin.php:5298 admin/class-ere-admin.php:5335
+#: admin/class-ere-admin.php:5380 admin/class-ere-admin.php:5425
+#: admin/class-ere-admin.php:5467 admin/class-ere-admin.php:5513
+#: admin/class-ere-admin.php:5559 admin/class-ere-admin.php:5595
+#: admin/class-ere-admin.php:5639 admin/class-ere-admin.php:5677
+#: admin/class-ere-admin.php:5723 admin/class-ere-admin.php:5761
+#: admin/class-ere-admin.php:5807 admin/class-ere-admin.php:5844
+#: admin/class-ere-admin.php:5889 admin/class-ere-admin.php:5926
+#: admin/class-ere-admin.php:5971 admin/class-ere-admin.php:6015
 msgid "Enable Send Mail?"
 msgstr ""
 
-#: admin/class-ere-admin.php:5227 admin/class-ere-admin.php:5266
-#: admin/class-ere-admin.php:5310 admin/class-ere-admin.php:5347
-#: admin/class-ere-admin.php:5392 admin/class-ere-admin.php:5437
-#: admin/class-ere-admin.php:5479 admin/class-ere-admin.php:5525
-#: admin/class-ere-admin.php:5571 admin/class-ere-admin.php:5607
-#: admin/class-ere-admin.php:5651 admin/class-ere-admin.php:5689
-#: admin/class-ere-admin.php:5735 admin/class-ere-admin.php:5773
-#: admin/class-ere-admin.php:5819 admin/class-ere-admin.php:5856
-#: admin/class-ere-admin.php:5901 admin/class-ere-admin.php:5938
-#: admin/class-ere-admin.php:5983 admin/class-ere-admin.php:6027
+#: admin/class-ere-admin.php:5226 admin/class-ere-admin.php:5265
+#: admin/class-ere-admin.php:5309 admin/class-ere-admin.php:5346
+#: admin/class-ere-admin.php:5391 admin/class-ere-admin.php:5436
+#: admin/class-ere-admin.php:5478 admin/class-ere-admin.php:5524
+#: admin/class-ere-admin.php:5570 admin/class-ere-admin.php:5606
+#: admin/class-ere-admin.php:5650 admin/class-ere-admin.php:5688
+#: admin/class-ere-admin.php:5734 admin/class-ere-admin.php:5772
+#: admin/class-ere-admin.php:5818 admin/class-ere-admin.php:5855
+#: admin/class-ere-admin.php:5900 admin/class-ere-admin.php:5937
+#: admin/class-ere-admin.php:5982 admin/class-ere-admin.php:6026
 msgid "Subject"
 msgstr ""
 
-#: admin/class-ere-admin.php:5228
+#: admin/class-ere-admin.php:5227
 msgid "Your username and password on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5240
+#: admin/class-ere-admin.php:5239
 msgid ""
 "Hi there,\n"
 "Welcome to %website_url! You can login now using the below credentials:\n"
@@ -4293,33 +4293,33 @@ msgid ""
 "Thank you!"
 msgstr ""
 
-#: admin/class-ere-admin.php:5251 admin/class-ere-admin.php:5332
-#: admin/class-ere-admin.php:5592 admin/class-ere-admin.php:5674
-#: admin/class-ere-admin.php:5758 admin/class-ere-admin.php:5841
-#: admin/class-ere-admin.php:5923 admin/class-ere-admin.php:5968
+#: admin/class-ere-admin.php:5250 admin/class-ere-admin.php:5331
+#: admin/class-ere-admin.php:5591 admin/class-ere-admin.php:5673
+#: admin/class-ere-admin.php:5757 admin/class-ere-admin.php:5840
+#: admin/class-ere-admin.php:5922 admin/class-ere-admin.php:5967
 msgid "Admin Email"
 msgstr ""
 
-#: admin/class-ere-admin.php:5267
+#: admin/class-ere-admin.php:5266
 msgid "New User Registration"
 msgstr ""
 
-#: admin/class-ere-admin.php:5279
+#: admin/class-ere-admin.php:5278
 msgid ""
 "New user registration on %website_url.\n"
 "Username: %user_login_register,\n"
 "E-mail: %user_email_register"
 msgstr ""
 
-#: admin/class-ere-admin.php:5287
+#: admin/class-ere-admin.php:5286
 msgid "Approved Agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:5311
+#: admin/class-ere-admin.php:5310
 msgid "Your agent account approved"
 msgstr ""
 
-#: admin/class-ere-admin.php:5323
+#: admin/class-ere-admin.php:5322
 msgid ""
 "Hi there,\n"
 "Your agent account on %website_url has been approved.\n"
@@ -4327,11 +4327,11 @@ msgid ""
 "Agent Url: %agent_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5348
+#: admin/class-ere-admin.php:5347
 msgid "Somebody register as agent"
 msgstr ""
 
-#: admin/class-ere-admin.php:5360
+#: admin/class-ere-admin.php:5359
 msgid ""
 "We received a request register as agent on  %website_url !\n"
 "Please follow the instructions below to approve agent as soon as possible.\n"
@@ -4339,15 +4339,15 @@ msgid ""
 "Agent Url: %agent_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5369
+#: admin/class-ere-admin.php:5368
 msgid "Activated Package"
 msgstr ""
 
-#: admin/class-ere-admin.php:5393 admin/class-ere-admin.php:5438
+#: admin/class-ere-admin.php:5392 admin/class-ere-admin.php:5437
 msgid "Your purchase was activated"
 msgstr ""
 
-#: admin/class-ere-admin.php:5405
+#: admin/class-ere-admin.php:5404
 msgid ""
 "Hi there,\n"
 "Welcome to %website_url and thank you for purchasing a plan with us. We are "
@@ -4357,25 +4357,25 @@ msgid ""
 "to you plan."
 msgstr ""
 
-#: admin/class-ere-admin.php:5414
+#: admin/class-ere-admin.php:5413
 msgid "Activated Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5450
+#: admin/class-ere-admin.php:5449
 msgid ""
 "Hi there,Your purchase on %website_url is activated! You should go and check it "
 "out."
 msgstr ""
 
-#: admin/class-ere-admin.php:5456
+#: admin/class-ere-admin.php:5455
 msgid "Approved Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5480
+#: admin/class-ere-admin.php:5479
 msgid "Your listing approved"
 msgstr ""
 
-#: admin/class-ere-admin.php:5492
+#: admin/class-ere-admin.php:5491
 msgid ""
 "Hi there,\n"
 "Your listing on %website_url has been approved.\n"
@@ -4384,15 +4384,15 @@ msgid ""
 "Listing Url: %listing_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5502
+#: admin/class-ere-admin.php:5501
 msgid "Expired Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5526
+#: admin/class-ere-admin.php:5525
 msgid "Your listing expired"
 msgstr ""
 
-#: admin/class-ere-admin.php:5538
+#: admin/class-ere-admin.php:5537
 msgid ""
 "Hi,\n"
 "Your listing on %website_url has been expired.\n"
@@ -4401,15 +4401,15 @@ msgid ""
 "Listing Url: %listing_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5548
+#: admin/class-ere-admin.php:5547
 msgid "New Wire Transfer"
 msgstr ""
 
-#: admin/class-ere-admin.php:5572
+#: admin/class-ere-admin.php:5571
 msgid "You ordered a new Wire Transfer"
 msgstr ""
 
-#: admin/class-ere-admin.php:5584 admin/class-ere-admin.php:5620
+#: admin/class-ere-admin.php:5583 admin/class-ere-admin.php:5619
 msgid ""
 "We received your Wire Transfer payment request on  %website_url !\n"
 "Please follow the instructions below in order to start submitting properties as "
@@ -4417,19 +4417,19 @@ msgid ""
 "The invoice number is: %invoice_no, Amount: %total_price."
 msgstr ""
 
-#: admin/class-ere-admin.php:5608
+#: admin/class-ere-admin.php:5607
 msgid "Somebody ordered a new Wire Transfer"
 msgstr ""
 
-#: admin/class-ere-admin.php:5628
+#: admin/class-ere-admin.php:5627
 msgid "Paid Submission Per Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5652 admin/class-ere-admin.php:5820
+#: admin/class-ere-admin.php:5651 admin/class-ere-admin.php:5819
 msgid "Your new listing on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5664
+#: admin/class-ere-admin.php:5663
 msgid ""
 "Hi,\n"
 "You have submitted new listing on  %website_url!\n"
@@ -4438,11 +4438,11 @@ msgid ""
 "The invoice number is: %invoice_no"
 msgstr ""
 
-#: admin/class-ere-admin.php:5690
+#: admin/class-ere-admin.php:5689
 msgid "New paid submission on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5702
+#: admin/class-ere-admin.php:5701
 msgid ""
 "Hi,\n"
 "You have a new paid submission on  %website_url!\n"
@@ -4451,15 +4451,15 @@ msgid ""
 "The invoice number is: %invoice_no"
 msgstr ""
 
-#: admin/class-ere-admin.php:5712
+#: admin/class-ere-admin.php:5711
 msgid "Featured Submission Per Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5736
+#: admin/class-ere-admin.php:5735
 msgid "New featured upgrade on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5748 admin/class-ere-admin.php:5786
+#: admin/class-ere-admin.php:5747 admin/class-ere-admin.php:5785
 msgid ""
 "Hi,\n"
 "You have a new featured submission on  %website_url!\n"
@@ -4468,15 +4468,15 @@ msgid ""
 "The invoice number is: %invoice_no"
 msgstr ""
 
-#: admin/class-ere-admin.php:5774
+#: admin/class-ere-admin.php:5773
 msgid "New featured submission on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5796
+#: admin/class-ere-admin.php:5795
 msgid "New Submission Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5832
+#: admin/class-ere-admin.php:5831
 msgid ""
 "Hi,\n"
 "You have submitted new listing on  %website_url!\n"
@@ -4484,11 +4484,11 @@ msgid ""
 "Listing ID:  %listing_id"
 msgstr ""
 
-#: admin/class-ere-admin.php:5857
+#: admin/class-ere-admin.php:5856
 msgid "New submission on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5869
+#: admin/class-ere-admin.php:5868
 msgid ""
 "Hi,\n"
 "You have a new submission on  %website_url!\n"
@@ -4496,15 +4496,15 @@ msgid ""
 "Listing ID:  %listing_id"
 msgstr ""
 
-#: admin/class-ere-admin.php:5878
+#: admin/class-ere-admin.php:5877
 msgid "New Modification Listing"
 msgstr ""
 
-#: admin/class-ere-admin.php:5902
+#: admin/class-ere-admin.php:5901
 msgid "Your new modification listing on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5914
+#: admin/class-ere-admin.php:5913
 msgid ""
 "Hi,\n"
 "You have edited listing on  %website_url!\n"
@@ -4512,11 +4512,11 @@ msgid ""
 "Listing ID:  %listing_id"
 msgstr ""
 
-#: admin/class-ere-admin.php:5939
+#: admin/class-ere-admin.php:5938
 msgid "New modification on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5951
+#: admin/class-ere-admin.php:5950
 msgid ""
 "Hi,\n"
 "You have a new modification on %website_url!\n"
@@ -4524,15 +4524,15 @@ msgid ""
 "Listing ID:  %listing_id"
 msgstr ""
 
-#: admin/class-ere-admin.php:5960
+#: admin/class-ere-admin.php:5959
 msgid "Resend For Approval"
 msgstr ""
 
-#: admin/class-ere-admin.php:5984
+#: admin/class-ere-admin.php:5983
 msgid "Expired Listing sent for approval on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:5996
+#: admin/class-ere-admin.php:5995
 #, php-format
 msgid ""
 "Hi,\n"
@@ -4541,15 +4541,15 @@ msgid ""
 "        This is the property title: %submission_title."
 msgstr ""
 
-#: admin/class-ere-admin.php:6004
+#: admin/class-ere-admin.php:6003
 msgid "Matching Submission With Saved Searches"
 msgstr ""
 
-#: admin/class-ere-admin.php:6028
+#: admin/class-ere-admin.php:6027
 msgid "Your new listing matching with your saved searches on %website_url"
 msgstr ""
 
-#: admin/class-ere-admin.php:6040
+#: admin/class-ere-admin.php:6039
 msgid ""
 "Hi,\n"
 "You have new listings on %website_url matching with your saved searches:\n"
@@ -7499,7 +7499,7 @@ msgstr ""
 #: public/templates/shortcodes/property-featured/property-featured.php:390
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:279
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:243
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:250
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:253
 #: public/templates/shortcodes/property-gallery/property-gallery.php:425
 #: public/templates/shortcodes/property-search/property-search.php:478
 #: public/templates/shortcodes/property-slider/property-slider.php:324
@@ -8503,7 +8503,7 @@ msgstr ""
 #: public/templates/property/property-print.php:230
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:250
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:216
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:206
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:207
 #: public/templates/shortcodes/property-slider/property-slider.php:301
 #: public/templates/shortcodes/property-slider/property-slider.php:443
 #: public/templates/single-property/header.php:110
@@ -8513,7 +8513,7 @@ msgstr ""
 #: public/templates/property/property-print.php:243
 #: public/templates/shortcodes/property-featured/templates/property-cities-filter.php:265
 #: public/templates/shortcodes/property-featured/templates/property-single-carousel.php:229
-#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:221
+#: public/templates/shortcodes/property-featured/templates/property-sync-carousel.php:222
 #: public/templates/shortcodes/property-slider/property-slider.php:312
 #: public/templates/shortcodes/property-slider/property-slider.php:454
 #: public/templates/single-property/header.php:121

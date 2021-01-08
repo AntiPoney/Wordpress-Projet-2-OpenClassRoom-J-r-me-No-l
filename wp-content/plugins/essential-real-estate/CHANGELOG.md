@@ -1,5 +1,19 @@
 Changelog
 =========
+#### 3.2.8 - December 09, 2020
+* Update variable the_query in template "public/templates/property/my-properties.php"
+
+#### 3.2.7 - December 04, 2020
+* Fix property rating
+
+#### 3.2.6 - December 02, 2020
+* Update script contact agent form
+
+#### 3.2.5 - November 30, 2020
+* Update share property on whatsapp
+* Fix compare, add to wishlist on ajax
+* Fix check email when register account
+
 #### 3.2.4 - October 13, 2020
 * Update widget ERE Listing Property Taxonomy
 * Add action hook: ere_property_edited

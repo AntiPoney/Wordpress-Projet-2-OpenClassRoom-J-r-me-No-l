@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
 "POT-Creation-Date: 2020-10-13 16:33+0700\n"
-"PO-Revision-Date: 2020-11-23 11:53+0000\n"
+"PO-Revision-Date: 2021-01-08 23:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib/smart-framework\n"
 "Report-Msgid-Bugs-To: \n"
-"X-Loco-Version: 2.4.5; wp-5.5.3"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
 
 #: admin/class-ere-admin-agent.php:20 admin/class-ere-agent-admin.php:19
 msgid "Avatar"
@@ -3500,7 +3500,7 @@ msgstr ""
 #: public/templates/single-invoice/invoice.php:168
 #: public/templates/single-property/header.php:146
 msgid "Print"
-msgstr ""
+msgstr "Imprimer"
 
 #: admin/class-ere-admin.php:3551
 msgid "Enable Print Property"
@@ -3977,7 +3977,7 @@ msgstr ""
 #: public/templates/property/compare-listing.php:8
 #: public/templates/single-property/header.php:139
 msgid "Compare"
-msgstr "Comparé "
+msgstr "Comparer"
 
 #: admin/class-ere-admin.php:3939
 msgid "Enable Compare Properties"
@@ -7988,7 +7988,7 @@ msgstr[1] "%s propriétés"
 #, php-format
 msgctxt "%s = human-readable time difference"
 msgid " %s ago"
-msgstr ""
+msgstr "il y a  %s"
 
 #: public/templates/loop/property.php:253
 #: public/templates/shortcodes/property-carousel/property-carousel.php:378

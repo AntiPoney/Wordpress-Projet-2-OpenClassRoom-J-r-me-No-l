@@ -35,19 +35,25 @@ class Loco_ajax_SyncController extends Loco_mvc_AjaxController {
             $potfile = null;
         }
         // allow front end to configure source file. (will have come from $target headers)
-        else if( $post->has('sync') ){
+        else if( $post->sync ){
             $potfile = new Loco_fs_File( $post->sync );
             $potfile->normalize($base);
         }
-        // else use project-configured template path
+        // else use project-configured template path (must return a file)
         else {
             $potfile = $project->getPot();
         }
         
-        // keep existing behaviour when template is missing, but add warning.
-        // Translators: %s will be replaced with the name of a missing POT file
+        // keep existing behaviour when template is missing, but add warning according to settings.
         if( $potfile && ! $potfile->exists() ){
-            Loco_error_AdminNotices::warn( sprintf( __('Falling back to source extraction because %s is missing','loco-translate'), $potfile->basename() ) );
+            $conf = Loco_data_Settings::get()->pot_expected;
+            if( 2 === $conf ){
+                throw new Loco_error_Exception('Plugin settings disallow missing templates');
+            }
+            if( 1 === $conf ){
+                // Translators: %s will be replaced with the name of a missing POT file
+                Loco_error_AdminNotices::warn( sprintf( __('Falling back to source extraction because %s is missing','loco-translate'), $potfile->basename() ) );
+            }
             $potfile = null;
         }
         

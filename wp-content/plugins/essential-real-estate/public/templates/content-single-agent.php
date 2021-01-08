@@ -10,9 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 $min_suffix = ere_get_option('enable_min_css', 0) == 1 ? '.min' : '';
 wp_print_styles( ERE_PLUGIN_PREFIX . 'single-agent');
-
-$min_suffix_js = ere_get_option('enable_min_js', 0) == 1 ? '.min' : '';
-wp_enqueue_script(ERE_PLUGIN_PREFIX . 'single-agent', ERE_PLUGIN_URL . 'public/assets/js/agent/ere-single-agent' . $min_suffix_js . '.js', array('jquery'), ERE_PLUGIN_VER, true);
 global $post;
 ?>
 <div id="agent-<?php the_ID(); ?>" <?php post_class('ere-agent-single-wrap ere-agent-single'); ?>>

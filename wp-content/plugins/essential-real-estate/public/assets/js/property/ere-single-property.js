@@ -2,7 +2,6 @@
     'use strict';
     $(document).ready(function () {
         var isRTL = $('body').hasClass('rtl');
-        ERE.contact_agent_by_email();
         function ere_single_property_gallery($propertyGalleryWrap){
             var $sliderMain = $propertyGalleryWrap.find('.single-property-image-main'),
                 $sliderThumb = $propertyGalleryWrap.find('.single-property-image-thumb');

@@ -12,6 +12,5 @@
 			});
 		}
 		ere_init_google_map_in_tab();
-		ERE.contact_agent_by_email();
 	});
 })(jQuery);

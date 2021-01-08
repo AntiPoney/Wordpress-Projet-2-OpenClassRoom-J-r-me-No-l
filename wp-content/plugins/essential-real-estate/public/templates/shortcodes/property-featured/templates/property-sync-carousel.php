@@ -84,7 +84,7 @@ $property_item_class = array('property-item');
                                     list($width, $height) = getimagesize($image_src);
                                 }
                             }
-                            $list_property_img_html[] = array( $image_src,get_the_title());
+
                             $excerpt = get_the_excerpt();
 
                             $property_meta_data = get_post_custom($property_id);
@@ -102,6 +102,7 @@ $property_item_class = array('property-item');
                             $property_status = get_the_terms($property_id, 'property-status');
 
                             $property_link = get_the_permalink();
+	                        $list_property_img_html[] = array( $image_src,get_the_title(),$property_link);
                             ?>
                             <div class="<?php echo join(' ', $property_item_class); ?>">
                                 <div class="property-item-content">
@@ -238,10 +239,12 @@ $property_item_class = array('property-item');
                 <?php
                 foreach ($list_property_img_html as $item) { ?>
                     <div class="property-item">
-                        <img width="<?php echo esc_attr($width) ?>"
-                             height="<?php echo esc_attr($height) ?>"
-                             src="<?php echo esc_url($item[0]) ?>" onerror="this.src = '<?php echo esc_url($no_image_src) ?>';" alt="<?php echo esc_attr($item[1]); ?>"
-                             title="<?php echo esc_attr($item[1]); ?>">
+	                    <a href="<?php echo esc_url($item[2])?>">
+	                        <img width="<?php echo esc_attr($width) ?>"
+	                             height="<?php echo esc_attr($height) ?>"
+	                             src="<?php echo esc_url($item[0]) ?>" onerror="this.src = '<?php echo esc_url($no_image_src) ?>';" alt="<?php echo esc_attr($item[1]); ?>"
+	                             title="<?php echo esc_attr($item[1]); ?>">
+	                    </a>
                     </div>
                 <?php } ?>
             </div>

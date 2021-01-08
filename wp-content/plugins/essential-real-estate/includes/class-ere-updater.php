@@ -135,6 +135,37 @@ if (!class_exists('ERE_Updater')) {
 				endforeach;
 				update_option('ere_version', ERE_PLUGIN_VER);
 			}
+
+			if (version_compare( get_option( 'ere_version' ), '3.2.7', '<' )) {
+				$args = array(
+					'post_type' => 'property',
+					'posts_per_page' => -1
+				);
+				global $wpdb;
+				$properties = new WP_Query($args);
+				if ($properties->have_posts()) :
+					while ($properties->have_posts()): $properties->the_post();
+						$post_id=get_the_ID();
+						$property_rating = Array();
+						$property_rating[1] = 0;
+						$property_rating[2] = 0;
+						$property_rating[3] = 0;
+						$property_rating[4] = 0;
+						$property_rating[5] = 0;
+						$comments_query = $wpdb->prepare("SELECT * FROM $wpdb->comments as comment INNER JOIN $wpdb->commentmeta AS meta WHERE comment.comment_post_ID = %d AND meta.meta_key = 'property_rating' AND meta.comment_id = comment.comment_ID AND comment.comment_approved = 1",$post_id);
+						$get_comments = $wpdb->get_results($comments_query);
+						if (!is_null($get_comments)) {
+							foreach ($get_comments as $comment) {
+								$property_rating[$comment->meta_value]++;
+							}
+						}
+						update_post_meta($post_id, ERE_METABOX_PREFIX . 'property_rating', $property_rating);
+					endwhile;
+				endif;
+				wp_reset_postdata();
+				update_option('ere_version', ERE_PLUGIN_VER);
+			}
+
 		}
 	}
 }

@@ -19,7 +19,7 @@ var ERE_Compare = ERE_Compare || {};
 			this.compare_listing();
 		},
 		register_event_compare: function () {
-			$('a.compare-property').on('click', function (e) {
+			$(document).on('click','a.compare-property', function (e) {
 				if (!$(this).hasClass('on-handle')) {
 					e.preventDefault();
 					var $this = $(this).addClass('on-handle'),

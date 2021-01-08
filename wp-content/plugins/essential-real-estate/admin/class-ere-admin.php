@@ -3512,17 +3512,16 @@ if (!class_exists('ERE_Admin')) {
                             'options' => array(
                                 'facebook' => esc_html__('Facebook', 'essential-real-estate'),
                                 'twitter' => esc_html__('Twitter', 'essential-real-estate'),
-                                'google' => esc_html__('Google', 'essential-real-estate'),
                                 'linkedin' => esc_html__('Linkedin', 'essential-real-estate'),
                                 'tumblr' => esc_html__('Tumblr', 'essential-real-estate'),
-                                'pinterest' => esc_html__('Pinterest', 'essential-real-estate')
+                                'pinterest' => esc_html__('Pinterest', 'essential-real-estate'),
+                                'whatsup' => esc_html__('WhatsUp', 'essential-real-estate')
                             ),
 
                             //See how default has changed? you also don't need to specify opts that are 0.
                             'default' => array(
                                 'facebook' => '1',
                                 'twitter' => '1',
-                                'google' => '1',
                                 'linkedin' => '1',
                                 'tumblr' => '1',
                                 'pinterest' => '1'

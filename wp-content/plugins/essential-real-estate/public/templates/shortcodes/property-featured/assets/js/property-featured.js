@@ -219,13 +219,6 @@
 				var number = el.item.index;
 				$sliderMain.data('owl.carousel').to(number, 500, true);
 			}
-
-			$sliderThumb.on("click", ".owl-item", function(e){
-				e.preventDefault();
-				if ($(this).hasClass('current')) return;
-				var number = $(this).index();
-				$sliderMain.data('owl.carousel').to(number, 500, true);
-			});
 		},
 		calcPaddingTopBottom: function () {
 			$('.main-content-inner', '.property-sync-carousel').each(function () {

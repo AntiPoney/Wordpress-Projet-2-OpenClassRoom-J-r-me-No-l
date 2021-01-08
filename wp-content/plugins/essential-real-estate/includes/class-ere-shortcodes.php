@@ -233,7 +233,7 @@ class ERE_Shortcodes {
 
 		$properties = new WP_Query;
 		echo self::$ere_message;
-		ere_get_template('property/my-properties.php', array('properties' => $properties->query($args), 'max_num_pages' => $properties->max_num_pages, 'post_status' => $post_status, 'title' => $title, 'property_identity' => $property_identity,'property_status'=>$property_status));
+		ere_get_template('property/my-properties.php', array('properties' => $properties->query($args), 'max_num_pages' => $properties->max_num_pages, 'post_status' => $post_status, 'title' => $title, 'property_identity' => $property_identity,'property_status'=>$property_status,'the_query' => $properties));
 		wp_reset_postdata();
 		return ob_get_clean();
 	}

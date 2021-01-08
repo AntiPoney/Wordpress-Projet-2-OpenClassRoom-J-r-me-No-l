@@ -576,7 +576,6 @@ if (!class_exists('ERE_Property')) {
                 )
             );
             $properties = new WP_Query($args);
-            wp_reset_postdata();
             return $properties->found_posts;
         }
 
@@ -1010,13 +1009,13 @@ if (!class_exists('ERE_Property')) {
             $user = get_user_by('id', $user_id);
             $property_id = isset($_POST['property_id']) ? ere_clean(wp_unslash($_POST['property_id'])) : '';
             $rating_value = isset($_POST['rating']) ? ere_clean(wp_unslash($_POST['rating'])) : '';
-            $my_review = $wpdb->get_row("SELECT * FROM $wpdb->comments as comment INNER JOIN $wpdb->commentmeta AS meta WHERE comment.comment_post_ID = $property_id AND comment.user_id = $user_id  AND meta.meta_key = 'property_rating' AND meta.comment_id = comment.comment_ID ORDER BY comment.comment_ID DESC");
+            $my_review = $wpdb->get_row($wpdb->prepare("SELECT * FROM $wpdb->comments as comment INNER JOIN $wpdb->commentmeta AS meta WHERE comment.comment_post_ID = %d AND comment.user_id = %d  AND meta.meta_key = 'property_rating' AND meta.comment_id = comment.comment_ID ORDER BY comment.comment_ID DESC",$property_id,$user_id));
             $comment_approved = 1;
             $auto_publish_review_property = ere_get_option( 'review_property_approved_by_admin',0 );
             if ($auto_publish_review_property == 1) {
                 $comment_approved = 0;
             }
-            if ( sizeof( $my_review ) == 0 ) {
+            if ( $my_review === null ) {
                 $data = Array();
                 $user = $user->data;
                 $data['comment_post_ID'] = $property_id;
@@ -1031,7 +1030,7 @@ if (!class_exists('ERE_Property')) {
 
                 add_comment_meta($comment_id, 'property_rating', $rating_value);
                 if ($comment_approved == 1) {
-                    apply_filters('ere_property_rating_meta', $property_id, $rating_value);
+	                do_action('ere_property_rating_meta',$property_id, $rating_value);
                 }
             } else {
                 $data = Array();
@@ -1043,11 +1042,12 @@ if (!class_exists('ERE_Property')) {
 
                 wp_update_comment($data);
                 update_comment_meta($my_review->comment_ID, 'property_rating', $rating_value, $my_review->meta_value);
+
                 if ($comment_approved == 1) {
-                    apply_filters('ere_property_rating_meta', $property_id, $rating_value, false, $my_review->meta_value);
+                    do_action('ere_property_rating_meta',$property_id, $rating_value, false, $my_review->meta_value);
                 }
             }
-            wp_die();
+            wp_send_json_success();
         }
 
         /**
@@ -1060,8 +1060,7 @@ if (!class_exists('ERE_Property')) {
         {
             $property_rating = get_post_meta($property_id, ERE_METABOX_PREFIX . 'property_rating', true);
             if ($comment_exist == true) {
-                echo esc_html($old_rating_value);
-                if (!empty($property_rating)) {
+                if (is_array($property_rating) && isset($property_rating[$rating_value])) {
                     $property_rating[$rating_value]++;
                 } else {
                     $property_rating = Array();
@@ -1088,13 +1087,16 @@ if (!class_exists('ERE_Property')) {
             global $wpdb;
             $rating_value = get_comment_meta($comment_id, 'property_rating', true);
             if ($rating_value !== '') {
-                $comments = $wpdb->get_row("SELECT comment_post_ID as property_ID FROM $wpdb->comments WHERE comment_ID = $comment_id");
-                $property_id = $comments->property_ID;
-                $property_rating = get_post_meta($property_id, ERE_METABOX_PREFIX . 'property_rating', true);
-                if (is_array($property_rating) && isset($property_rating[$rating_value])) {
-	                $property_rating[$rating_value]--;
-	                update_post_meta($property_id, ERE_METABOX_PREFIX . 'property_rating', $property_rating);
+                $comments = $wpdb->get_row($wpdb->prepare("SELECT comment_post_ID as property_ID FROM $wpdb->comments WHERE comment_ID = %d",$comment_id));
+                if ($comments !== null) {
+	                $property_id = $comments->property_ID;
+	                $property_rating = get_post_meta($property_id, ERE_METABOX_PREFIX . 'property_rating', true);
+	                if (is_array($property_rating) && isset($property_rating[$rating_value])) {
+		                $property_rating[$rating_value]--;
+		                update_post_meta($property_id, ERE_METABOX_PREFIX . 'property_rating', $property_rating);
+	                }
                 }
+
             }
         }
 
@@ -1109,12 +1111,22 @@ if (!class_exists('ERE_Property')) {
             if ($old_status != $new_status) {
                 $rating_value = get_comment_meta($comment->comment_ID, 'property_rating', true);
                 $property_rating = get_post_meta($comment->comment_post_ID, ERE_METABOX_PREFIX . 'property_rating', true);
+				if (!is_array($property_rating)) {
+					$property_rating = Array();
+					$property_rating[1] = 0;
+					$property_rating[2] = 0;
+					$property_rating[3] = 0;
+					$property_rating[4] = 0;
+					$property_rating[5] = 0;
+				}
                 if (($rating_value !== '') && is_array($property_rating) && isset($property_rating[$rating_value])) {
 	                if ($new_status == 'approved') {
 		                $property_rating[$rating_value]++;
-
 	                } else {
 		                $property_rating[$rating_value]--;
+	                }
+	                if ($property_rating[$rating_value] < 0) {
+		                $property_rating[$rating_value] = 0;
 	                }
 	                update_post_meta($comment->comment_post_ID, ERE_METABOX_PREFIX . 'property_rating', $property_rating);
                 }

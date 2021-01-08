@@ -27,6 +27,7 @@ var ERE = ERE || {};
             var $property_sync_wrap = $('.pagination-image.ere-property-slider');
             this.sync_property_carousel($property_sync_wrap);
             this.light_gallery();
+            this.contact_agent_by_email();
         },
         show_wire_transfer_info: function(){
             $('input[type=radio][name=ere_payment_method]').on('change', function() {
@@ -126,7 +127,7 @@ var ERE = ERE || {};
             });
         },
         favorite: function () {
-            $(".property-favorite").on('click', function (e) {
+            $(document).on('click','.property-favorite', function (e) {
                 e.preventDefault();
                 if (!$(this).hasClass('on-handle')) {
                     var $this = $(this).addClass('on-handle'),
@@ -332,73 +333,71 @@ var ERE = ERE || {};
             });
         },
         contact_agent_by_email: function() {
-            $('.agent-contact-btn', '#contact-agent-form').each(function () {
-                $(this).on('click', function (event) {
-                    event.preventDefault();
-                    var $this = $(this),
-                        $form = $(this).parents('form'),
-                        name = $('[name="sender_name"]', $form).val(),
-                        phone = $('[name="sender_phone"]', $form).val(),
-                        sender_email = $('[name="sender_email"]', $form).val(),
-                        message = $('[name="sender_msg"]', $form).val(),
-                        error = false;
-                    if(name == null || name.length === 0) {
-                        $('.name-error', $form).removeClass('hidden');
-                        error = true;
-                    } else if(!$('.name-error', $form).hasClass('hidden')) {
-                        $('.name-error', $form).addClass('hidden');
-                    }
-                    if(phone == null || phone.length === 0) {
-                        $('.phone-error', $form).removeClass('hidden');
-                        error = true;
-                    } else if(!$('.phone-error', $form).hasClass('hidden')) {
-                        $('.phone-error', $form).addClass('hidden');
-                    }
+            $(document).on('click','.agent-contact-btn',function (event) {
+                event.preventDefault();
+                var $this = $(this),
+                    $form = $(this).parents('form'),
+                    name = $('[name="sender_name"]', $form).val(),
+                    phone = $('[name="sender_phone"]', $form).val(),
+                    sender_email = $('[name="sender_email"]', $form).val(),
+                    message = $('[name="sender_msg"]', $form).val(),
+                    error = false;
+                if(name == null || name.length === 0) {
+                    $('.name-error', $form).removeClass('hidden');
+                    error = true;
+                } else if(!$('.name-error', $form).hasClass('hidden')) {
+                    $('.name-error', $form).addClass('hidden');
+                }
+                if(phone == null || phone.length === 0) {
+                    $('.phone-error', $form).removeClass('hidden');
+                    error = true;
+                } else if(!$('.phone-error', $form).hasClass('hidden')) {
+                    $('.phone-error', $form).addClass('hidden');
+                }
 
-                    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-                    if(sender_email==null || sender_email.length === 0 || !re.test(sender_email)) {
-                        $('.email-error', $form).removeClass('hidden');
-                        if(sender_email.trim().length !== 0 && !re.test(sender_email)) {
-                            $('.email-error', $form).text($('.email-error', $form).data('not-valid'));
-                        } else {
-                            $('.email-error', $form).text($('.email-error', $form).data('error'));
-                        }
-                        error = true;
-                    } else if(!$('.email-error', $form).hasClass('hidden')) {
-                        $('.email-error', $form).addClass('hidden');
+                if(sender_email==null || sender_email.length === 0 || !re.test(sender_email)) {
+                    $('.email-error', $form).removeClass('hidden');
+                    if(sender_email.trim().length !== 0 && !re.test(sender_email)) {
+                        $('.email-error', $form).text($('.email-error', $form).data('not-valid'));
+                    } else {
+                        $('.email-error', $form).text($('.email-error', $form).data('error'));
                     }
-                    if(message==null || message.length === 0) {
-                        $('.message-error', $form).removeClass('hidden');
-                        error = true;
-                    } else if(!$('.message-error', $form).hasClass('hidden')) {
-                        $('.message-error', $form).addClass('hidden');
-                    }
-                    if(!error) {
-                        $.ajax({
-                            type: 'post',
-                            url: ajax_url,
-                            dataType: 'json',
-                            data: $form.serialize(),
-                            beforeSend: function () {
-                                $('.form-messages', $form).html('<span class="success text-success"> ' + sending_text + '</span>');
-                            },
-                            success: function (response) {
-                                if (response.success) {
-                                    $('.form-messages', $form).html('<span class="success text-success"><i class="fa fa-check"></i> ' + response.message + '</span>');
+                    error = true;
+                } else if(!$('.email-error', $form).hasClass('hidden')) {
+                    $('.email-error', $form).addClass('hidden');
+                }
+                if(message==null || message.length === 0) {
+                    $('.message-error', $form).removeClass('hidden');
+                    error = true;
+                } else if(!$('.message-error', $form).hasClass('hidden')) {
+                    $('.message-error', $form).addClass('hidden');
+                }
+                if(!error) {
+                    $.ajax({
+                        type: 'post',
+                        url: ajax_url,
+                        dataType: 'json',
+                        data: $form.serialize(),
+                        beforeSend: function () {
+                            $('.form-messages', $form).html('<span class="success text-success"> ' + sending_text + '</span>');
+                        },
+                        success: function (response) {
+                            if (response.success) {
+                                $('.form-messages', $form).html('<span class="success text-success"><i class="fa fa-check"></i> ' + response.message + '</span>');
 
-                                } else {
-                                    if (typeof ere_reset_recaptcha == 'function') {
-                                        ere_reset_recaptcha();
-                                    }
-                                    $('.form-messages', $form).html('<span class="error text-danger"><i class="fa fa-close"></i> ' + response.message + '</span>');
+                            } else {
+                                if (typeof ere_reset_recaptcha == 'function') {
+                                    ere_reset_recaptcha();
                                 }
-                            },
-                            error: function () {
+                                $('.form-messages', $form).html('<span class="error text-danger"><i class="fa fa-close"></i> ' + response.message + '</span>');
                             }
-                        });
-                    }
-                });
+                        },
+                        error: function () {
+                        }
+                    });
+                }
             });
         },
 
