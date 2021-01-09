@@ -12,7 +12,7 @@ if ($the_post->post_type != 'property') {
     return;
 }
 wp_enqueue_script('jquery');
-wp_add_inline_script('jquery','jQuery(window).load(function(){ print(); });');
+wp_add_inline_script('jquery',"jQuery(window).on('load',function(){ print(); });");
 wp_enqueue_style(ERE_PLUGIN_PREFIX . 'property-print');
 
 if ($isRTL == 'true') {

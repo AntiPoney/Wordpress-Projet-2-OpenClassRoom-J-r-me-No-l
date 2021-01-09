@@ -3,7 +3,7 @@
 Plugin Name: Serenity Theme Extensions
 Plugin URI: https://www.themely.com/themes/serenity/
 Description: This plugin adds custom widgets required by the Serenity WordPress theme developed by Themely.
-Version: 1.0.9
+Version: 1.1.0
 Author: Themely
 Author URI: https://www.themely.com
 License: GPLv2 or later

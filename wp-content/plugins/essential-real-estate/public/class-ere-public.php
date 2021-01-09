@@ -30,7 +30,7 @@ if (!class_exists('ERE_Public')) {
             wp_enqueue_style('jquery-ui', ERE_PLUGIN_URL . 'public/assets/packages/jquery-ui/jquery-ui.min.css', array(), '1.11.4', 'all');
 
 
-            wp_enqueue_style('owl.carousel', ERE_PLUGIN_URL . 'public/assets/packages/owl-carousel/assets/owl.carousel.min.css', array(), '2.1.0', 'all');
+            wp_enqueue_style('owl.carousel', ERE_PLUGIN_URL . 'public/assets/packages/owl-carousel/assets/owl.carousel.min.css', array(), '2.3.4', 'all');
 	        wp_enqueue_style('light-gallery', ERE_PLUGIN_URL . 'public/assets/packages/light-gallery/css/lightgallery.min.css', array(), '1.2.18', 'all');
 
 
@@ -116,7 +116,7 @@ if (!class_exists('ERE_Public')) {
             }
             wp_enqueue_script('infobox', ERE_PLUGIN_URL . 'public/assets/js/infobox.min.js', array('jquery', 'google-map'), '1.1.13', true);
             wp_enqueue_script('jquery-core');
-            wp_enqueue_script('owl.carousel', ERE_PLUGIN_URL . 'public/assets/packages/owl-carousel/owl.carousel.min.js', array('jquery'), '2.1.0', true);
+            wp_enqueue_script('owl.carousel', ERE_PLUGIN_URL . 'public/assets/packages/owl-carousel/owl.carousel.min.js', array('jquery'), '2.3.4', true);
 
             $dec_point = ere_get_option('decimal_separator', '.');
             $thousands_sep = ere_get_option('thousand_separator', ',');

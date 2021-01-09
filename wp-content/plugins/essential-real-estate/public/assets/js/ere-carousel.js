@@ -12,6 +12,7 @@ var ERE_Carousel = ERE_Carousel || {};
 				var defaults = {
 					items: 4,
 					nav: false,
+					navElement: 'div',
 					navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 					dots: false,
 					loop: false,

@@ -21,7 +21,7 @@
 			setTimeout( this.calcPaddingTopBottom,1000 );
 		},
 		filterCarousel: function () {
-			var property_owl_filter = $('[data-filter-type="carousel"]');
+			var property_owl_filter = $('.ere-property-featured [data-filter-type="carousel"]');
 			property_owl_filter.each(function () {
 				var objectClick = $('a', $(this));
 				ERE_property_featured.executeFilter(objectClick);

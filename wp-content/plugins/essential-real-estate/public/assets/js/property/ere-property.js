@@ -93,7 +93,7 @@
                     map.setCenter(location);
                     marker.setPosition(location);
                 });
-                $(window).load(function () {
+                $(window).on('load',function () {
                     geocomplete.trigger("geocode");
                 });
             };

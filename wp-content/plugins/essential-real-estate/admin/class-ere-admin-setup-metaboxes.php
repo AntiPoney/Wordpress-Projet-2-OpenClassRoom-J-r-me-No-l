@@ -485,7 +485,10 @@ if (!class_exists('ERE_Admin_Setup_Metaboxes')) {
                         $ere_package = new ERE_Package();
                         $ere_package->insert_user_package($user_id, $package_id);
                         update_post_meta($post_id, ERE_METABOX_PREFIX . 'invoice_payment_status', 1);
-                        $args = array();
+                        $args = array(
+                        		'invoice_no' => $post_id,
+	                            'total_price' =>  ere_get_format_money($ere_meta['invoice_item_price'])
+                        );
                         ere_send_email($user_email, 'mail_activated_package', $args);
                     } else {
                         $property_id = $ere_meta['invoice_item_id'];

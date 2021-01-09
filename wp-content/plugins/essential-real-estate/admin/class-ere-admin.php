@@ -1850,134 +1850,30 @@ if (!class_exists('ERE_Admin')) {
          */
         private function setup_page_option()
         {
-            return apply_filters('ere_register_option_setup_page', array(
-                'id' => 'ere_setup_page_option',
-                'title' => esc_html__('Setup Page', 'essential-real-estate'),
-                'icon' => 'dashicons dashicons-admin-page',
-                'fields' => array_merge(
-                    apply_filters('ere_register_option_setup_page_top', array()),
-                    apply_filters('ere_register_option_setup_page_main', array(
-                        array(
-                            'id' => 'ere_submit_property_page_id',
-                            'title' => esc_html__('New Property', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_my_properties_page_id',
-                            'title' => esc_html__('My Properties Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_advanced_search_page_id',
-                            'title' => esc_html__('Advanced Search Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_my_save_search_page_id',
-                            'title' => esc_html__('My Saved Search Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_my_profile_page_id',
-                            'title' => esc_html__('My Profile Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_my_invoices_page_id',
-                            'title' => esc_html__('My Invoices Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_my_favorites_page_id',
-                            'title' => esc_html__('My Favorites Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_packages_page_id',
-                            'title' => esc_html__('Packages Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_payment_page_id',
-                            'title' => esc_html__('Payment Invoice Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_payment_completed_page_id',
-                            'title' => esc_html__('Payment Completed Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_compare_page_id',
-                            'title' => esc_html__('Compares Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_register_page_id',
-                            'title' => esc_html__('Register Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        ),
-                        array(
-                            'id' => 'ere_login_page_id',
-                            'title' => esc_html__('Login Page', 'essential-real-estate'),
-                            'type' => 'select',
-                            'data' => 'page',
-                            'data_args' => array(
-                                'numberposts' => -1,
-                            )
-                        )
-                    )),
-                    apply_filters('ere_register_option_setup_page_bottom', array())
-                )
-            ));
+        	$page_setup_config = ERE_Admin_Setup::get_page_setup_config();
+        	$config = array();
+        	foreach ($page_setup_config as $k => $v) {
+		        $config[] = array(
+			        'id' => "ere_{$k}_page_id",
+			        'title' => $v['title'],
+			        'type' => 'select',
+			        'data' => 'page',
+			        'data_args' => array(
+				        'numberposts' => -1,
+			        )
+		        );
+	        }
+        	$config = apply_filters('ere_register_option_setup_page_main',$config);
+	        return apply_filters('ere_register_option_setup_page', array(
+		        'id' => 'ere_setup_page_option',
+		        'title' => esc_html__('Setup Page', 'essential-real-estate'),
+		        'icon' => 'dashicons dashicons-admin-page',
+		        'fields' => array_merge(
+			        apply_filters('ere_register_option_setup_page_top', array()),
+			        $config,
+			        apply_filters('ere_register_option_setup_page_bottom', array())
+		        )
+	        ));
         }
 
         /**

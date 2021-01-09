@@ -71,12 +71,14 @@ abstract class ERE_Form {
 	 * Call the view handler if set, otherwise call the next handler.
 	 */
 	public function output( $atts = array() ) {
+		ob_start();
 		$step_key = $this->get_step_key( $this->step );
 		$this->show_errors();
 
 		if ( $step_key && is_callable( $this->steps[ $step_key ]['view'] ) ) {
 			call_user_func( $this->steps[ $step_key ]['view'], $atts );
 		}
+		return ob_get_clean();
 	}
 
 	/**

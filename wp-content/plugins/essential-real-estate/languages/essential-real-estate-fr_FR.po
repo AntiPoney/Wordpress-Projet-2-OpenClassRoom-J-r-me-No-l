@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
 "POT-Creation-Date: 2020-10-13 16:33+0700\n"
-"PO-Revision-Date: 2021-01-09 00:12+0000\n"
+"PO-Revision-Date: 2021-01-09 01:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib/smart-framework\n"
 "Report-Msgid-Bugs-To: \n"
-"X-Loco-Version: 2.4.6; wp-5.5.3"
+"X-Loco-Version: 2.5.0; wp-5.6"
 
 #: admin/class-ere-admin-agent.php:20 admin/class-ere-agent-admin.php:19
 msgid "Avatar"
@@ -482,7 +482,7 @@ msgstr ""
 #: admin/class-ere-admin.php:3900 admin/class-ere-property-admin.php:93
 #: public/templates/property/my-properties.php:298
 msgid "Hide"
-msgstr ""
+msgstr "Cacher"
 
 #: admin/class-ere-admin-property.php:102 admin/class-ere-property-admin.php:96
 #: public/templates/property/my-properties.php:293
@@ -589,7 +589,7 @@ msgstr ""
 #: admin/class-ere-admin-setup-metaboxes.php:182
 #: admin/class-ere-admin-setup-metaboxes.php:343
 msgid "Property ID:"
-msgstr "Identifiant de la propriété :"
+msgstr "Identifiant de la propriété:"
 
 #: admin/class-ere-admin-setup-metaboxes.php:191
 #: admin/class-ere-admin-setup-metaboxes.php:201
@@ -1047,7 +1047,7 @@ msgstr ""
 #: public/templates/property/search-fields/property_title.php:18
 #: public/templates/property/submit-property/details.php:199
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: admin/class-ere-admin-user-package.php:22 admin/class-ere-admin.php:1061
 #: admin/class-ere-user-package-admin.php:22
@@ -1157,7 +1157,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:233 admin/class-ere-admin.php:242
 msgid "Additional details:"
-msgstr ""
+msgstr "Détails additionnels"
 
 #: admin/class-ere-admin.php:248
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:25
@@ -1167,18 +1167,18 @@ msgstr ""
 
 #: admin/class-ere-admin.php:249
 msgid "Enter additional title"
-msgstr ""
+msgstr "Entrer un titre additionnel"
 
 #: admin/class-ere-admin.php:256
 #: admin/templates/additional-details-field.php:37
 #: public/templates/property/edit-property/details.php:247
 #: public/templates/property/submit-property/details.php:200
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: admin/class-ere-admin.php:257
 msgid "Enter additional value"
-msgstr ""
+msgstr "entrer une valeur additionnel"
 
 #: admin/class-ere-admin.php:286
 msgid "Price Unit"
@@ -1188,23 +1188,23 @@ msgstr "Prix ​​à l'unité"
 #: public/templates/property/edit-property/price.php:41
 #: public/templates/property/submit-property/price.php:41
 msgid "Thousand"
-msgstr ""
+msgstr "Mille"
 
 #: admin/class-ere-admin.php:291
 #: public/templates/property/edit-property/price.php:42
 #: public/templates/property/submit-property/price.php:42
 msgid "Million"
-msgstr ""
+msgstr "Million"
 
 #: admin/class-ere-admin.php:292
 #: public/templates/property/edit-property/price.php:43
 #: public/templates/property/submit-property/price.php:43
 msgid "Billion"
-msgstr ""
+msgstr "Milliard"
 
 #: admin/class-ere-admin.php:305 admin/class-ere-admin.php:2607
 msgid "Additional Fields"
-msgstr ""
+msgstr "champs additionnels"
 
 #: admin/class-ere-admin.php:312
 msgid "Property Information"
@@ -1223,7 +1223,7 @@ msgstr ""
 msgid "Before Price Label"
 msgstr ""
 "\n"
-"Avant l'étiquette de prix"
+"étiquette Avant le de prix"
 
 #: admin/class-ere-admin.php:349
 msgid "Example Value: Start From"
@@ -1234,7 +1234,7 @@ msgstr ""
 msgid "After Price Label"
 msgstr ""
 "\n"
-"Après l'étiquette de prix"
+"Étiquette après le prix"
 
 #: admin/class-ere-admin.php:357 admin/class-ere-admin.php:576
 msgid "Example Value: Per Month"
@@ -1318,12 +1318,12 @@ msgstr "oui"
 #: admin/class-ere-admin.php:5931 admin/class-ere-admin.php:5976
 #: admin/class-ere-admin.php:6020 public/class-ere-public.php:131
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: admin/class-ere-admin.php:389
 #, php-format
 msgid "Size (%s)"
-msgstr "Taille (% s)"
+msgstr "Superficie (% s)"
 
 #: admin/class-ere-admin.php:390
 msgid "Example Value: 200"
@@ -1332,7 +1332,7 @@ msgstr ""
 #: admin/class-ere-admin.php:397
 #, php-format
 msgid "Land Area (%s)"
-msgstr "Superficie du terrain (% s)"
+msgstr "Terrain (% s)"
 
 #: admin/class-ere-admin.php:398
 msgid "Example Value: 2000"
@@ -1436,7 +1436,7 @@ msgstr ""
 #: public/templates/property/submit-property/details.php:81
 #, php-format
 msgid "Garages Size (%s)"
-msgstr "taille des garages (%s)"
+msgstr "Superficie des garages (%s)"
 
 #: admin/class-ere-admin.php:464 admin/class-ere-admin.php:2536
 #: admin/class-ere-admin.php:2581 admin/class-ere-admin.php:3964
@@ -1454,7 +1454,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:486
 msgid "Mark this property as featured ?"
-msgstr "Marquer cette propriété comme en vedette?"
+msgstr "faire de cette propriété une vedette ?"
 
 #: admin/class-ere-admin.php:501
 #: public/templates/property/property-print.php:270
@@ -1465,7 +1465,7 @@ msgstr "Emplacement"
 
 #: admin/class-ere-admin.php:510
 msgid "Property Address"
-msgstr ""
+msgstr "Adresse de la propriété"
 
 #: admin/class-ere-admin.php:511
 msgid "Full Address"
@@ -1531,7 +1531,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:588 public/class-ere-public.php:206
 msgid "Floor Size"
-msgstr "taille de l'étage"
+msgstr "Superficie de l'étage"
 
 #: admin/class-ere-admin.php:596
 #: public/templates/property/edit-property/floors.php:92
@@ -1603,25 +1603,25 @@ msgstr "Propriété Image 360"
 
 #: admin/class-ere-admin.php:724
 msgid "What to display in contact information box ?"
-msgstr ""
+msgstr "Quelle information afficher dans le boite d'information des contacts ?"
 
 #: admin/class-ere-admin.php:727
 msgid "Author information"
-msgstr ""
+msgstr "Information de l'auteur"
 
 #: admin/class-ere-admin.php:728
 msgid "Agent Information. (Select the agent below)"
-msgstr ""
+msgstr "Information de l'agent en charge (sélectionnez l'agent ci-dessous)"
 
 #: admin/class-ere-admin.php:729 admin/class-ere-admin.php:2550
 #: public/templates/property/edit-property/contact.php:32
 #: public/templates/property/submit-property/contact.php:29
 msgid "Other contact"
-msgstr ""
+msgstr "Autre contact"
 
 #: admin/class-ere-admin.php:730
 msgid "Hide contact information"
-msgstr ""
+msgstr "Cacher les informations de contact"
 
 #: admin/class-ere-admin.php:736
 msgid "Agent:"
@@ -1631,25 +1631,25 @@ msgstr "Agent:"
 #: public/templates/property/edit-property/contact.php:38
 #: public/templates/property/submit-property/contact.php:35
 msgid "Other contact Name"
-msgstr ""
+msgstr "Autre nom de contact"
 
 #: admin/class-ere-admin.php:754
 #: public/templates/property/edit-property/contact.php:47
 #: public/templates/property/submit-property/contact.php:40
 msgid "Other contact Email"
-msgstr ""
+msgstr "Autre email de contact"
 
 #: admin/class-ere-admin.php:761
 #: public/templates/property/edit-property/contact.php:55
 #: public/templates/property/submit-property/contact.php:45
 msgid "Other contact Phone"
-msgstr ""
+msgstr "Autre numéro de téléphone de contact"
 
 #: admin/class-ere-admin.php:768
 #: public/templates/property/edit-property/contact.php:63
 #: public/templates/property/submit-property/contact.php:50
 msgid "Other contact more info"
-msgstr ""
+msgstr "Autre information de contact"
 
 #: admin/class-ere-admin.php:777 admin/class-ere-admin.php:782
 #: admin/class-ere-admin.php:2551
@@ -1669,7 +1669,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:795
 msgid "Agent Information"
-msgstr ""
+msgstr "Information de l'agent"
 
 #: admin/class-ere-admin.php:823
 #: public/partials/account/class-ere-profile.php:537
@@ -2020,7 +2020,8 @@ msgstr ""
 
 #: admin/class-ere-admin.php:1731
 msgid "Measurement units for Property Size, Garage Size"
-msgstr "Unités de mesure pour la taille de la propriété, la taille du garage"
+msgstr ""
+"Unités de mesure pour la Superficie de la propriété, la Superficie du garage"
 
 #: admin/class-ere-admin.php:1732
 msgid "Choose Measurement units for Property Size, Garage Size"
@@ -2388,7 +2389,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2305 admin/class-ere-admin.php:2311
 msgid "Hide User Information Fields"
-msgstr ""
+msgstr "Cacher les informations des utilisateurs"
 
 #: admin/class-ere-admin.php:2312
 msgid "Choose which fields you want to hide on My Profile page?"
@@ -2596,7 +2597,7 @@ msgstr ""
 #: public/templates/property/submit-property/type.php:43
 #: public/templates/single-property/features.php:181
 msgid "Label"
-msgstr "Libellé"
+msgstr "libellé"
 
 #: admin/class-ere-admin.php:2527
 #: public/templates/property/edit-property/price.php:77
@@ -2630,7 +2631,7 @@ msgstr "Prix ​​sur appel"
 #: public/templates/single-property/floors.php:60
 #: public/templates/single-property/header.php:100
 msgid "Size"
-msgstr "Taille"
+msgstr "Superficie"
 
 #: admin/class-ere-admin.php:2530 admin/class-ere-admin.php:2579
 #: admin/class-ere-admin.php:2702 admin/class-ere-admin.php:3961
@@ -2645,7 +2646,7 @@ msgstr "Taille"
 #: public/templates/property/compare.php:241
 #: public/templates/property/search-fields/property_land.php:35
 msgid "Land Area"
-msgstr ""
+msgstr "Terrain"
 
 #: admin/class-ere-admin.php:2534 admin/class-ere-admin.php:2704
 #: admin/class-ere-admin.php:4178
@@ -2659,7 +2660,7 @@ msgstr ""
 #: public/templates/property/property-print.php:410
 #: public/templates/single-property/features.php:195
 msgid "Garage Size"
-msgstr "Taille du garage"
+msgstr "Superficie du garage"
 
 #: admin/class-ere-admin.php:2537
 msgid "Fie Attachments"
@@ -2677,7 +2678,7 @@ msgstr ""
 
 #: admin/class-ere-admin.php:2540
 msgid "Additional Details"
-msgstr ""
+msgstr "Details additionnels"
 
 #: admin/class-ere-admin.php:2542
 msgid "Map Address"
@@ -2884,7 +2885,7 @@ msgstr "Entrez le prix maximum. Ex: 200000"
 
 #: admin/class-ere-admin.php:2856
 msgid "Size Field"
-msgstr "Champ de taille"
+msgstr "Superficie du terrain"
 
 #: admin/class-ere-admin.php:2863
 msgid "Property Size Dropdown Value"
@@ -3500,7 +3501,7 @@ msgstr ""
 #: public/templates/single-invoice/invoice.php:168
 #: public/templates/single-property/header.php:146
 msgid "Print"
-msgstr "Imprimer"
+msgstr ""
 
 #: admin/class-ere-admin.php:3551
 msgid "Enable Print Property"
@@ -4775,15 +4776,15 @@ msgstr ""
 
 #: includes/ere-core-functions.php:228 includes/ere-core-functions.php:309
 msgid "thousand"
-msgstr ""
+msgstr "mille"
 
 #: includes/ere-core-functions.php:231 includes/ere-core-functions.php:304
 msgid "million"
-msgstr ""
+msgstr "million"
 
 #: includes/ere-core-functions.php:234 includes/ere-core-functions.php:299
 msgid "billion"
-msgstr ""
+msgstr "milliard"
 
 #: includes/ere-core-functions.php:263 includes/ere-core-functions.php:317
 #: public/class-ere-public.php:124
@@ -6789,7 +6790,7 @@ msgstr ""
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:94
 msgid "Select Labels:"
-msgstr ""
+msgstr "Sélectionner les libellés"
 
 #: includes/widgets/class-ere-widget-listing-property-taxonomy.php:101
 msgid "Columns:"
@@ -7988,7 +7989,7 @@ msgstr[1] "%s propriétés"
 #, php-format
 msgctxt "%s = human-readable time difference"
 msgid " %s ago"
-msgstr "il y a  %s"
+msgstr "il y a %s"
 
 #: public/templates/loop/property.php:253
 #: public/templates/shortcodes/property-carousel/property-carousel.php:378
@@ -8149,7 +8150,7 @@ msgstr ""
 #: public/templates/property/advanced-search.php:244
 #, php-format
 msgid "Label: <strong>%s</strong>; "
-msgstr ""
+msgstr "libellé: <strong>%s</strong>;"
 
 #: public/templates/property/advanced-search.php:255
 #, php-format
@@ -8234,7 +8235,7 @@ msgstr "Quartier: <strong>%s</strong>;"
 #: public/templates/property/advanced-search.php:446
 #, php-format
 msgid "Property ID: <strong>%s</strong>; "
-msgstr "Identifiant de la propriété : <strong>%s</strong>"
+msgstr "Identifiant de la propriété: %s;"
 
 #: public/templates/property/advanced-search.php:456
 #, php-format
@@ -8247,7 +8248,7 @@ msgstr ""
 
 #: public/templates/property/compare.php:274
 msgid "Garages Size"
-msgstr "taille des garages"
+msgstr "Superficie des garages"
 
 #: public/templates/property/compare.php:365
 msgid "No item compare"
@@ -8256,7 +8257,7 @@ msgstr ""
 #: public/templates/property/edit-property/contact.php:21
 #: public/templates/property/submit-property/contact.php:19
 msgid "What to display in contact information box?"
-msgstr ""
+msgstr "Quelle information afficher dans le boite d'information des contacts ?"
 
 #: public/templates/property/edit-property/details.php:28
 #: public/templates/property/submit-property/details.php:23
@@ -8273,7 +8274,7 @@ msgstr ""
 #: public/templates/property/edit-property/details.php:241
 #: public/templates/property/submit-property/details.php:194
 msgid "Additional details"
-msgstr ""
+msgstr "Details additionnels"
 
 #: public/templates/property/edit-property/details.php:287
 #: public/templates/property/submit-property/details.php:211
@@ -8501,8 +8502,8 @@ msgstr ""
 #, php-format
 msgid "%s view"
 msgid_plural "%s views"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s vue"
+msgstr[1] "%s vues"
 
 #: public/templates/property/my-properties.php:234
 #, php-format
@@ -8690,7 +8691,7 @@ msgstr ""
 #: public/templates/single-property/features.php:79
 #: public/templates/taxonomy/agency-detail.php:248
 msgid "Overview"
-msgstr "Vue d'ensemble"
+msgstr "Aperçu"
 
 #: public/templates/property/property-print.php:351
 #: public/templates/single-property/features.php:136
@@ -8873,7 +8874,7 @@ msgstr ""
 
 #: public/templates/property/search-fields/property_label.php:20
 msgid "All Labels"
-msgstr "Tout les labels"
+msgstr "Tout les libellés"
 
 #: public/templates/property/search-fields/property_land.php:51
 msgid "Min Land Area Size"
@@ -8915,7 +8916,7 @@ msgstr "Types de propriété"
 
 #: public/templates/property/search-fields/property_type.php:20
 msgid "All Types"
-msgstr ""
+msgstr "Tout les types"
 
 #: public/templates/property/view-galley.php:20
 #, php-format
@@ -8951,7 +8952,7 @@ msgstr "Aucune propriété trouvé"
 
 #: public/templates/shortcodes/property/property.php:600
 msgid "View All"
-msgstr ""
+msgstr "Voir tout"
 
 #: public/templates/single-agent/agent-info.php:91
 msgid "View All Properties"

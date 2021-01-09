@@ -149,29 +149,16 @@ if (!class_exists('ERE_Admin_Setup')) {
          */
         public function setup_page()
         {
+	        $pages_to_create = ERE_Admin_Setup::get_page_setup_config();
             $step = !empty($_GET['step']) ? absint(wp_unslash($_GET['step'])) : 1;
             if (3 === $step && !empty($_POST)) {
                 $create_pages = isset($_POST['ere-create-page']) ? ere_clean(wp_unslash($_POST['ere-create-page']))  : array();
                 $page_titles = isset($_POST['ere-page-title']) ? ere_clean(wp_unslash($_POST['ere-page-title']))  : array();
-                $pages_to_create = array(
-                    'submit_property' => '[ere_submit_property]',
-                    'my_properties' => '[ere_my_properties]',
-                    'my_profile' => '[ere_profile]',
-                    'my_invoices' => '[ere_my_invoices]',
-                    'my_favorites' => '[ere_my_favorites]',
-                    'my_save_search' => '[ere_my_save_search]',
-                    'packages' => '[ere_package]',
-                    'payment' => '[ere_payment]',
-                    'payment_completed' => '[ere_payment_completed]',
-                    'login' => '[ere_login]',
-                    'register' => '[ere_register]',
-                    'compare' => '[ere_compare]',
-                    'advanced_search' => '[ere_advanced_search]',
-                );
-                foreach ($pages_to_create as $page => $content) {
+                foreach ($pages_to_create as $page => $v) {
                     if (!isset($create_pages[$page]) || empty($page_titles[$page])) {
                         continue;
                     }
+                    $content = isset($v['content']) ? $v['content'] : '';
                     $this->create_page(sanitize_text_field($page_titles[$page]), $content, 'ere_' . $page . '_page_id');
                 }
             }
@@ -194,7 +181,7 @@ if (!class_exists('ERE_Admin_Setup')) {
                     <p class="submit">
                         <a href="<?php echo esc_url(add_query_arg('step', 2)); ?>"
                            class="button button-primary"><?php esc_html_e('Continue to page setup', 'essential-real-estate'); ?></a>
-                        <a href="<?php echo esc_url(add_query_arg('skip-ere-setup', 1, admin_url('index.php?page=ere-setup&step=3'))); ?>"
+                        <a href="<?php echo esc_url(add_query_arg('skip-ere-setup', 1, admin_url('admin.php?page=ere_setup&step=3'))); ?>"
                            class="button"><?php esc_html_e('Skip setup. I will setup the plugin manually (Not Recommended)', 'essential-real-estate'); ?></a>
                     </p>
 
@@ -216,151 +203,28 @@ if (!class_exists('ERE_Admin_Setup')) {
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td><input type="checkbox" checked="checked" name="ere-create-page[submit_property]"/>
-                                </td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('New Property', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[submit_property]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to post property to your website via the front-end.', 'essential-real-estate'); ?></p>
-
-                                    <p><?php esc_html_e('If you do not want to accept submissions from users in this way (for example you just want to post property from the admin dashboard) you can skip creating this page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_submit_property]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[my_properties]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('My Properties', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[my_properties]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to manage and edit their own property via the front-end.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_my_properties]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[my_profile]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('My Profile', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[my_profile]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to view and edit their own profile via the front-end.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_my_profile]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[my_invoices]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('My Invoices', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[my_invoices]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to view their own invoice via the front-end.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_my_invoices]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[my_favorites]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('My Favorites', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[my_favorites]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to view their own favorites via the front-end.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_my_favorites]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[my_save_search]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('My Saved Searches', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[my_save_search]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This page allows users to view their own "saved searches" via the front-end.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_my_save_search]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[packages]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Packages', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[packages]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is register page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_package]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[payment]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Payment Invoice', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[payment]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is register page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_payment]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[payment_completed]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Payment Completed', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[payment_completed]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is payment completed page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_payment_completed]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[login]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Login', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[login]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is login page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_login]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[register]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Register', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[register]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is register page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_register]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[compare]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Compare', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[compare]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is compare page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_compare]</code></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" checked="checked"
-                                           name="ere-create-page[advanced_search]"/></td>
-                                <td><input type="text"
-                                           value="<?php echo esc_attr(_x('Advanced Search', 'Default page title (wizard)', 'essential-real-estate')); ?>"
-                                           name="ere-page-title[advanced_search]"/></td>
-                                <td>
-                                    <p><?php esc_html_e('This is advanced search page.', 'essential-real-estate'); ?></p>
-                                </td>
-                                <td><code>[ere_advanced_search]</code></td>
-                            </tr>
+                            <?php foreach ($pages_to_create as $k => $v): ?>
+                                <?php
+	                                $title = isset($v['title']) ? $v['title'] : '';
+	                                $desc = isset($v['desc']) ? $v['desc'] : '';
+	                                $content = isset($v['content']) ? $v['content'] : '';
+	                            ?>
+	                            <tr>
+		                            <td><input type="checkbox" checked="checked" name="ere-create-page[<?php echo esc_attr($k)?>]"/>
+		                            </td>
+		                            <td><input type="text" value="<?php echo esc_attr($title); ?>" name="ere-page-title[<?php echo esc_attr($k)?>]"/></td>
+		                            <td>
+			                            <?php if (!empty($desc)): ?>
+			                                <p><?php echo esc_html($desc) ?></p>
+	                                    <?php endif; ?>
+		                            </td>
+		                            <td>
+			                            <?php if (!empty($content)): ?>
+				                            <code><?php echo esc_html($v['content'])?></code>
+	                                    <?php endif; ?>
+		                            </td>
+	                            </tr>
+                            <?php endforeach; ?>
                             </tbody>
                             <tfoot>
                             <tr>
@@ -388,60 +252,101 @@ if (!class_exists('ERE_Admin_Setup')) {
                         <li>
                             <a href="<?php echo admin_url('post-new.php?post_type=property'); ?>"><?php esc_html_e('Add a property the back-end', 'essential-real-estate'); ?></a>
                         </li>
-                        <?php if ($permalink = ere_get_permalink('submit_property')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('Add a property via the front-end', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('my_properties')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View user properties', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('my_invoices')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View user invoices', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('my_favorites')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View user favorites', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('my_save_search')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View user saved searches', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('my_profile')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View user profile', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('packages')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View packages page', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('login')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View login page', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('register')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View register page', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
-                        <?php if ($permalink = ere_get_permalink('advanced_search')) : ?>
-                            <li>
-                                <a href="<?php echo esc_url($permalink); ?>"><?php esc_html_e('View advanced search page', 'essential-real-estate'); ?></a>
-                            </li>
-                        <?php endif; ?>
+	                    <?php foreach ($pages_to_create as $k => $v): ?>
+	                        <?php if ($permalink = ere_get_permalink($k)): ?>
+		                        <li><a href="<?php echo esc_url($permalink); ?>"><?php echo ere_get_page_title($k)?></a></li>
+		                    <?php endif; ?>
+	                    <?php endforeach; ?>
                     </ul>
                 <?php endif; ?>
             </div>
             <?php
         }
+
+
+	    public static function get_page_setup_config() {
+		    $config =  apply_filters('ere_page_setup_config',array(
+			    'submit_property' => array(
+				    'title' => 	_x('New Property', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to post property to your website via the front-end.If you do not want to accept submissions from users in this way (for example you just want to post property from the admin dashboard) you can skip creating this page.','essential-real-estate'),
+				    'content' => '[ere_submit_property]',
+				    'priority' => 10,
+			    ),
+			    'my_properties' => array(
+				    'title' => _x('My Properties', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to manage and edit their own property via the front-end.', 'essential-real-estate'),
+				    'content' => '[ere_my_properties]',
+				    'priority' => 20,
+			    ),
+			    'my_profile' => array(
+				    'title' => _x('My Profile', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to view and edit their own profile via the front-end.', 'essential-real-estate'),
+				    'content' => '[ere_profile]',
+				    'priority' => 30,
+			    ),
+			    'my_invoices' => array(
+				    'title' => _x('My Invoices', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to view their own invoice via the front-end.', 'essential-real-estate'),
+				    'content' => '[ere_my_invoices]',
+				    'priority' => 40,
+			    ),
+			    'my_favorites' =>  array(
+				    'title' => _x('My Favorites', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to view their own favorites via the front-end.', 'essential-real-estate'),
+				    'content' => '[ere_my_favorites]',
+				    'priority' => 50,
+			    ),
+			    'my_save_search' =>  array(
+				    'title' => _x('My Saved Searches', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This page allows users to view their own "saved searches" via the front-end.', 'essential-real-estate'),
+				    'content' => '[ere_my_save_search]',
+				    'priority' => 60,
+			    ),
+			    'packages' => array(
+				    'title' => _x('Packages', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is register page.', 'essential-real-estate'),
+				    'content' => '[ere_package]',
+				    'priority' => 70,
+			    ),
+			    'payment' => array(
+				    'title' => _x('Payment Invoice', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is payment page.', 'essential-real-estate'),
+				    'content' => '[ere_payment]',
+				    'priority' => 80,
+			    ),
+			    'payment_completed' => array(
+				    'title' => _x('Payment Completed', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is payment completed page.', 'essential-real-estate'),
+				    'content' => '[ere_payment_completed]',
+				    'priority' => 90,
+			    ),
+			    'login' => array(
+				    'title' => _x('Login', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is login page.', 'essential-real-estate'),
+				    'content' =>  '[ere_login]',
+				    'priority' => 100,
+			    ),
+			    'register' => array(
+				    'title' => _x('Register', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is register page.', 'essential-real-estate'),
+				    'content' =>  '[ere_register]',
+				    'priority' => 110,
+			    ),
+			    'compare' => array(
+				    'title' => _x('Compare', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is compare page.', 'essential-real-estate'),
+				    'content' =>  '[ere_compare]',
+				    'priority' => 120,
+			    ),
+			    'advanced_search' =>  array(
+				    'title' => _x('Advanced Search', 'Default page title (wizard)', 'essential-real-estate'),
+				    'desc' => esc_html__('This is advanced search page.', 'essential-real-estate'),
+				    'content' =>  '[ere_advanced_search]',
+				    'priority' => 130,
+			    ),
+		    ));
+		    uasort( $config, 'ere_sort_by_order_callback' );
+		    return $config;
+	    }
     }
 }

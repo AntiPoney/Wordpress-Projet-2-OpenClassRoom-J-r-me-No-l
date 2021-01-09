@@ -528,7 +528,7 @@ if (!class_exists('ERE_Template_Hooks')) {
 		    global $wpdb;
 		    $ere_prefix = ERE_METABOX_PREFIX;
 		    $args['join'] .= " LEFT JOIN {$wpdb->prefix}postmeta as ere_mt3 ON ( {$wpdb->prefix}posts.ID = ere_mt3.post_id AND ere_mt3.meta_key = '{$ere_prefix}property_views_count')";
-		    $args['orderby'] = " CAST(ere_mt3.meta_value AS CHAR) DESC, {$wpdb->prefix}posts.menu_order ASC, {$wpdb->prefix}posts.post_date DESC ";
+		    $args['orderby'] = " (ere_mt3.meta_value+0) DESC, {$wpdb->prefix}posts.menu_order ASC, {$wpdb->prefix}posts.post_date DESC ";
 		    return $args;
 	    }
 

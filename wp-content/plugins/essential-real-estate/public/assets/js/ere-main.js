@@ -551,6 +551,7 @@ var ERE = ERE || {};
                 $sliderThumb = $propertySyncWrap.find('.property-image-slider');
             $sliderMain.owlCarousel({
                 items: 1,
+                navElement: 'div',
                 autoHeight: true,
                 nav: false,
                 dots: false,
@@ -563,6 +564,7 @@ var ERE = ERE || {};
                 $sliderThumb.find(".owl-item").eq(0).addClass("current");
             }).owlCarousel({
                 nav: false,
+                navElement: 'div',
                 dots: false,
                 rtl: isRTL,
                 margin: 10,

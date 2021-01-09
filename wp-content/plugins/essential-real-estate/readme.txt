@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: real estate, agency, agent, realtor, property
 Requires at least: 4.5
 Tested up to: 5.5
-Stable tag: 3.2.8
+Stable tag: 3.3.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,30 @@ Yes! it's always will be free.
 10. Listing properties with features on frontend
 
 == Changelog ==
+= 3.3.6 =
+* Update setup admin page
+
+= 3.3.5 =
+* Fix order by most viewed property
+
+= 3.3.4 =
+* Fix style button next and prev owl-carousel 2.3.4
+
+= 3.3.3 =
+* Fix output shortcode submit property
+
+= 3.3.2 =
+* Fix filter shortcode property gallery
+
+= 3.3.1 =
+* Fix error javascript with jquery 3.0 in file ere-property-steps.js
+
+= 3.3.0 =
+* Update owl-carousel version 2.3.4
+* Fix error javascript with jquery 3.0
+
+= 3.2.9 =
+* Update Invoice_ID and Invoice Price when send mail activated package
 
 = 3.2.8 =
 ** Update variable the_query in template "public/templates/property/my-properties.php"

@@ -9,6 +9,7 @@
             $sliderMain.owlCarousel({
                 items: 1,
                 nav:true,
+                navElement: 'div',
                 navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
                 dots:false,
                 loop: false,
@@ -20,6 +21,7 @@
                 $sliderThumb.find(".owl-item").eq(0).addClass("current");
             }).owlCarousel({
                 items : 5,
+                navElement: 'div',
                 nav: false,
                 dots: false,
                 rtl: isRTL,

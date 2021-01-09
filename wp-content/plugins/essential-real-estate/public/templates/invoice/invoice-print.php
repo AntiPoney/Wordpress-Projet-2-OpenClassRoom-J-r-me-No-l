@@ -12,7 +12,7 @@ if ( $the_post->post_type != 'invoice' ) {
 	return;
 }
 wp_enqueue_script('jquery');
-wp_add_inline_script('jquery','jQuery(window).load(function(){ print(); });');
+wp_add_inline_script('jquery',"jQuery(window).on('load',function(){ print(); });");
 wp_enqueue_style(ERE_PLUGIN_PREFIX . 'single-invoice');
 
 if ($isRTL == 'true') {

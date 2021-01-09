@@ -203,6 +203,18 @@ if (!function_exists('ere_get_permalink')) {
         }
     }
 }
+
+if (!function_exists('ere_get_page_title')) {
+	function ere_get_page_title($page)
+	{
+		if ($page_id = ere_get_page_id($page)) {
+			return get_the_title($page_id);
+		} else {
+			return '';
+		}
+	}
+}
+
 /**
  * Format money
  */
@@ -1495,4 +1507,17 @@ if (!function_exists('ere_clean')) {
             return is_scalar( $var ) ? sanitize_text_field( $var ) : $var;
         }
     }
+}
+
+if (!function_exists('ere_sort_by_order_callback')) {
+	function ere_sort_by_order_callback( $a, $b ) {
+		if ( ! isset( $a['priority'] ) ) {
+			$a['priority'] = 100;
+		}
+		if ( ! isset( $b['priority'] ) ) {
+			$b['priority'] = 100;
+		}
+
+		return $a['priority'] === $b['priority'] ? 0 : ( $a['priority'] > $b['priority'] ? 1 : - 1 );
+	}
 }

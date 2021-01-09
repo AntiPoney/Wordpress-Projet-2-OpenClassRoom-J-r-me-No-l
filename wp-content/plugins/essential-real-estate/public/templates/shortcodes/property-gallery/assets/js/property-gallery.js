@@ -13,14 +13,14 @@
 			ERE.select_term();
 		},
 		filterCarousel: function () {
-			var property_owl_filter = $('[data-filter-type="carousel"]');
+			var property_owl_filter = $('.ere-property-gallery [data-filter-type="carousel"]');
 			property_owl_filter.each(function () {
 				var objectClick = $('a', $(this));
 				ERE_property_gallery.executeFilter('filterCarousel', objectClick);
 			});
 		},
 		filterRow: function () {
-			var property_filter = $('[data-filter-type="filter"]'),
+			var property_filter = $('.ere-property-gallery [data-filter-type="filter"]'),
 				itemSelector = property_filter.data('item'),
 				isRTL = $('body').hasClass('rtl');
 			if(typeof itemSelector == 'undefined') itemSelector = '.property-item';

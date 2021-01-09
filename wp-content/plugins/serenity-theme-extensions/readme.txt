@@ -3,9 +3,9 @@
 Contributors: themely
 Tags:
 Requires at least: 3.8
-Tested up to: 5.5.3
-Stable tag: 1.0.9
-Requires PHP: 5.3
+Tested up to: 5.6
+Stable tag: 1.1.0
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,13 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 
 == Changelog ==
+
+
+### 1.1.0 - December 16th, 2020
+
+Changes:
+
+- Test with WordPress 5.6
 
 
 ### 1.0.7 - June 28th, 2019

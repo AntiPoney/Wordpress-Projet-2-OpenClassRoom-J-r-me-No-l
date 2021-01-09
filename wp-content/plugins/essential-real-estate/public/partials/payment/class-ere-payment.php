@@ -690,8 +690,12 @@ if (!class_exists('ERE_Payment')) {
                             return;
                         }
                         $this->ere_package->insert_user_package($user_id, $package_id);
-                        $this->ere_invoice->insert_invoice('Package', $package_id, $user_id, 0, $payment_method, 1, $paymentId, $payerId);
-                        $args = array();
+                        $invoice_id = $this->ere_invoice->insert_invoice('Package', $package_id, $user_id, 0, $payment_method, 1, $paymentId, $payerId);
+	                    $ere_meta = $this->ere_invoice->get_invoice_meta($invoice_id);
+	                    $args = array(
+		                    'invoice_no' => $invoice_id,
+		                    'total_price' =>  ere_get_format_money($ere_meta['invoice_item_price'])
+	                    );
                         ere_send_email($user_email, 'mail_activated_package', $args);
                     }
                 } else {
@@ -813,8 +817,12 @@ if (!class_exists('ERE_Payment')) {
                         } else if ($paid_submission_type == 'per_package') {
                             $package_id = $transfered_data['package_id'];
                             $this->ere_package->insert_user_package($user_id, $package_id);
-                            $this->ere_invoice->insert_invoice('Package', $package_id, $user_id, 0, $payment_method, 1, $paymentId, $payerId);
-                            $args = array();
+	                        $invoice_id = $this->ere_invoice->insert_invoice('Package', $package_id, $user_id, 0, $payment_method, 1, $paymentId, $payerId);
+	                        $ere_meta = $this->ere_invoice->get_invoice_meta($invoice_id);
+	                        $args = array(
+		                        'invoice_no' => $invoice_id,
+		                        'total_price' =>  ere_get_format_money($ere_meta['invoice_item_price'])
+	                        );
                             ere_send_email($user_email, 'mail_activated_package', $args);
                         }
                     } else {

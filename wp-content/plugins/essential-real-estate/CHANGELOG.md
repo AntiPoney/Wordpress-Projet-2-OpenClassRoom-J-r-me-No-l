@@ -1,5 +1,30 @@
 Changelog
 =========
+#### 3.3.6 - January 04, 2021
+* Update setup admin page 
+
+#### 3.3.5 - January 04, 2021
+* Fix order by most viewed property 
+
+#### 3.3.4 - December 30, 2020
+* Fix style button next and prev owl-carousel 2.3.4
+
+#### 3.3.3 - December 29, 2020
+* Fix output shortcode submit property
+
+#### 3.3.2 - December 25, 2020
+* Fix filter shortcode property gallery
+
+#### 3.3.1 - December 22, 2020
+* Fix error javascript with jquery 3.0 in file ere-property-steps.js
+
+#### 3.3.0 - December 18, 2020
+* Update owl-carousel version 2.3.4
+* Fix error javascript with jquery 3.0
+
+#### 3.2.9 - December 11, 2020
+* Update Invoice_ID and Invoice Price when send mail activated package
+
 #### 3.2.8 - December 09, 2020
 * Update variable the_query in template "public/templates/property/my-properties.php"
 

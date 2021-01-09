@@ -383,7 +383,7 @@
             });
         }
     };
-    if ($(".ere-property-multi-step").size() != 0) {
+    if ($(".ere-property-multi-step").length > 0) {
         app.init();
     }
 })(jQuery);

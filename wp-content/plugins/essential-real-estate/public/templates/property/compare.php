@@ -350,7 +350,7 @@ if (!empty($property_ids)) {
 		</div>
 	</div>
 	<script type="text/javascript">
-		jQuery(window).load(function() {
+		jQuery(window).on('load',function() {
 			jQuery('.ere-property-image').each(function(){
 				var image = jQuery(this);
 				if(image.context.naturalWidth == 0 || image.readyState == 'uninitialized'){

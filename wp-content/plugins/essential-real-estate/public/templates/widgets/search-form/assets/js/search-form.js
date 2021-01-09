@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     "use strict";
-    $(window).load(function () {
+    $(window).on('load',function () {
         $('form.search-properties-form').get(0).reset(); //clear form data on page load
     });
 

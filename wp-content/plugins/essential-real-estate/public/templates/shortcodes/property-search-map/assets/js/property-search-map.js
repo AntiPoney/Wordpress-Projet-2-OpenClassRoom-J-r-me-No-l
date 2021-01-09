@@ -338,8 +338,11 @@ var ERE_Property_Map_Search = ERE_Property_Map_Search || {};
                 }
                 var header_height = $('header').outerHeight(),
                     footer_height = $('footer').outerHeight(),
-                    admin_bar_height = $('.wpadminbar').outerHeight(),
-                    map_height = $window_height - admin_height - header_height - footer_height - admin_bar_height;
+                    admin_bar_height = $('#wpadminbar').outerHeight();
+                if (isNaN(admin_bar_height)) {
+                    admin_bar_height = 0;
+                }
+                var map_height = $window_height - admin_height - header_height - footer_height - admin_bar_height;
                 $('.ere-search-map-properties .ere-map-search').css('height', map_height);
                 $('.ere-search-map-properties .ere-map-search .ere-map-result').css('height', map_height);
                 $('.col-scroll-vertical').css({
