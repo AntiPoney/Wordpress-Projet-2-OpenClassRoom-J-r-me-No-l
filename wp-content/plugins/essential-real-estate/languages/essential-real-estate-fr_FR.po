@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: essential-real-estate\n"
 "POT-Creation-Date: 2020-10-13 16:33+0700\n"
-"PO-Revision-Date: 2021-01-08 23:01+0000\n"
+"PO-Revision-Date: 2021-01-09 00:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -514,7 +514,7 @@ msgstr ""
 #: public/templates/single-property/features.php:100
 #: public/templates/single-property/header.php:87
 msgid "Property ID"
-msgstr ""
+msgstr "Identifiant de la propriété"
 
 #: admin/class-ere-admin-setup-metaboxes.php:40
 msgid "Package Details"
@@ -589,7 +589,7 @@ msgstr ""
 #: admin/class-ere-admin-setup-metaboxes.php:182
 #: admin/class-ere-admin-setup-metaboxes.php:343
 msgid "Property ID:"
-msgstr ""
+msgstr "Identifiant de la propriété :"
 
 #: admin/class-ere-admin-setup-metaboxes.php:191
 #: admin/class-ere-admin-setup-metaboxes.php:201
@@ -2596,7 +2596,7 @@ msgstr ""
 #: public/templates/property/submit-property/type.php:43
 #: public/templates/single-property/features.php:181
 msgid "Label"
-msgstr ""
+msgstr "Libellé"
 
 #: admin/class-ere-admin.php:2527
 #: public/templates/property/edit-property/price.php:77
@@ -8234,7 +8234,7 @@ msgstr "Quartier: <strong>%s</strong>;"
 #: public/templates/property/advanced-search.php:446
 #, php-format
 msgid "Property ID: <strong>%s</strong>; "
-msgstr ""
+msgstr "Identifiant de la propriété : <strong>%s</strong>"
 
 #: public/templates/property/advanced-search.php:456
 #, php-format
@@ -8690,7 +8690,7 @@ msgstr ""
 #: public/templates/single-property/features.php:79
 #: public/templates/taxonomy/agency-detail.php:248
 msgid "Overview"
-msgstr ""
+msgstr "Vue d'ensemble"
 
 #: public/templates/property/property-print.php:351
 #: public/templates/single-property/features.php:136

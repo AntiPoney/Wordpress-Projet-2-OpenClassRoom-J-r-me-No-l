@@ -74,7 +74,7 @@ button {
 }
 
 .property-price-prefix {
-    color: #004279!important;
+    color: #648cac!important;
 }
 
 .property-date>i::before {
@@ -89,4 +89,15 @@ button {
     width: 1300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.property-id>span, 
+.property-area>span, 
+.property-bedrooms>span, 
+.property-bathrooms>span {
+    color: black!important;
+}
+
+#ere-features-tabs>li>a {
+    background-color: #d4a551!important;
 }
