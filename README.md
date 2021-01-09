@@ -25,7 +25,7 @@ ce projet est un projet scolaire repondant a des critères fixé par OpenClassRo
 1. Clone the repo
 2. Execute the SQL file from root folder 
     ```
-       File Name : Jrm-Nl-Projet-2-OpenClassRooms-Chalets-Caviar-SQL
+       File Name : DATABASE_WITH_DATA_EXPORTED
     ```
 3. Credentials : "Admin" password : "e!eq#CynTlJCYR!PL%"
 
