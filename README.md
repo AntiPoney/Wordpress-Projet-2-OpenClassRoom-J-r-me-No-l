@@ -1,11 +1,12 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br>
 <p align="center">
   <a>
     <img src="ReadMe_Resources/ocr_logo.jpg" alt="Logo" >
   </a>
+  <br />
   <a>
     <img src="ReadMe_Resources/projet_logo.png" alt="Logo">
   </a>
